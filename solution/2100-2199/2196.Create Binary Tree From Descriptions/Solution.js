@@ -1,20 +1,18 @@
 /**
  * Definition for a binary tree node.
- * class TreeNode {
- *     val: number
- *     left: TreeNode | null
- *     right: TreeNode | null
- *     constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.left = (left===undefined ? null : left)
- *         this.right = (right===undefined ? null : right)
- *     }
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
  * }
  */
-
-function createBinaryTree(descriptions: number[][]): TreeNode | null {
-    const nodes: Record<number, TreeNode> = {};
-    const children = new Set<number>();
+/**
+ * @param {number[][]} descriptions
+ * @return {TreeNode}
+ */
+var createBinaryTree = function (descriptions) {
+    const nodes = {};
+    const children = new Set();
     for (const [parent, child, isLeft] of descriptions) {
         if (!nodes[parent]) {
             nodes[parent] = new TreeNode(parent);
@@ -34,4 +32,4 @@ function createBinaryTree(descriptions: number[][]): TreeNode | null {
             return v;
         }
     }
-}
+};
