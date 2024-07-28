@@ -3230,8 +3230,8 @@
 |  3217  |  [从链表中移除在数组中存在的节点](/solution/3200-3299/3217.Delete%20Nodes%20From%20Linked%20List%20Present%20in%20Array/README.md)  |  `数组`,`哈希表`,`链表`  |  中等  |  第 406 场周赛  |
 |  3218  |  [切蛋糕的最小总开销 I](/solution/3200-3299/3218.Minimum%20Cost%20for%20Cutting%20Cake%20I/README.md)  |  `贪心`,`数组`,`动态规划`,`排序`  |  中等  |  第 406 场周赛  |
 |  3219  |  [切蛋糕的最小总开销 II](/solution/3200-3299/3219.Minimum%20Cost%20for%20Cutting%20Cake%20II/README.md)  |  `贪心`,`数组`,`排序`  |  困难  |  第 406 场周赛  |
-|  3220  |  [Odd and Even Transactions](/solution/3200-3299/3220.Odd%20and%20Even%20Transactions/README.md)  |  `数据库`  |  中等  |    |
-|  3221  |  [Maximum Array Hopping Score II](/solution/3200-3299/3221.Maximum%20Array%20Hopping%20Score%20II/README.md)  |  `栈`,`贪心`,`数组`,`单调栈`  |  中等  |  🔒  |
+|  3220  |  [奇数和偶数交易](/solution/3200-3299/3220.Odd%20and%20Even%20Transactions/README.md)  |  `数据库`  |  中等  |    |
+|  3221  |  [最大数组跳跃得分 II](/solution/3200-3299/3221.Maximum%20Array%20Hopping%20Score%20II/README.md)  |  `栈`,`贪心`,`数组`,`单调栈`  |  中等  |  🔒  |
 |  3222  |  [求出硬币游戏的赢家](/solution/3200-3299/3222.Find%20the%20Winning%20Player%20in%20Coin%20Game/README.md)  |  `数学`,`博弈`,`模拟`  |  简单  |  第 135 场双周赛  |
 |  3223  |  [操作后字符串的最短长度](/solution/3200-3299/3223.Minimum%20Length%20of%20String%20After%20Operations/README.md)  |  `哈希表`,`字符串`,`计数`  |  中等  |  第 135 场双周赛  |
 |  3224  |  [使差值相等的最少数组改动次数](/solution/3200-3299/3224.Minimum%20Array%20Changes%20to%20Make%20Differences%20Equal/README.md)  |  `数组`,`哈希表`,`前缀和`  |  中等  |  第 135 场双周赛  |
@@ -3241,6 +3241,11 @@
 |  3228  |  [将 1 移动到末尾的最大操作次数](/solution/3200-3299/3228.Maximum%20Number%20of%20Operations%20to%20Move%20Ones%20to%20the%20End/README.md)  |  `贪心`,`字符串`,`计数`  |  中等  |  第 407 场周赛  |
 |  3229  |  [使数组等于目标数组所需的最少操作次数](/solution/3200-3299/3229.Minimum%20Operations%20to%20Make%20Array%20Equal%20to%20Target/README.md)  |  `栈`,`贪心`,`数组`,`动态规划`,`单调栈`  |  困难  |  第 407 场周赛  |
 |  3230  |  [客户购买行为分析](/solution/3200-3299/3230.Customer%20Purchasing%20Behavior%20Analysis/README.md)  |  `数据库`  |  中等  |  🔒  |
+|  3231  |  [要删除的递增子序列的最小数量](/solution/3200-3299/3231.Minimum%20Number%20of%20Increasing%20Subsequence%20to%20Be%20Removed/README.md)  |    |  困难  |  🔒  |
+|  3232  |  [判断是否可以赢得数字游戏](/solution/3200-3299/3232.Find%20if%20Digit%20Game%20Can%20Be%20Won/README.md)  |    |  简单  |  第 408 场周赛  |
+|  3233  |  [统计不是特殊数字的数字数量](/solution/3200-3299/3233.Find%20the%20Count%20of%20Numbers%20Which%20Are%20Not%20Special/README.md)  |    |  中等  |  第 408 场周赛  |
+|  3234  |  [统计 1 显著的字符串的数量](/solution/3200-3299/3234.Count%20the%20Number%20of%20Substrings%20With%20Dominant%20Ones/README.md)  |    |  中等  |  第 408 场周赛  |
+|  3235  |  [判断矩形的两个角落是否可达](/solution/3200-3299/3235.Check%20if%20the%20Rectangle%20Corner%20Is%20Reachable/README.md)  |    |  困难  |  第 408 场周赛  |
 
 ## 版权
 
