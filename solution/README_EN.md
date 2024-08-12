@@ -596,7 +596,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  0585  |  [Investments in 2016](/solution/0500-0599/0585.Investments%20in%202016/README_EN.md)  |  `Database`  |  Medium  |    |
 |  0586  |  [Customer Placing the Largest Number of Orders](/solution/0500-0599/0586.Customer%20Placing%20the%20Largest%20Number%20of%20Orders/README_EN.md)  |  `Database`  |  Easy  |    |
 |  0587  |  [Erect the Fence](/solution/0500-0599/0587.Erect%20the%20Fence/README_EN.md)  |  `Geometry`,`Array`,`Math`  |  Hard  |    |
-|  0588  |  [Design In-Memory File System](/solution/0500-0599/0588.Design%20In-Memory%20File%20System/README_EN.md)  |  `Design`,`Trie`,`Hash Table`,`String`  |  Hard  |  🔒  |
+|  0588  |  [Design In-Memory File System](/solution/0500-0599/0588.Design%20In-Memory%20File%20System/README_EN.md)  |  `Design`,`Trie`,`Hash Table`,`String`,`Sorting`  |  Hard  |  🔒  |
 |  0589  |  [N-ary Tree Preorder Traversal](/solution/0500-0599/0589.N-ary%20Tree%20Preorder%20Traversal/README_EN.md)  |  `Stack`,`Tree`,`Depth-First Search`  |  Easy  |    |
 |  0590  |  [N-ary Tree Postorder Traversal](/solution/0500-0599/0590.N-ary%20Tree%20Postorder%20Traversal/README_EN.md)  |  `Stack`,`Tree`,`Depth-First Search`  |  Easy  |    |
 |  0591  |  [Tag Validator](/solution/0500-0599/0591.Tag%20Validator/README_EN.md)  |  `Stack`,`String`  |  Hard  |    |
@@ -650,7 +650,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  0639  |  [Decode Ways II](/solution/0600-0699/0639.Decode%20Ways%20II/README_EN.md)  |  `String`,`Dynamic Programming`  |  Hard  |    |
 |  0640  |  [Solve the Equation](/solution/0600-0699/0640.Solve%20the%20Equation/README_EN.md)  |  `Math`,`String`,`Simulation`  |  Medium  |    |
 |  0641  |  [Design Circular Deque](/solution/0600-0699/0641.Design%20Circular%20Deque/README_EN.md)  |  `Design`,`Queue`,`Array`,`Linked List`  |  Medium  |    |
-|  0642  |  [Design Search Autocomplete System](/solution/0600-0699/0642.Design%20Search%20Autocomplete%20System/README_EN.md)  |  `Design`,`Trie`,`String`,`Data Stream`,`Sorting`,`Heap (Priority Queue)`  |  Hard  |  🔒  |
+|  0642  |  [Design Search Autocomplete System](/solution/0600-0699/0642.Design%20Search%20Autocomplete%20System/README_EN.md)  |  `Depth-First Search`,`Design`,`Trie`,`String`,`Data Stream`,`Sorting`,`Heap (Priority Queue)`  |  Hard  |  🔒  |
 |  0643  |  [Maximum Average Subarray I](/solution/0600-0699/0643.Maximum%20Average%20Subarray%20I/README_EN.md)  |  `Array`,`Sliding Window`  |  Easy  |    |
 |  0644  |  [Maximum Average Subarray II](/solution/0600-0699/0644.Maximum%20Average%20Subarray%20II/README_EN.md)  |  `Array`,`Binary Search`,`Prefix Sum`  |  Hard  |  🔒  |
 |  0645  |  [Set Mismatch](/solution/0600-0699/0645.Set%20Mismatch/README_EN.md)  |  `Bit Manipulation`,`Array`,`Hash Table`,`Sorting`  |  Easy  |    |
@@ -1403,7 +1403,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  1392  |  [Longest Happy Prefix](/solution/1300-1399/1392.Longest%20Happy%20Prefix/README_EN.md)  |  `String`,`String Matching`,`Hash Function`,`Rolling Hash`  |  Hard  |  Weekly Contest 181  |
 |  1393  |  [Capital GainLoss](/solution/1300-1399/1393.Capital%20GainLoss/README_EN.md)  |  `Database`  |  Medium  |    |
 |  1394  |  [Find Lucky Integer in an Array](/solution/1300-1399/1394.Find%20Lucky%20Integer%20in%20an%20Array/README_EN.md)  |  `Array`,`Hash Table`,`Counting`  |  Easy  |  Weekly Contest 182  |
-|  1395  |  [Count Number of Teams](/solution/1300-1399/1395.Count%20Number%20of%20Teams/README_EN.md)  |  `Binary Indexed Tree`,`Array`,`Dynamic Programming`  |  Medium  |  Weekly Contest 182  |
+|  1395  |  [Count Number of Teams](/solution/1300-1399/1395.Count%20Number%20of%20Teams/README_EN.md)  |  `Binary Indexed Tree`,`Segment Tree`,`Array`,`Dynamic Programming`  |  Medium  |  Weekly Contest 182  |
 |  1396  |  [Design Underground System](/solution/1300-1399/1396.Design%20Underground%20System/README_EN.md)  |  `Design`,`Hash Table`,`String`  |  Medium  |  Weekly Contest 182  |
 |  1397  |  [Find All Good Strings](/solution/1300-1399/1397.Find%20All%20Good%20Strings/README_EN.md)  |  `String`,`Dynamic Programming`,`String Matching`  |  Hard  |  Weekly Contest 182  |
 |  1398  |  [Customers Who Bought Products A and B but Not C](/solution/1300-1399/1398.Customers%20Who%20Bought%20Products%20A%20and%20B%20but%20Not%20C/README_EN.md)  |  `Database`  |  Medium  |  🔒  |
@@ -1828,7 +1828,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  1817  |  [Finding the Users Active Minutes](/solution/1800-1899/1817.Finding%20the%20Users%20Active%20Minutes/README_EN.md)  |  `Array`,`Hash Table`  |  Medium  |  Weekly Contest 235  |
 |  1818  |  [Minimum Absolute Sum Difference](/solution/1800-1899/1818.Minimum%20Absolute%20Sum%20Difference/README_EN.md)  |  `Array`,`Binary Search`,`Ordered Set`,`Sorting`  |  Medium  |  Weekly Contest 235  |
 |  1819  |  [Number of Different Subsequences GCDs](/solution/1800-1899/1819.Number%20of%20Different%20Subsequences%20GCDs/README_EN.md)  |  `Array`,`Math`,`Counting`,`Number Theory`  |  Hard  |  Weekly Contest 235  |
-|  1820  |  [Maximum Number of Accepted Invitations](/solution/1800-1899/1820.Maximum%20Number%20of%20Accepted%20Invitations/README_EN.md)  |  `Array`,`Backtracking`,`Matrix`  |  Medium  |  🔒  |
+|  1820  |  [Maximum Number of Accepted Invitations](/solution/1800-1899/1820.Maximum%20Number%20of%20Accepted%20Invitations/README_EN.md)  |  `Graph`,`Array`,`Backtracking`,`Matrix`  |  Medium  |  🔒  |
 |  1821  |  [Find Customers With Positive Revenue this Year](/solution/1800-1899/1821.Find%20Customers%20With%20Positive%20Revenue%20this%20Year/README_EN.md)  |  `Database`  |  Easy  |  🔒  |
 |  1822  |  [Sign of the Product of an Array](/solution/1800-1899/1822.Sign%20of%20the%20Product%20of%20an%20Array/README_EN.md)  |  `Array`,`Math`  |  Easy  |  Weekly Contest 236  |
 |  1823  |  [Find the Winner of the Circular Game](/solution/1800-1899/1823.Find%20the%20Winner%20of%20the%20Circular%20Game/README_EN.md)  |  `Recursion`,`Queue`,`Array`,`Math`,`Simulation`  |  Medium  |  Weekly Contest 236  |
@@ -3182,7 +3182,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  3171  |  [Find Subarray With Bitwise OR Closest to K](/solution/3100-3199/3171.Find%20Subarray%20With%20Bitwise%20OR%20Closest%20to%20K/README_EN.md)  |  `Bit Manipulation`,`Segment Tree`,`Array`,`Binary Search`  |  Hard  |  Weekly Contest 400  |
 |  3172  |  [Second Day Verification](/solution/3100-3199/3172.Second%20Day%20Verification/README_EN.md)  |  `Database`  |  Easy  |  🔒  |
 |  3173  |  [Bitwise OR of Adjacent Elements](/solution/3100-3199/3173.Bitwise%20OR%20of%20Adjacent%20Elements/README_EN.md)  |  `Bit Manipulation`,`Array`  |  Easy  |  🔒  |
-|  3174  |  [Clear Digits](/solution/3100-3199/3174.Clear%20Digits/README_EN.md)  |  `Hash Table`,`String`,`Simulation`  |  Easy  |  Biweekly Contest 132  |
+|  3174  |  [Clear Digits](/solution/3100-3199/3174.Clear%20Digits/README_EN.md)  |  `Stack`,`String`,`Simulation`  |  Easy  |  Biweekly Contest 132  |
 |  3175  |  [Find The First Player to win K Games in a Row](/solution/3100-3199/3175.Find%20The%20First%20Player%20to%20win%20K%20Games%20in%20a%20Row/README_EN.md)  |  `Array`,`Simulation`  |  Medium  |  Biweekly Contest 132  |
 |  3176  |  [Find the Maximum Length of a Good Subsequence I](/solution/3100-3199/3176.Find%20the%20Maximum%20Length%20of%20a%20Good%20Subsequence%20I/README_EN.md)  |  `Array`,`Hash Table`,`Dynamic Programming`  |  Medium  |  Biweekly Contest 132  |
 |  3177  |  [Find the Maximum Length of a Good Subsequence II](/solution/3100-3199/3177.Find%20the%20Maximum%20Length%20of%20a%20Good%20Subsequence%20II/README_EN.md)  |  `Array`,`Hash Table`,`Dynamic Programming`  |  Hard  |  Biweekly Contest 132  |
@@ -3245,16 +3245,22 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  3234  |  [Count the Number of Substrings With Dominant Ones](/solution/3200-3299/3234.Count%20the%20Number%20of%20Substrings%20With%20Dominant%20Ones/README_EN.md)  |  `String`,`Enumeration`,`Sliding Window`  |  Medium  |  Weekly Contest 408  |
 |  3235  |  [Check if the Rectangle Corner Is Reachable](/solution/3200-3299/3235.Check%20if%20the%20Rectangle%20Corner%20Is%20Reachable/README_EN.md)  |  `Depth-First Search`,`Breadth-First Search`,`Union Find`,`Geometry`,`Array`,`Math`  |  Hard  |  Weekly Contest 408  |
 |  3236  |  [CEO Subordinate Hierarchy](/solution/3200-3299/3236.CEO%20Subordinate%20Hierarchy/README_EN.md)  |  `Database`  |  Hard  |  🔒  |
-|  3237  |  [Alt and Tab Simulation](/solution/3200-3299/3237.Alt%20and%20Tab%20Simulation/README_EN.md)  |    |  Medium  |  🔒  |
-|  3238  |  [Find the Number of Winning Players](/solution/3200-3299/3238.Find%20the%20Number%20of%20Winning%20Players/README_EN.md)  |    |  Easy  |  Biweekly Contest 136  |
-|  3239  |  [Minimum Number of Flips to Make Binary Grid Palindromic I](/solution/3200-3299/3239.Minimum%20Number%20of%20Flips%20to%20Make%20Binary%20Grid%20Palindromic%20I/README_EN.md)  |    |  Medium  |  Biweekly Contest 136  |
-|  3240  |  [Minimum Number of Flips to Make Binary Grid Palindromic II](/solution/3200-3299/3240.Minimum%20Number%20of%20Flips%20to%20Make%20Binary%20Grid%20Palindromic%20II/README_EN.md)  |    |  Medium  |  Biweekly Contest 136  |
-|  3241  |  [Time Taken to Mark All Nodes](/solution/3200-3299/3241.Time%20Taken%20to%20Mark%20All%20Nodes/README_EN.md)  |    |  Hard  |  Biweekly Contest 136  |
-|  3242  |  [Design Neighbor Sum Service](/solution/3200-3299/3242.Design%20Neighbor%20Sum%20Service/README_EN.md)  |    |  Easy  |  Weekly Contest 409  |
-|  3243  |  [Shortest Distance After Road Addition Queries I](/solution/3200-3299/3243.Shortest%20Distance%20After%20Road%20Addition%20Queries%20I/README_EN.md)  |    |  Medium  |  Weekly Contest 409  |
-|  3244  |  [Shortest Distance After Road Addition Queries II](/solution/3200-3299/3244.Shortest%20Distance%20After%20Road%20Addition%20Queries%20II/README_EN.md)  |    |  Hard  |  Weekly Contest 409  |
-|  3245  |  [Alternating Groups III](/solution/3200-3299/3245.Alternating%20Groups%20III/README_EN.md)  |    |  Hard  |  Weekly Contest 409  |
-|  3246  |  [Premier League Table Ranking](/solution/3200-3299/3246.Premier%20League%20Table%20Ranking/README_EN.md)  |    |  Easy  |  🔒  |
+|  3237  |  [Alt and Tab Simulation](/solution/3200-3299/3237.Alt%20and%20Tab%20Simulation/README_EN.md)  |  `Array`,`Hash Table`,`Simulation`  |  Medium  |  🔒  |
+|  3238  |  [Find the Number of Winning Players](/solution/3200-3299/3238.Find%20the%20Number%20of%20Winning%20Players/README_EN.md)  |  `Array`,`Hash Table`,`Counting`  |  Easy  |  Biweekly Contest 136  |
+|  3239  |  [Minimum Number of Flips to Make Binary Grid Palindromic I](/solution/3200-3299/3239.Minimum%20Number%20of%20Flips%20to%20Make%20Binary%20Grid%20Palindromic%20I/README_EN.md)  |  `Array`,`Two Pointers`,`Matrix`  |  Medium  |  Biweekly Contest 136  |
+|  3240  |  [Minimum Number of Flips to Make Binary Grid Palindromic II](/solution/3200-3299/3240.Minimum%20Number%20of%20Flips%20to%20Make%20Binary%20Grid%20Palindromic%20II/README_EN.md)  |  `Array`,`Two Pointers`,`Matrix`  |  Medium  |  Biweekly Contest 136  |
+|  3241  |  [Time Taken to Mark All Nodes](/solution/3200-3299/3241.Time%20Taken%20to%20Mark%20All%20Nodes/README_EN.md)  |  `Tree`,`Depth-First Search`,`Graph`,`Dynamic Programming`  |  Hard  |  Biweekly Contest 136  |
+|  3242  |  [Design Neighbor Sum Service](/solution/3200-3299/3242.Design%20Neighbor%20Sum%20Service/README_EN.md)  |  `Design`,`Array`,`Hash Table`,`Matrix`,`Simulation`  |  Easy  |  Weekly Contest 409  |
+|  3243  |  [Shortest Distance After Road Addition Queries I](/solution/3200-3299/3243.Shortest%20Distance%20After%20Road%20Addition%20Queries%20I/README_EN.md)  |  `Breadth-First Search`,`Graph`,`Array`  |  Medium  |  Weekly Contest 409  |
+|  3244  |  [Shortest Distance After Road Addition Queries II](/solution/3200-3299/3244.Shortest%20Distance%20After%20Road%20Addition%20Queries%20II/README_EN.md)  |  `Greedy`,`Graph`,`Array`,`Ordered Set`  |  Hard  |  Weekly Contest 409  |
+|  3245  |  [Alternating Groups III](/solution/3200-3299/3245.Alternating%20Groups%20III/README_EN.md)  |  `Binary Indexed Tree`,`Array`  |  Hard  |  Weekly Contest 409  |
+|  3246  |  [Premier League Table Ranking](/solution/3200-3299/3246.Premier%20League%20Table%20Ranking/README_EN.md)  |  `Database`  |  Easy  |  🔒  |
+|  3247  |  [Number of Subsequences with Odd Sum](/solution/3200-3299/3247.Number%20of%20Subsequences%20with%20Odd%20Sum/README_EN.md)  |    |  Medium  |  🔒  |
+|  3248  |  [Snake in Matrix](/solution/3200-3299/3248.Snake%20in%20Matrix/README_EN.md)  |    |  Easy  |  Weekly Contest 410  |
+|  3249  |  [Count the Number of Good Nodes](/solution/3200-3299/3249.Count%20the%20Number%20of%20Good%20Nodes/README_EN.md)  |    |  Medium  |  Weekly Contest 410  |
+|  3250  |  [Find the Count of Monotonic Pairs I](/solution/3200-3299/3250.Find%20the%20Count%20of%20Monotonic%20Pairs%20I/README_EN.md)  |    |  Hard  |  Weekly Contest 410  |
+|  3251  |  [Find the Count of Monotonic Pairs II](/solution/3200-3299/3251.Find%20the%20Count%20of%20Monotonic%20Pairs%20II/README_EN.md)  |    |  Hard  |  Weekly Contest 410  |
+|  3252  |  [Premier League Table Ranking II](/solution/3200-3299/3252.Premier%20League%20Table%20Ranking%20II/README_EN.md)  |    |  Medium  |  🔒  |
 
 ## Copyright
 
