@@ -632,7 +632,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  0621  |  [Task Scheduler](/solution/0600-0699/0621.Task%20Scheduler/README_EN.md)  |  `Greedy`,`Array`,`Hash Table`,`Counting`,`Sorting`,`Heap (Priority Queue)`  |  Medium  |    |
 |  0622  |  [Design Circular Queue](/solution/0600-0699/0622.Design%20Circular%20Queue/README_EN.md)  |  `Design`,`Queue`,`Array`,`Linked List`  |  Medium  |    |
 |  0623  |  [Add One Row to Tree](/solution/0600-0699/0623.Add%20One%20Row%20to%20Tree/README_EN.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Medium  |    |
-|  0624  |  [Maximum Distance in Arrays](/solution/0600-0699/0624.Maximum%20Distance%20in%20Arrays/README_EN.md)  |  `Greedy`,`Array`  |  Medium  |  🔒  |
+|  0624  |  [Maximum Distance in Arrays](/solution/0600-0699/0624.Maximum%20Distance%20in%20Arrays/README_EN.md)  |  `Greedy`,`Array`  |  Medium  |    |
 |  0625  |  [Minimum Factorization](/solution/0600-0699/0625.Minimum%20Factorization/README_EN.md)  |  `Greedy`,`Math`  |  Medium  |  🔒  |
 |  0626  |  [Exchange Seats](/solution/0600-0699/0626.Exchange%20Seats/README_EN.md)  |  `Database`  |  Medium  |    |
 |  0627  |  [Swap Salary](/solution/0600-0699/0627.Swap%20Salary/README_EN.md)  |  `Database`  |  Easy  |    |
@@ -1828,7 +1828,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  1817  |  [Finding the Users Active Minutes](/solution/1800-1899/1817.Finding%20the%20Users%20Active%20Minutes/README_EN.md)  |  `Array`,`Hash Table`  |  Medium  |  Weekly Contest 235  |
 |  1818  |  [Minimum Absolute Sum Difference](/solution/1800-1899/1818.Minimum%20Absolute%20Sum%20Difference/README_EN.md)  |  `Array`,`Binary Search`,`Ordered Set`,`Sorting`  |  Medium  |  Weekly Contest 235  |
 |  1819  |  [Number of Different Subsequences GCDs](/solution/1800-1899/1819.Number%20of%20Different%20Subsequences%20GCDs/README_EN.md)  |  `Array`,`Math`,`Counting`,`Number Theory`  |  Hard  |  Weekly Contest 235  |
-|  1820  |  [Maximum Number of Accepted Invitations](/solution/1800-1899/1820.Maximum%20Number%20of%20Accepted%20Invitations/README_EN.md)  |  `Graph`,`Array`,`Backtracking`,`Matrix`  |  Medium  |  🔒  |
+|  1820  |  [Maximum Number of Accepted Invitations](/solution/1800-1899/1820.Maximum%20Number%20of%20Accepted%20Invitations/README_EN.md)  |  `Depth-First Search`,`Graph`,`Array`,`Matrix`  |  Medium  |  🔒  |
 |  1821  |  [Find Customers With Positive Revenue this Year](/solution/1800-1899/1821.Find%20Customers%20With%20Positive%20Revenue%20this%20Year/README_EN.md)  |  `Database`  |  Easy  |  🔒  |
 |  1822  |  [Sign of the Product of an Array](/solution/1800-1899/1822.Sign%20of%20the%20Product%20of%20an%20Array/README_EN.md)  |  `Array`,`Math`  |  Easy  |  Weekly Contest 236  |
 |  1823  |  [Find the Winner of the Circular Game](/solution/1800-1899/1823.Find%20the%20Winner%20of%20the%20Circular%20Game/README_EN.md)  |  `Recursion`,`Queue`,`Array`,`Math`,`Simulation`  |  Medium  |  Weekly Contest 236  |
@@ -3255,12 +3255,21 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  3244  |  [Shortest Distance After Road Addition Queries II](/solution/3200-3299/3244.Shortest%20Distance%20After%20Road%20Addition%20Queries%20II/README_EN.md)  |  `Greedy`,`Graph`,`Array`,`Ordered Set`  |  Hard  |  Weekly Contest 409  |
 |  3245  |  [Alternating Groups III](/solution/3200-3299/3245.Alternating%20Groups%20III/README_EN.md)  |  `Binary Indexed Tree`,`Array`  |  Hard  |  Weekly Contest 409  |
 |  3246  |  [Premier League Table Ranking](/solution/3200-3299/3246.Premier%20League%20Table%20Ranking/README_EN.md)  |  `Database`  |  Easy  |  🔒  |
-|  3247  |  [Number of Subsequences with Odd Sum](/solution/3200-3299/3247.Number%20of%20Subsequences%20with%20Odd%20Sum/README_EN.md)  |    |  Medium  |  🔒  |
-|  3248  |  [Snake in Matrix](/solution/3200-3299/3248.Snake%20in%20Matrix/README_EN.md)  |    |  Easy  |  Weekly Contest 410  |
-|  3249  |  [Count the Number of Good Nodes](/solution/3200-3299/3249.Count%20the%20Number%20of%20Good%20Nodes/README_EN.md)  |    |  Medium  |  Weekly Contest 410  |
-|  3250  |  [Find the Count of Monotonic Pairs I](/solution/3200-3299/3250.Find%20the%20Count%20of%20Monotonic%20Pairs%20I/README_EN.md)  |    |  Hard  |  Weekly Contest 410  |
-|  3251  |  [Find the Count of Monotonic Pairs II](/solution/3200-3299/3251.Find%20the%20Count%20of%20Monotonic%20Pairs%20II/README_EN.md)  |    |  Hard  |  Weekly Contest 410  |
-|  3252  |  [Premier League Table Ranking II](/solution/3200-3299/3252.Premier%20League%20Table%20Ranking%20II/README_EN.md)  |    |  Medium  |  🔒  |
+|  3247  |  [Number of Subsequences with Odd Sum](/solution/3200-3299/3247.Number%20of%20Subsequences%20with%20Odd%20Sum/README_EN.md)  |  `Array`,`Math`,`Dynamic Programming`,`Combinatorics`  |  Medium  |  🔒  |
+|  3248  |  [Snake in Matrix](/solution/3200-3299/3248.Snake%20in%20Matrix/README_EN.md)  |  `Array`,`String`,`Simulation`  |  Easy  |  Weekly Contest 410  |
+|  3249  |  [Count the Number of Good Nodes](/solution/3200-3299/3249.Count%20the%20Number%20of%20Good%20Nodes/README_EN.md)  |  `Tree`,`Depth-First Search`  |  Medium  |  Weekly Contest 410  |
+|  3250  |  [Find the Count of Monotonic Pairs I](/solution/3200-3299/3250.Find%20the%20Count%20of%20Monotonic%20Pairs%20I/README_EN.md)  |  `Array`,`Math`,`Dynamic Programming`,`Combinatorics`,`Prefix Sum`  |  Hard  |  Weekly Contest 410  |
+|  3251  |  [Find the Count of Monotonic Pairs II](/solution/3200-3299/3251.Find%20the%20Count%20of%20Monotonic%20Pairs%20II/README_EN.md)  |  `Array`,`Math`,`Dynamic Programming`,`Combinatorics`,`Prefix Sum`  |  Hard  |  Weekly Contest 410  |
+|  3252  |  [Premier League Table Ranking II](/solution/3200-3299/3252.Premier%20League%20Table%20Ranking%20II/README_EN.md)  |  `Database`  |  Medium  |  🔒  |
+|  3253  |  [Construct String with Minimum Cost (Easy)](/solution/3200-3299/3253.Construct%20String%20with%20Minimum%20Cost%20%28Easy%29/README_EN.md)  |    |  Medium  |  🔒  |
+|  3254  |  [Find the Power of K-Size Subarrays I](/solution/3200-3299/3254.Find%20the%20Power%20of%20K-Size%20Subarrays%20I/README_EN.md)  |    |  Medium  |  Biweekly Contest 137  |
+|  3255  |  [Find the Power of K-Size Subarrays II](/solution/3200-3299/3255.Find%20the%20Power%20of%20K-Size%20Subarrays%20II/README_EN.md)  |    |  Medium  |  Biweekly Contest 137  |
+|  3256  |  [Maximum Value Sum by Placing Three Rooks I](/solution/3200-3299/3256.Maximum%20Value%20Sum%20by%20Placing%20Three%20Rooks%20I/README_EN.md)  |    |  Hard  |  Biweekly Contest 137  |
+|  3257  |  [Maximum Value Sum by Placing Three Rooks II](/solution/3200-3299/3257.Maximum%20Value%20Sum%20by%20Placing%20Three%20Rooks%20II/README_EN.md)  |    |  Hard  |  Biweekly Contest 137  |
+|  3258  |  [Count Substrings That Satisfy K-Constraint I](/solution/3200-3299/3258.Count%20Substrings%20That%20Satisfy%20K-Constraint%20I/README_EN.md)  |    |  Easy  |  Weekly Contest 411  |
+|  3259  |  [Maximum Energy Boost From Two Drinks](/solution/3200-3299/3259.Maximum%20Energy%20Boost%20From%20Two%20Drinks/README_EN.md)  |    |  Medium  |  Weekly Contest 411  |
+|  3260  |  [Find the Largest Palindrome Divisible by K](/solution/3200-3299/3260.Find%20the%20Largest%20Palindrome%20Divisible%20by%20K/README_EN.md)  |    |  Hard  |  Weekly Contest 411  |
+|  3261  |  [Count Substrings That Satisfy K-Constraint II](/solution/3200-3299/3261.Count%20Substrings%20That%20Satisfy%20K-Constraint%20II/README_EN.md)  |    |  Hard  |  Weekly Contest 411  |
 
 ## Copyright
 
