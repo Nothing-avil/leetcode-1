@@ -29,6 +29,34 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 416
+
+- [3295. Report Spam Message](/solution/3200-3299/3295.Report%20Spam%20Message/README_EN.md)
+- [3296. Minimum Number of Seconds to Make Mountain Height Zero](/solution/3200-3299/3296.Minimum%20Number%20of%20Seconds%20to%20Make%20Mountain%20Height%20Zero/README_EN.md)
+- [3297. Count Substrings That Can Be Rearranged to Contain a String I](/solution/3200-3299/3297.Count%20Substrings%20That%20Can%20Be%20Rearranged%20to%20Contain%20a%20String%20I/README_EN.md)
+- [3298. Count Substrings That Can Be Rearranged to Contain a String II](/solution/3200-3299/3298.Count%20Substrings%20That%20Can%20Be%20Rearranged%20to%20Contain%20a%20String%20II/README_EN.md)
+
+#### Weekly Contest 415
+
+- [3289. The Two Sneaky Numbers of Digitville](/solution/3200-3299/3289.The%20Two%20Sneaky%20Numbers%20of%20Digitville/README_EN.md)
+- [3290. Maximum Multiplication Score](/solution/3200-3299/3290.Maximum%20Multiplication%20Score/README_EN.md)
+- [3291. Minimum Number of Valid Strings to Form Target I](/solution/3200-3299/3291.Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20I/README_EN.md)
+- [3292. Minimum Number of Valid Strings to Form Target II](/solution/3200-3299/3292.Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20II/README_EN.md)
+
+#### Biweekly Contest 139
+
+- [3285. Find Indices of Stable Mountains](/solution/3200-3299/3285.Find%20Indices%20of%20Stable%20Mountains/README_EN.md)
+- [3286. Find a Safe Walk Through a Grid](/solution/3200-3299/3286.Find%20a%20Safe%20Walk%20Through%20a%20Grid/README_EN.md)
+- [3287. Find the Maximum Sequence Value of Array](/solution/3200-3299/3287.Find%20the%20Maximum%20Sequence%20Value%20of%20Array/README_EN.md)
+- [3288. Length of the Longest Increasing Path](/solution/3200-3299/3288.Length%20of%20the%20Longest%20Increasing%20Path/README_EN.md)
+
+#### Weekly Contest 414
+
+- [3280. Convert Date to Binary](/solution/3200-3299/3280.Convert%20Date%20to%20Binary/README_EN.md)
+- [3281. Maximize Score of Numbers in Ranges](/solution/3200-3299/3281.Maximize%20Score%20of%20Numbers%20in%20Ranges/README_EN.md)
+- [3282. Reach End of Array With Max Score](/solution/3200-3299/3282.Reach%20End%20of%20Array%20With%20Max%20Score/README_EN.md)
+- [3283. Maximum Number of Moves to Kill All Pawns](/solution/3200-3299/3283.Maximum%20Number%20of%20Moves%20to%20Kill%20All%20Pawns/README_EN.md)
+
 #### Weekly Contest 413
 
 - [3274. Check if Two Chessboard Squares Have the Same Color](/solution/3200-3299/3274.Check%20if%20Two%20Chessboard%20Squares%20Have%20the%20Same%20Color/README_EN.md)

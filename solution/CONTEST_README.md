@@ -26,6 +26,34 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 416 场周赛(2024-09-22 10:30, 90 分钟) 参赛人数 3254
+
+- [3295. 举报垃圾信息](/solution/3200-3299/3295.Report%20Spam%20Message/README.md)
+- [3296. 移山所需的最少秒数](/solution/3200-3299/3296.Minimum%20Number%20of%20Seconds%20to%20Make%20Mountain%20Height%20Zero/README.md)
+- [3297. 统计重新排列后包含另一个字符串的子字符串数目 I](/solution/3200-3299/3297.Count%20Substrings%20That%20Can%20Be%20Rearranged%20to%20Contain%20a%20String%20I/README.md)
+- [3298. 统计重新排列后包含另一个字符串的子字符串数目 II](/solution/3200-3299/3298.Count%20Substrings%20That%20Can%20Be%20Rearranged%20to%20Contain%20a%20String%20II/README.md)
+
+#### 第 415 场周赛(2024-09-15 10:30, 90 分钟) 参赛人数 2769
+
+- [3289. 数字小镇中的捣蛋鬼](/solution/3200-3299/3289.The%20Two%20Sneaky%20Numbers%20of%20Digitville/README.md)
+- [3290. 最高乘法得分](/solution/3200-3299/3290.Maximum%20Multiplication%20Score/README.md)
+- [3291. 形成目标字符串需要的最少字符串数 I](/solution/3200-3299/3291.Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20I/README.md)
+- [3292. 形成目标字符串需要的最少字符串数 II](/solution/3200-3299/3292.Minimum%20Number%20of%20Valid%20Strings%20to%20Form%20Target%20II/README.md)
+
+#### 第 139 场双周赛(2024-09-14 22:30, 90 分钟) 参赛人数 2120
+
+- [3285. 找到稳定山的下标](/solution/3200-3299/3285.Find%20Indices%20of%20Stable%20Mountains/README.md)
+- [3286. 穿越网格图的安全路径](/solution/3200-3299/3286.Find%20a%20Safe%20Walk%20Through%20a%20Grid/README.md)
+- [3287. 求出数组中最大序列值](/solution/3200-3299/3287.Find%20the%20Maximum%20Sequence%20Value%20of%20Array/README.md)
+- [3288. 最长上升路径的长度](/solution/3200-3299/3288.Length%20of%20the%20Longest%20Increasing%20Path/README.md)
+
+#### 第 414 场周赛(2024-09-08 10:30, 90 分钟) 参赛人数 3236
+
+- [3280. 将日期转换为二进制表示](/solution/3200-3299/3280.Convert%20Date%20to%20Binary/README.md)
+- [3281. 范围内整数的最大得分](/solution/3200-3299/3281.Maximize%20Score%20of%20Numbers%20in%20Ranges/README.md)
+- [3282. 到达数组末尾的最大得分](/solution/3200-3299/3282.Reach%20End%20of%20Array%20With%20Max%20Score/README.md)
+- [3283. 吃掉所有兵需要的最多移动次数](/solution/3200-3299/3283.Maximum%20Number%20of%20Moves%20to%20Kill%20All%20Pawns/README.md)
+
 #### 第 413 场周赛(2024-09-01 10:30, 90 分钟) 参赛人数 2875
 
 - [3274. 检查棋盘方格颜色是否相同](/solution/3200-3299/3274.Check%20if%20Two%20Chessboard%20Squares%20Have%20the%20Same%20Color/README.md)
@@ -47,14 +75,14 @@ comments: true
 - [3266. K 次乘运算后的最终数组 II](/solution/3200-3299/3266.Final%20Array%20State%20After%20K%20Multiplication%20Operations%20II/README.md)
 - [3267. 统计近似相等数对 II](/solution/3200-3299/3267.Count%20Almost%20Equal%20Pairs%20II/README.md)
 
-#### 第 411 场周赛(2024-08-18 10:30, 90 分钟) 参赛人数 3029
+#### 第 411 场周赛(2024-08-18 10:30, 90 分钟) 参赛人数 3030
 
 - [3258. 统计满足 K 约束的子字符串数量 I](/solution/3200-3299/3258.Count%20Substrings%20That%20Satisfy%20K-Constraint%20I/README.md)
 - [3259. 超级饮料的最大强化能量](/solution/3200-3299/3259.Maximum%20Energy%20Boost%20From%20Two%20Drinks/README.md)
 - [3260. 找出最大的 N 位 K 回文数](/solution/3200-3299/3260.Find%20the%20Largest%20Palindrome%20Divisible%20by%20K/README.md)
 - [3261. 统计满足 K 约束的子字符串数量 II](/solution/3200-3299/3261.Count%20Substrings%20That%20Satisfy%20K-Constraint%20II/README.md)
 
-#### 第 137 场双周赛(2024-08-17 22:30, 90 分钟) 参赛人数 2198
+#### 第 137 场双周赛(2024-08-17 22:30, 90 分钟) 参赛人数 2199
 
 - [3254. 长度为 K 的子数组的能量值 I](/solution/3200-3299/3254.Find%20the%20Power%20of%20K-Size%20Subarrays%20I/README.md)
 - [3255. 长度为 K 的子数组的能量值 II](/solution/3200-3299/3255.Find%20the%20Power%20of%20K-Size%20Subarrays%20II/README.md)
@@ -1016,7 +1044,7 @@ comments: true
 #### 第 319 场周赛(2022-11-13 10:30, 90 分钟) 参赛人数 6175
 
 - [2469. 温度转换](/solution/2400-2499/2469.Convert%20the%20Temperature/README.md)
-- [2470. 最小公倍数为 K 的子数组数目](/solution/2400-2499/2470.Number%20of%20Subarrays%20With%20LCM%20Equal%20to%20K/README.md)
+- [2470. 最小公倍数等于 K 的子数组数目](/solution/2400-2499/2470.Number%20of%20Subarrays%20With%20LCM%20Equal%20to%20K/README.md)
 - [2471. 逐层排序二叉树所需的最少操作数目](/solution/2400-2499/2471.Minimum%20Number%20of%20Operations%20to%20Sort%20a%20Binary%20Tree%20by%20Level/README.md)
 - [2472. 不重叠回文子字符串的最大数目](/solution/2400-2499/2472.Maximum%20Number%20of%20Non-overlapping%20Palindrome%20Substrings/README.md)
 

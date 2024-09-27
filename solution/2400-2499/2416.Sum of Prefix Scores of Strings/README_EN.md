@@ -23,7 +23,7 @@ tags:
 
 <p>You are given an array <code>words</code> of size <code>n</code> consisting of <strong>non-empty</strong> strings.</p>
 
-<p>We define the <strong>score</strong> of a string <code>word</code> as the <strong>number</strong> of strings <code>words[i]</code> such that <code>word</code> is a <strong>prefix</strong> of <code>words[i]</code>.</p>
+<p>We define the <strong>score</strong> of a string <code>term</code> as the <strong>number</strong> of strings <code>words[i]</code> such that <code>term</code> is a <strong>prefix</strong> of <code>words[i]</code>.</p>
 
 <ul>
 	<li>For example, if <code>words = [&quot;a&quot;, &quot;ab&quot;, &quot;abc&quot;, &quot;cab&quot;]</code>, then the score of <code>&quot;ab&quot;</code> is <code>2</code>, since <code>&quot;ab&quot;</code> is a prefix of both <code>&quot;ab&quot;</code> and <code>&quot;abc&quot;</code>.</li>
@@ -335,6 +335,53 @@ function sumPrefixScores(words: string[]): number[] {
     }
     return words.map(w => trie.search(w));
 }
+```
+
+#### JavaScript
+
+```js
+class Trie {
+    constructor() {
+        this.children = {};
+        this.cnt = 0;
+    }
+
+    insert(w) {
+        let node = this;
+        for (const c of w) {
+            if (!node.children[c]) {
+                node.children[c] = new Trie();
+            }
+            node = node.children[c];
+            node.cnt++;
+        }
+    }
+
+    search(w) {
+        let node = this;
+        let ans = 0;
+        for (const c of w) {
+            if (!node.children[c]) {
+                return ans;
+            }
+            node = node.children[c];
+            ans += node.cnt;
+        }
+        return ans;
+    }
+}
+
+/**
+ * @param {string[]} words
+ * @return {number[]}
+ */
+var sumPrefixScores = function (words) {
+    const trie = new Trie();
+    for (const w of words) {
+        trie.insert(w);
+    }
+    return words.map(w => trie.search(w));
+};
 ```
 
 <!-- tabs:end -->
