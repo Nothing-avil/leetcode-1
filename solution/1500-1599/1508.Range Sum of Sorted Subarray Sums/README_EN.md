@@ -65,11 +65,11 @@ tags:
 
 <!-- solution:start -->
 
-### Solution 1: Sorting
+### Solution 1: Simulation
 
-According to the problem statement, generate the `arr` array, sort it, and then sum all the elements in the range $[left-1,.. right-1]$ to get the result.
+We can generate the array $\textit{arr}$ according to the problem's requirements, then sort the array, and finally calculate the sum of all elements in the range $[\textit{left}-1, \textit{right}-1]$ to get the result.
 
-Time complexity is $O(n^2 \times \log n)$, and space complexity is $O(n^2)$. Here, $n$ is the length of the array given in the problem.
+The time complexity is $O(n^2 \times \log n)$, and the space complexity is $O(n^2)$. Here, $n$ is the length of the array given in the problem.
 
 <!-- tabs:start -->
 
@@ -173,13 +173,8 @@ function rangeSum(nums: number[], n: number, left: number, right: number): numbe
         }
     }
 
-    let ans = 0;
     arr = arr.sort((a, b) => a - b).slice(left - 1, right);
-    for (const x of arr) {
-        ans += x;
-    }
-
-    return ans % mod;
+    return arr.reduce((acc, cur) => (acc + cur) % mod, 0);
 }
 ```
 
@@ -197,13 +192,8 @@ function rangeSum(nums, n, left, right) {
         }
     }
 
-    let ans = 0;
     arr = arr.sort((a, b) => a - b).slice(left - 1, right);
-    for (const x of arr) {
-        ans += x;
-    }
-
-    return ans % mod;
+    return arr.reduce((acc, cur) => acc + cur, 0) % mod;
 }
 ```
 
