@@ -21,7 +21,7 @@ tags:
 
 <p>给你两个整数数组 <code>nums1</code> 和 <code>nums2</code>，长度分别为 <code>n</code> 和 <code>m</code>。同时给你一个<strong>正整数</strong> <code>k</code>。</p>
 
-<p>如果 <code>nums1[i]</code> 可以被 <code>nums2[j] * k</code> 整除，则称数对 <code>(i, j)</code> 为 <strong>优质数对</strong>（<code>0 &lt;= i &lt;= n - 1</code>, <code>0 &lt;= j &lt;= m - 1</code>）。</p>
+<p>如果 <code>nums1[i]</code> 可以除尽&nbsp;<code>nums2[j] * k</code>，则称数对 <code>(i, j)</code> 为 <strong>优质数对</strong>（<code>0 &lt;= i &lt;= n - 1</code>, <code>0 &lt;= j &lt;= m - 1</code>）。</p>
 
 <p>返回<strong> 优质数对 </strong>的总数。</p>
 
@@ -69,11 +69,11 @@ tags:
 
 ### 方法一：暴力枚举
 
-我们直接枚举所有的数位 $(x, y)$，判断是否满足 $x \mod (y \times k) = 0$，如果满足则答案加一。
+我们直接枚举所有的数位 $(x, y)$，判断是否满足 $x \bmod (y \times k) = 0$，如果满足则答案加一。
 
 枚举结束后，返回答案即可。
 
-时间复杂度 $O(m \times n)$，其中 $m$ 和 $n$ 分别是数组 `nums1` 和 `nums2` 的长度。空间复杂度 $O(1)$。
+时间复杂度 $O(m \times n)$，其中 $m$ 和 $n$ 分别是数组 $\textit{nums1}$ 和 $\textit{nums2}$ 的长度。空间复杂度 $O(1)$。
 
 <!-- tabs:start -->
 
