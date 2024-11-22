@@ -26,6 +26,55 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 424 场周赛(2024-11-17 10:30, 90 分钟) 参赛人数 2622
+
+- [3354. 使数组元素等于零](/solution/3300-3399/3354.Make%20Array%20Elements%20Equal%20to%20Zero/README.md)
+- [3355. 零数组变换 I](/solution/3300-3399/3355.Zero%20Array%20Transformation%20I/README.md)
+- [3356. 零数组变换 II](/solution/3300-3399/3356.Zero%20Array%20Transformation%20II/README.md)
+- [3357. 最小化相邻元素的最大差值](/solution/3300-3399/3357.Minimize%20the%20Maximum%20Adjacent%20Element%20Difference/README.md)
+
+#### 第 423 场周赛(2024-11-10 10:30, 90 分钟) 参赛人数 2550
+
+- [3349. 检测相邻递增子数组 I](/solution/3300-3399/3349.Adjacent%20Increasing%20Subarrays%20Detection%20I/README.md)
+- [3350. 检测相邻递增子数组 II](/solution/3300-3399/3350.Adjacent%20Increasing%20Subarrays%20Detection%20II/README.md)
+- [3351. 好子序列的元素之和](/solution/3300-3399/3351.Sum%20of%20Good%20Subsequences/README.md)
+- [3352. 统计小于 N 的 K 可约简整数](/solution/3300-3399/3352.Count%20K-Reducible%20Numbers%20Less%20Than%20N/README.md)
+
+#### 第 143 场双周赛(2024-11-09 22:30, 90 分钟) 参赛人数 1849
+
+- [3345. 最小可整除数位乘积 I](/solution/3300-3399/3345.Smallest%20Divisible%20Digit%20Product%20I/README.md)
+- [3346. 执行操作后元素的最高频率 I](/solution/3300-3399/3346.Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I/README.md)
+- [3347. 执行操作后元素的最高频率 II](/solution/3300-3399/3347.Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/README.md)
+- [3348. 最小可整除数位乘积 II](/solution/3300-3399/3348.Smallest%20Divisible%20Digit%20Product%20II/README.md)
+
+#### 第 422 场周赛(2024-11-03 10:30, 90 分钟) 参赛人数 2511
+
+- [3340. 检查平衡字符串](/solution/3300-3399/3340.Check%20Balanced%20String/README.md)
+- [3341. 到达最后一个房间的最少时间 I](/solution/3300-3399/3341.Find%20Minimum%20Time%20to%20Reach%20Last%20Room%20I/README.md)
+- [3342. 到达最后一个房间的最少时间 II](/solution/3300-3399/3342.Find%20Minimum%20Time%20to%20Reach%20Last%20Room%20II/README.md)
+- [3343. 统计平衡排列的数目](/solution/3300-3399/3343.Count%20Number%20of%20Balanced%20Permutations/README.md)
+
+#### 第 421 场周赛(2024-10-27 10:30, 90 分钟) 参赛人数 2777
+
+- [3334. 数组的最大因子得分](/solution/3300-3399/3334.Find%20the%20Maximum%20Factor%20Score%20of%20Array/README.md)
+- [3335. 字符串转换后的长度 I](/solution/3300-3399/3335.Total%20Characters%20in%20String%20After%20Transformations%20I/README.md)
+- [3336. 最大公约数相等的子序列数量](/solution/3300-3399/3336.Find%20the%20Number%20of%20Subsequences%20With%20Equal%20GCD/README.md)
+- [3337. 字符串转换后的长度 II](/solution/3300-3399/3337.Total%20Characters%20in%20String%20After%20Transformations%20II/README.md)
+
+#### 第 142 场双周赛(2024-10-26 22:30, 90 分钟) 参赛人数 1940
+
+- [3330. 找到初始输入字符串 I](/solution/3300-3399/3330.Find%20the%20Original%20Typed%20String%20I/README.md)
+- [3331. 修改后子树的大小](/solution/3300-3399/3331.Find%20Subtree%20Sizes%20After%20Changes/README.md)
+- [3332. 旅客可以得到的最多点数](/solution/3300-3399/3332.Maximum%20Points%20Tourist%20Can%20Earn/README.md)
+- [3333. 找到初始输入字符串 II](/solution/3300-3399/3333.Find%20the%20Original%20Typed%20String%20II/README.md)
+
+#### 第 420 场周赛(2024-10-20 10:30, 90 分钟) 参赛人数 2996
+
+- [3324. 出现在屏幕上的字符串序列](/solution/3300-3399/3324.Find%20the%20Sequence%20of%20Strings%20Appeared%20on%20the%20Screen/README.md)
+- [3325. 字符至少出现 K 次的子字符串 I](/solution/3300-3399/3325.Count%20Substrings%20With%20K-Frequency%20Characters%20I/README.md)
+- [3326. 使数组非递减的最少除法操作次数](/solution/3300-3399/3326.Minimum%20Division%20Operations%20to%20Make%20Array%20Non%20Decreasing/README.md)
+- [3327. 判断 DFS 字符串是否是回文串](/solution/3300-3399/3327.Check%20if%20DFS%20Strings%20Are%20Palindromes/README.md)
+
 #### 第 419 场周赛(2024-10-13 10:30, 90 分钟) 参赛人数 2924
 
 - [3318. 计算子数组的 x-sum I](/solution/3300-3399/3318.Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20I/README.md)

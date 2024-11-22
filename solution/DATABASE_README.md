@@ -66,7 +66,7 @@
 | 1077 | [项目员工 III](/solution/1000-1099/1077.Project%20Employees%20III/README.md)                                                                                 | `数据库` | 中等 | 🔒   |
 | 1082 | [销售分析 I ](/solution/1000-1099/1082.Sales%20Analysis%20I/README.md)                                                                                       | `数据库` | 简单 | 🔒   |
 | 1083 | [销售分析 II](/solution/1000-1099/1083.Sales%20Analysis%20II/README.md)                                                                                      | `数据库` | 简单 | 🔒   |
-| 1084 | [销售分析III](/solution/1000-1099/1084.Sales%20Analysis%20III/README.md)                                                                                     | `数据库` | 简单 |      |
+| 1084 | [销售分析 III](/solution/1000-1099/1084.Sales%20Analysis%20III/README.md)                                                                                    | `数据库` | 简单 |      |
 | 1097 | [游戏玩法分析 V](/solution/1000-1099/1097.Game%20Play%20Analysis%20V/README.md)                                                                              | `数据库` | 困难 | 🔒   |
 | 1098 | [小众书籍](/solution/1000-1099/1098.Unpopular%20Books/README.md)                                                                                             | `数据库` | 中等 | 🔒   |
 | 1107 | [每日新用户统计](/solution/1100-1199/1107.New%20Users%20Daily%20Count/README.md)                                                                             | `数据库` | 中等 | 🔒   |
@@ -296,8 +296,11 @@
 | 3268 | [查找重叠的班次 II](/solution/3200-3299/3268.Find%20Overlapping%20Shifts%20II/README.md)                                                                     | `数据库` | 困难 | 🔒   |
 | 3278 | [寻找数据科学家职位的候选人 II](/solution/3200-3299/3278.Find%20Candidates%20for%20Data%20Scientist%20Position%20II/README.md)                               | `数据库` | 中等 | 🔒   |
 | 3293 | [计算产品最终价格](/solution/3200-3299/3293.Calculate%20Product%20Final%20Price/README.md)                                                                   | `数据库` | 中等 | 🔒   |
-| 3308 | [Find Top Performing Driver](/solution/3300-3399/3308.Find%20Top%20Performing%20Driver/README.md)                                                            | `数据库` | 中等 | 🔒   |
+| 3308 | [寻找表现最佳的司机](/solution/3300-3399/3308.Find%20Top%20Performing%20Driver/README.md)                                                                    | `数据库` | 中等 | 🔒   |
 | 3322 | [英超积分榜排名 III](/solution/3300-3399/3322.Premier%20League%20Table%20Ranking%20III/README.md)                                                            | `数据库` | 中等 | 🔒   |
+| 3328 | [查找每个州的城市 II](/solution/3300-3399/3328.Find%20Cities%20in%20Each%20State%20II/README.md)                                                             | `数据库` | 中等 | 🔒   |
+| 3338 | [第二高的薪水 II](/solution/3300-3399/3338.Second%20Highest%20Salary%20II/README.md)                                                                         | `数据库` | 中等 | 🔒   |
+| 3358 | [评分为 NULL 的图书](/solution/3300-3399/3358.Books%20with%20NULL%20Ratings/README.md)                                                                       | `数据库` | 简单 | 🔒   |
 
 ## 版权
 
