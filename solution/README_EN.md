@@ -316,7 +316,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  0305  |  [Number of Islands II](/solution/0300-0399/0305.Number%20of%20Islands%20II/README_EN.md)  |  `Union Find`,`Array`,`Hash Table`  |  Hard  |  🔒  |
 |  0306  |  [Additive Number](/solution/0300-0399/0306.Additive%20Number/README_EN.md)  |  `String`,`Backtracking`  |  Medium  |    |
 |  0307  |  [Range Sum Query - Mutable](/solution/0300-0399/0307.Range%20Sum%20Query%20-%20Mutable/README_EN.md)  |  `Design`,`Binary Indexed Tree`,`Segment Tree`,`Array`  |  Medium  |    |
-|  0308  |  [Range Sum Query 2D - Mutable](/solution/0300-0399/0308.Range%20Sum%20Query%202D%20-%20Mutable/README_EN.md)  |  `Design`,`Binary Indexed Tree`,`Segment Tree`,`Array`,`Matrix`  |  Hard  |  🔒  |
+|  0308  |  [Range Sum Query 2D - Mutable](/solution/0300-0399/0308.Range%20Sum%20Query%202D%20-%20Mutable/README_EN.md)  |  `Design`,`Binary Indexed Tree`,`Segment Tree`,`Array`,`Matrix`  |  Medium  |  🔒  |
 |  0309  |  [Best Time to Buy and Sell Stock with Cooldown](/solution/0300-0399/0309.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown/README_EN.md)  |  `Array`,`Dynamic Programming`  |  Medium  |    |
 |  0310  |  [Minimum Height Trees](/solution/0300-0399/0310.Minimum%20Height%20Trees/README_EN.md)  |  `Depth-First Search`,`Breadth-First Search`,`Graph`,`Topological Sort`  |  Medium  |    |
 |  0311  |  [Sparse Matrix Multiplication](/solution/0300-0399/0311.Sparse%20Matrix%20Multiplication/README_EN.md)  |  `Array`,`Hash Table`,`Matrix`  |  Medium  |  🔒  |
@@ -781,7 +781,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  0770  |  [Basic Calculator IV](/solution/0700-0799/0770.Basic%20Calculator%20IV/README_EN.md)  |  `Stack`,`Recursion`,`Hash Table`,`Math`,`String`  |  Hard  |    |
 |  0771  |  [Jewels and Stones](/solution/0700-0799/0771.Jewels%20and%20Stones/README_EN.md)  |  `Hash Table`,`String`  |  Easy  |    |
 |  0772  |  [Basic Calculator III](/solution/0700-0799/0772.Basic%20Calculator%20III/README_EN.md)  |  `Stack`,`Recursion`,`Math`,`String`  |  Hard  |  🔒  |
-|  0773  |  [Sliding Puzzle](/solution/0700-0799/0773.Sliding%20Puzzle/README_EN.md)  |  `Breadth-First Search`,`Array`,`Matrix`  |  Hard  |    |
+|  0773  |  [Sliding Puzzle](/solution/0700-0799/0773.Sliding%20Puzzle/README_EN.md)  |  `Breadth-First Search`,`Memoization`,`Array`,`Dynamic Programming`,`Backtracking`,`Matrix`  |  Hard  |    |
 |  0774  |  [Minimize Max Distance to Gas Station](/solution/0700-0799/0774.Minimize%20Max%20Distance%20to%20Gas%20Station/README_EN.md)  |  `Array`,`Binary Search`  |  Hard  |  🔒  |
 |  0775  |  [Global and Local Inversions](/solution/0700-0799/0775.Global%20and%20Local%20Inversions/README_EN.md)  |  `Array`,`Math`  |  Medium  |    |
 |  0776  |  [Split BST](/solution/0700-0799/0776.Split%20BST/README_EN.md)  |  `Tree`,`Binary Search Tree`,`Recursion`,`Binary Tree`  |  Medium  |  🔒  |
@@ -2072,7 +2072,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  2061  |  [Number of Spaces Cleaning Robot Cleaned](/solution/2000-2099/2061.Number%20of%20Spaces%20Cleaning%20Robot%20Cleaned/README_EN.md)  |  `Array`,`Matrix`,`Simulation`  |  Medium  |  🔒  |
 |  2062  |  [Count Vowel Substrings of a String](/solution/2000-2099/2062.Count%20Vowel%20Substrings%20of%20a%20String/README_EN.md)  |  `Hash Table`,`String`  |  Easy  |  Weekly Contest 266  |
 |  2063  |  [Vowels of All Substrings](/solution/2000-2099/2063.Vowels%20of%20All%20Substrings/README_EN.md)  |  `Math`,`String`,`Dynamic Programming`,`Combinatorics`  |  Medium  |  Weekly Contest 266  |
-|  2064  |  [Minimized Maximum of Products Distributed to Any Store](/solution/2000-2099/2064.Minimized%20Maximum%20of%20Products%20Distributed%20to%20Any%20Store/README_EN.md)  |  `Array`,`Binary Search`  |  Medium  |  Weekly Contest 266  |
+|  2064  |  [Minimized Maximum of Products Distributed to Any Store](/solution/2000-2099/2064.Minimized%20Maximum%20of%20Products%20Distributed%20to%20Any%20Store/README_EN.md)  |  `Greedy`,`Array`,`Binary Search`  |  Medium  |  Weekly Contest 266  |
 |  2065  |  [Maximum Path Quality of a Graph](/solution/2000-2099/2065.Maximum%20Path%20Quality%20of%20a%20Graph/README_EN.md)  |  `Graph`,`Array`,`Backtracking`  |  Hard  |  Weekly Contest 266  |
 |  2066  |  [Account Balance](/solution/2000-2099/2066.Account%20Balance/README_EN.md)  |  `Database`  |  Medium  |  🔒  |
 |  2067  |  [Number of Equal Count Substrings](/solution/2000-2099/2067.Number%20of%20Equal%20Count%20Substrings/README_EN.md)  |  `String`,`Counting`,`Prefix Sum`  |  Medium  |  🔒  |
@@ -3367,6 +3367,16 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  3356  |  [Zero Array Transformation II](/solution/3300-3399/3356.Zero%20Array%20Transformation%20II/README_EN.md)  |  `Array`,`Binary Search`,`Prefix Sum`  |  Medium  |  Weekly Contest 424  |
 |  3357  |  [Minimize the Maximum Adjacent Element Difference](/solution/3300-3399/3357.Minimize%20the%20Maximum%20Adjacent%20Element%20Difference/README_EN.md)  |  `Greedy`,`Array`,`Binary Search`  |  Hard  |  Weekly Contest 424  |
 |  3358  |  [Books with NULL Ratings](/solution/3300-3399/3358.Books%20with%20NULL%20Ratings/README_EN.md)  |  `Database`  |  Easy  |  🔒  |
+|  3359  |  [Find Sorted Submatrices With Maximum Element at Most K](/solution/3300-3399/3359.Find%20Sorted%20Submatrices%20With%20Maximum%20Element%20at%20Most%20K/README_EN.md)  |    |  Hard  |  🔒  |
+|  3360  |  [Stone Removal Game](/solution/3300-3399/3360.Stone%20Removal%20Game/README_EN.md)  |    |  Easy  |  Biweekly Contest 144  |
+|  3361  |  [Shift Distance Between Two Strings](/solution/3300-3399/3361.Shift%20Distance%20Between%20Two%20Strings/README_EN.md)  |    |  Medium  |  Biweekly Contest 144  |
+|  3362  |  [Zero Array Transformation III](/solution/3300-3399/3362.Zero%20Array%20Transformation%20III/README_EN.md)  |    |  Medium  |  Biweekly Contest 144  |
+|  3363  |  [Find the Maximum Number of Fruits Collected](/solution/3300-3399/3363.Find%20the%20Maximum%20Number%20of%20Fruits%20Collected/README_EN.md)  |    |  Hard  |  Biweekly Contest 144  |
+|  3364  |  [Minimum Positive Sum Subarray](/solution/3300-3399/3364.Minimum%20Positive%20Sum%20Subarray/README_EN.md)  |    |  Easy  |  Weekly Contest 425  |
+|  3365  |  [Rearrange K Substrings to Form Target String](/solution/3300-3399/3365.Rearrange%20K%20Substrings%20to%20Form%20Target%20String/README_EN.md)  |    |  Medium  |  Weekly Contest 425  |
+|  3366  |  [Minimum Array Sum](/solution/3300-3399/3366.Minimum%20Array%20Sum/README_EN.md)  |    |  Medium  |  Weekly Contest 425  |
+|  3367  |  [Maximize Sum of Weights after Edge Removals](/solution/3300-3399/3367.Maximize%20Sum%20of%20Weights%20after%20Edge%20Removals/README_EN.md)  |    |  Hard  |  Weekly Contest 425  |
+|  3368  |  [First Letter Capitalization](/solution/3300-3399/3368.First%20Letter%20Capitalization/README_EN.md)  |    |  Hard  |  🔒  |
 
 ## Copyright
 

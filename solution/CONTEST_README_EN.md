@@ -29,6 +29,20 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 425
+
+- [3364. Minimum Positive Sum Subarray](/solution/3300-3399/3364.Minimum%20Positive%20Sum%20Subarray/README_EN.md)
+- [3365. Rearrange K Substrings to Form Target String](/solution/3300-3399/3365.Rearrange%20K%20Substrings%20to%20Form%20Target%20String/README_EN.md)
+- [3366. Minimum Array Sum](/solution/3300-3399/3366.Minimum%20Array%20Sum/README_EN.md)
+- [3367. Maximize Sum of Weights after Edge Removals](/solution/3300-3399/3367.Maximize%20Sum%20of%20Weights%20after%20Edge%20Removals/README_EN.md)
+
+#### Biweekly Contest 144
+
+- [3360. Stone Removal Game](/solution/3300-3399/3360.Stone%20Removal%20Game/README_EN.md)
+- [3361. Shift Distance Between Two Strings](/solution/3300-3399/3361.Shift%20Distance%20Between%20Two%20Strings/README_EN.md)
+- [3362. Zero Array Transformation III](/solution/3300-3399/3362.Zero%20Array%20Transformation%20III/README_EN.md)
+- [3363. Find the Maximum Number of Fruits Collected](/solution/3300-3399/3363.Find%20the%20Maximum%20Number%20of%20Fruits%20Collected/README_EN.md)
+
 #### Weekly Contest 424
 
 - [3354. Make Array Elements Equal to Zero](/solution/3300-3399/3354.Make%20Array%20Elements%20Equal%20to%20Zero/README_EN.md)
