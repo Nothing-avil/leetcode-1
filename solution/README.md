@@ -369,6 +369,7 @@
 |  0356  |  [直线镜像](/solution/0300-0399/0356.Line%20Reflection/README.md)  |  `数组`,`哈希表`,`数学`  |  中等  |  🔒  |
 |  0357  |  [统计各位数字都不同的数字个数](/solution/0300-0399/0357.Count%20Numbers%20with%20Unique%20Digits/README.md)  |  `数学`,`动态规划`,`回溯`  |  中等  |    |
 |  0358  |  [K 距离间隔重排字符串](/solution/0300-0399/0358.Rearrange%20String%20k%20Distance%20Apart/README.md)  |  `贪心`,`哈希表`,`字符串`,`计数`,`排序`,`堆（优先队列）`  |  困难  |  🔒  |
+|  0359  |  [日志速率限制器](/solution/0300-0399/0359.Logger%20Rate%20Limiter/README.md)  |  `设计`,`哈希表`,`数据流`  |  简单  |  🔒  |
 |  0360  |  [有序转化数组](/solution/0300-0399/0360.Sort%20Transformed%20Array/README.md)  |  `数组`,`数学`,`双指针`,`排序`  |  中等  |  🔒  |
 |  0361  |  [轰炸敌人](/solution/0300-0399/0361.Bomb%20Enemy/README.md)  |  `数组`,`动态规划`,`矩阵`  |  中等  |  🔒  |
 |  0362  |  [敲击计数器](/solution/0300-0399/0362.Design%20Hit%20Counter/README.md)  |  `设计`,`队列`,`数组`,`二分查找`,`数据流`  |  中等  |  🔒  |
@@ -3384,16 +3385,31 @@
 |  3372  |  [连接两棵树后最大目标节点数目 I](/solution/3300-3399/3372.Maximize%20the%20Number%20of%20Target%20Nodes%20After%20Connecting%20Trees%20I/README.md)  |  `树`,`深度优先搜索`,`广度优先搜索`  |  中等  |  第 426 场周赛  |
 |  3373  |  [连接两棵树后最大目标节点数目 II](/solution/3300-3399/3373.Maximize%20the%20Number%20of%20Target%20Nodes%20After%20Connecting%20Trees%20II/README.md)  |  `树`,`深度优先搜索`,`广度优先搜索`  |  困难  |  第 426 场周赛  |
 |  3374  |  [首字母大写 II](/solution/3300-3399/3374.First%20Letter%20Capitalization%20II/README.md)  |  `数据库`  |  困难  |    |
-|  3375  |  [使数组的值全部为 K 的最少操作次数](/solution/3300-3399/3375.Minimum%20Operations%20to%20Make%20Array%20Values%20Equal%20to%20K/README.md)  |    |  简单  |  第 145 场双周赛  |
-|  3376  |  [破解锁的最少时间 I](/solution/3300-3399/3376.Minimum%20Time%20to%20Break%20Locks%20I/README.md)  |    |  中等  |  第 145 场双周赛  |
-|  3377  |  [使两个整数相等的数位操作](/solution/3300-3399/3377.Digit%20Operations%20to%20Make%20Two%20Integers%20Equal/README.md)  |    |  中等  |  第 145 场双周赛  |
-|  3378  |  [统计最小公倍数图中的连通块数目](/solution/3300-3399/3378.Count%20Connected%20Components%20in%20LCM%20Graph/README.md)  |    |  困难  |  第 145 场双周赛  |
-|  3379  |  [转换数组](/solution/3300-3399/3379.Transformed%20Array/README.md)  |    |  简单  |  第 427 场周赛  |
-|  3380  |  [用点构造面积最大的矩形 I](/solution/3300-3399/3380.Maximum%20Area%20Rectangle%20With%20Point%20Constraints%20I/README.md)  |    |  中等  |  第 427 场周赛  |
-|  3381  |  [长度可被 K 整除的子数组的最大元素和](/solution/3300-3399/3381.Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K/README.md)  |    |  中等  |  第 427 场周赛  |
-|  3382  |  [用点构造面积最大的矩形 II](/solution/3300-3399/3382.Maximum%20Area%20Rectangle%20With%20Point%20Constraints%20II/README.md)  |    |  困难  |  第 427 场周赛  |
-|  3383  |  [Minimum Runes to Add to Cast Spell](/solution/3300-3399/3383.Minimum%20Runes%20to%20Add%20to%20Cast%20Spell/README.md)  |    |  困难  |  🔒  |
-|  3384  |  [Team Dominance by Pass Success](/solution/3300-3399/3384.Team%20Dominance%20by%20Pass%20Success/README.md)  |    |  困难  |  🔒  |
+|  3375  |  [使数组的值全部为 K 的最少操作次数](/solution/3300-3399/3375.Minimum%20Operations%20to%20Make%20Array%20Values%20Equal%20to%20K/README.md)  |  `数组`,`哈希表`  |  简单  |  第 145 场双周赛  |
+|  3376  |  [破解锁的最少时间 I](/solution/3300-3399/3376.Minimum%20Time%20to%20Break%20Locks%20I/README.md)  |  `位运算`,`数组`,`动态规划`,`回溯`,`状态压缩`  |  中等  |  第 145 场双周赛  |
+|  3377  |  [使两个整数相等的数位操作](/solution/3300-3399/3377.Digit%20Operations%20to%20Make%20Two%20Integers%20Equal/README.md)  |  `图`,`数学`,`数论`,`最短路`,`堆（优先队列）`  |  中等  |  第 145 场双周赛  |
+|  3378  |  [统计最小公倍数图中的连通块数目](/solution/3300-3399/3378.Count%20Connected%20Components%20in%20LCM%20Graph/README.md)  |  `并查集`,`数组`,`哈希表`,`数学`,`数论`  |  困难  |  第 145 场双周赛  |
+|  3379  |  [转换数组](/solution/3300-3399/3379.Transformed%20Array/README.md)  |  `数组`,`模拟`  |  简单  |  第 427 场周赛  |
+|  3380  |  [用点构造面积最大的矩形 I](/solution/3300-3399/3380.Maximum%20Area%20Rectangle%20With%20Point%20Constraints%20I/README.md)  |  `树状数组`,`线段树`,`几何`,`数组`,`数学`,`枚举`,`排序`  |  中等  |  第 427 场周赛  |
+|  3381  |  [长度可被 K 整除的子数组的最大元素和](/solution/3300-3399/3381.Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K/README.md)  |  `数组`,`哈希表`,`前缀和`  |  中等  |  第 427 场周赛  |
+|  3382  |  [用点构造面积最大的矩形 II](/solution/3300-3399/3382.Maximum%20Area%20Rectangle%20With%20Point%20Constraints%20II/README.md)  |  `树状数组`,`线段树`,`几何`,`数组`,`数学`,`排序`  |  困难  |  第 427 场周赛  |
+|  3383  |  [施法所需最低符文数量](/solution/3300-3399/3383.Minimum%20Runes%20to%20Add%20to%20Cast%20Spell/README.md)  |  `深度优先搜索`,`广度优先搜索`,`图`,`拓扑排序`,`数组`  |  困难  |  🔒  |
+|  3384  |  [球队传球成功的优势得分](/solution/3300-3399/3384.Team%20Dominance%20by%20Pass%20Success/README.md)  |  `数据库`  |  困难  |  🔒  |
+|  3385  |  [破解锁的最少时间 II](/solution/3300-3399/3385.Minimum%20Time%20to%20Break%20Locks%20II/README.md)  |    |  困难  |  🔒  |
+|  3386  |  [按下时间最长的按钮](/solution/3300-3399/3386.Button%20with%20Longest%20Push%20Time/README.md)  |    |  简单  |  第 428 场周赛  |
+|  3387  |  [两天自由外汇交易后的最大货币数](/solution/3300-3399/3387.Maximize%20Amount%20After%20Two%20Days%20of%20Conversions/README.md)  |    |  中等  |  第 428 场周赛  |
+|  3388  |  [统计数组中的美丽分割](/solution/3300-3399/3388.Count%20Beautiful%20Splits%20in%20an%20Array/README.md)  |    |  中等  |  第 428 场周赛  |
+|  3389  |  [使字符频率相等的最少操作次数](/solution/3300-3399/3389.Minimum%20Operations%20to%20Make%20Character%20Frequencies%20Equal/README.md)  |    |  困难  |  第 428 场周赛  |
+|  3390  |  [Longest Team Pass Streak](/solution/3300-3399/3390.Longest%20Team%20Pass%20Streak/README.md)  |  `数据库`  |  困难  |  🔒  |
+|  3391  |  [设计一个高效的层跟踪三维二进制矩阵](/solution/3300-3399/3391.Design%20a%203D%20Binary%20Matrix%20with%20Efficient%20Layer%20Tracking/README.md)  |    |  中等  |  🔒  |
+|  3392  |  [统计符合条件长度为 3 的子数组数目](/solution/3300-3399/3392.Count%20Subarrays%20of%20Length%20Three%20With%20a%20Condition/README.md)  |    |  简单  |  第 146 场双周赛  |
+|  3393  |  [统计异或值为给定值的路径数目](/solution/3300-3399/3393.Count%20Paths%20With%20the%20Given%20XOR%20Value/README.md)  |    |  中等  |  第 146 场双周赛  |
+|  3394  |  [判断网格图能否被切割成块](/solution/3300-3399/3394.Check%20if%20Grid%20can%20be%20Cut%20into%20Sections/README.md)  |    |  中等  |  第 146 场双周赛  |
+|  3395  |  [唯一中间众数子序列 I](/solution/3300-3399/3395.Subsequences%20with%20a%20Unique%20Middle%20Mode%20I/README.md)  |    |  困难  |  第 146 场双周赛  |
+|  3396  |  [使数组元素互不相同所需的最少操作次数](/solution/3300-3399/3396.Minimum%20Number%20of%20Operations%20to%20Make%20Elements%20in%20Array%20Distinct/README.md)  |    |  简单  |  第 429 场周赛  |
+|  3397  |  [执行操作后不同元素的最大数量](/solution/3300-3399/3397.Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/README.md)  |    |  中等  |  第 429 场周赛  |
+|  3398  |  [字符相同的最短子字符串 I](/solution/3300-3399/3398.Smallest%20Substring%20With%20Identical%20Characters%20I/README.md)  |    |  困难  |  第 429 场周赛  |
+|  3399  |  [字符相同的最短子字符串 II](/solution/3300-3399/3399.Smallest%20Substring%20With%20Identical%20Characters%20II/README.md)  |    |  困难  |  第 429 场周赛  |
 
 ## 版权
 

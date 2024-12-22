@@ -2,6 +2,12 @@
 comments: true
 difficulty: Medium
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/3300-3399/3377.Digit%20Operations%20to%20Make%20Two%20Integers%20Equal/README_EN.md
+tags:
+    - Graph
+    - Math
+    - Number Theory
+    - Shortest Path
+    - Heap (Priority Queue)
 ---
 
 <!-- problem:start -->
@@ -23,13 +29,11 @@ edit_url: https://github.com/doocs/leetcode/edit/main/solution/3300-3399/3377.Di
 	<li>Choose <strong>any</strong> digit from <code>n</code> that is not 0 and <strong>decrease</strong> it by 1.</li>
 </ul>
 
-<p>The integer <code>n</code> must not be a <strong>prime</strong> number at any point, including its original value and after each operation.</p>
+<p>The integer <code>n</code> must not be a <span data-keyword="prime-number">prime</span> number at any point, including its original value and after each operation.</p>
 
 <p>The cost of a transformation is the sum of <strong>all</strong> values that <code>n</code> takes throughout the operations performed.</p>
 
 <p>Return the <strong>minimum</strong> cost to transform <code>n</code> into <code>m</code>. If it is impossible, return -1.</p>
-
-<p>A prime number is a natural number greater than 1 with only two factors, 1 and itself.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

@@ -29,6 +29,27 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 429
+
+- [3396. Minimum Number of Operations to Make Elements in Array Distinct](/solution/3300-3399/3396.Minimum%20Number%20of%20Operations%20to%20Make%20Elements%20in%20Array%20Distinct/README_EN.md)
+- [3397. Maximum Number of Distinct Elements After Operations](/solution/3300-3399/3397.Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/README_EN.md)
+- [3398. Smallest Substring With Identical Characters I](/solution/3300-3399/3398.Smallest%20Substring%20With%20Identical%20Characters%20I/README_EN.md)
+- [3399. Smallest Substring With Identical Characters II](/solution/3300-3399/3399.Smallest%20Substring%20With%20Identical%20Characters%20II/README_EN.md)
+
+#### Biweekly Contest 146
+
+- [3392. Count Subarrays of Length Three With a Condition](/solution/3300-3399/3392.Count%20Subarrays%20of%20Length%20Three%20With%20a%20Condition/README_EN.md)
+- [3393. Count Paths With the Given XOR Value](/solution/3300-3399/3393.Count%20Paths%20With%20the%20Given%20XOR%20Value/README_EN.md)
+- [3394. Check if Grid can be Cut into Sections](/solution/3300-3399/3394.Check%20if%20Grid%20can%20be%20Cut%20into%20Sections/README_EN.md)
+- [3395. Subsequences with a Unique Middle Mode I](/solution/3300-3399/3395.Subsequences%20with%20a%20Unique%20Middle%20Mode%20I/README_EN.md)
+
+#### Weekly Contest 428
+
+- [3386. Button with Longest Push Time](/solution/3300-3399/3386.Button%20with%20Longest%20Push%20Time/README_EN.md)
+- [3387. Maximize Amount After Two Days of Conversions](/solution/3300-3399/3387.Maximize%20Amount%20After%20Two%20Days%20of%20Conversions/README_EN.md)
+- [3388. Count Beautiful Splits in an Array](/solution/3300-3399/3388.Count%20Beautiful%20Splits%20in%20an%20Array/README_EN.md)
+- [3389. Minimum Operations to Make Character Frequencies Equal](/solution/3300-3399/3389.Minimum%20Operations%20to%20Make%20Character%20Frequencies%20Equal/README_EN.md)
+
 #### Weekly Contest 427
 
 - [3379. Transformed Array](/solution/3300-3399/3379.Transformed%20Array/README_EN.md)
