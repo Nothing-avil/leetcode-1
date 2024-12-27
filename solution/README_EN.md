@@ -642,7 +642,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  0631  |  [Design Excel Sum Formula](/solution/0600-0699/0631.Design%20Excel%20Sum%20Formula/README_EN.md)  |  `Graph`,`Design`,`Topological Sort`,`Array`,`Matrix`  |  Hard  |  🔒  |
 |  0632  |  [Smallest Range Covering Elements from K Lists](/solution/0600-0699/0632.Smallest%20Range%20Covering%20Elements%20from%20K%20Lists/README_EN.md)  |  `Greedy`,`Array`,`Hash Table`,`Sorting`,`Sliding Window`,`Heap (Priority Queue)`  |  Hard  |    |
 |  0633  |  [Sum of Square Numbers](/solution/0600-0699/0633.Sum%20of%20Square%20Numbers/README_EN.md)  |  `Math`,`Two Pointers`,`Binary Search`  |  Medium  |    |
-|  0634  |  [Find the Derangement of An Array](/solution/0600-0699/0634.Find%20the%20Derangement%20of%20An%20Array/README_EN.md)  |  `Math`,`Dynamic Programming`  |  Medium  |  🔒  |
+|  0634  |  [Find the Derangement of An Array](/solution/0600-0699/0634.Find%20the%20Derangement%20of%20An%20Array/README_EN.md)  |  `Math`,`Dynamic Programming`,`Combinatorics`  |  Medium  |  🔒  |
 |  0635  |  [Design Log Storage System](/solution/0600-0699/0635.Design%20Log%20Storage%20System/README_EN.md)  |  `Design`,`Hash Table`,`String`,`Ordered Set`  |  Medium  |  🔒  |
 |  0636  |  [Exclusive Time of Functions](/solution/0600-0699/0636.Exclusive%20Time%20of%20Functions/README_EN.md)  |  `Stack`,`Array`  |  Medium  |    |
 |  0637  |  [Average of Levels in Binary Tree](/solution/0600-0699/0637.Average%20of%20Levels%20in%20Binary%20Tree/README_EN.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`,`Binary Tree`  |  Easy  |    |
@@ -3377,7 +3377,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  3366  |  [Minimum Array Sum](/solution/3300-3399/3366.Minimum%20Array%20Sum/README_EN.md)  |  `Array`,`Dynamic Programming`  |  Medium  |  Weekly Contest 425  |
 |  3367  |  [Maximize Sum of Weights after Edge Removals](/solution/3300-3399/3367.Maximize%20Sum%20of%20Weights%20after%20Edge%20Removals/README_EN.md)  |  `Tree`,`Depth-First Search`,`Dynamic Programming`  |  Hard  |  Weekly Contest 425  |
 |  3368  |  [First Letter Capitalization](/solution/3300-3399/3368.First%20Letter%20Capitalization/README_EN.md)  |  `Database`  |  Hard  |  🔒  |
-|  3369  |  [Design an Array Statistics Tracker](/solution/3300-3399/3369.Design%20an%20Array%20Statistics%20Tracker/README_EN.md)  |  `Queue`,`Hash Table`,`Binary Search`  |  Hard  |  🔒  |
+|  3369  |  [Design an Array Statistics Tracker](/solution/3300-3399/3369.Design%20an%20Array%20Statistics%20Tracker/README_EN.md)  |  `Design`,`Queue`,`Hash Table`,`Binary Search`,`Data Stream`,`Ordered Set`,`Heap (Priority Queue)`  |  Hard  |  🔒  |
 |  3370  |  [Smallest Number With All Set Bits](/solution/3300-3399/3370.Smallest%20Number%20With%20All%20Set%20Bits/README_EN.md)  |  `Bit Manipulation`,`Math`  |  Easy  |  Weekly Contest 426  |
 |  3371  |  [Identify the Largest Outlier in an Array](/solution/3300-3399/3371.Identify%20the%20Largest%20Outlier%20in%20an%20Array/README_EN.md)  |  `Array`,`Hash Table`,`Counting`,`Enumeration`  |  Medium  |  Weekly Contest 426  |
 |  3372  |  [Maximize the Number of Target Nodes After Connecting Trees I](/solution/3300-3399/3372.Maximize%20the%20Number%20of%20Target%20Nodes%20After%20Connecting%20Trees%20I/README_EN.md)  |  `Tree`,`Depth-First Search`,`Breadth-First Search`  |  Medium  |  Weekly Contest 426  |
@@ -3393,11 +3393,11 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  3382  |  [Maximum Area Rectangle With Point Constraints II](/solution/3300-3399/3382.Maximum%20Area%20Rectangle%20With%20Point%20Constraints%20II/README_EN.md)  |  `Binary Indexed Tree`,`Segment Tree`,`Geometry`,`Array`,`Math`,`Sorting`  |  Hard  |  Weekly Contest 427  |
 |  3383  |  [Minimum Runes to Add to Cast Spell](/solution/3300-3399/3383.Minimum%20Runes%20to%20Add%20to%20Cast%20Spell/README_EN.md)  |  `Depth-First Search`,`Breadth-First Search`,`Graph`,`Topological Sort`,`Array`  |  Hard  |  🔒  |
 |  3384  |  [Team Dominance by Pass Success](/solution/3300-3399/3384.Team%20Dominance%20by%20Pass%20Success/README_EN.md)  |  `Database`  |  Hard  |  🔒  |
-|  3385  |  [Minimum Time to Break Locks II](/solution/3300-3399/3385.Minimum%20Time%20to%20Break%20Locks%20II/README_EN.md)  |    |  Hard  |  🔒  |
-|  3386  |  [Button with Longest Push Time](/solution/3300-3399/3386.Button%20with%20Longest%20Push%20Time/README_EN.md)  |    |  Easy  |  Weekly Contest 428  |
-|  3387  |  [Maximize Amount After Two Days of Conversions](/solution/3300-3399/3387.Maximize%20Amount%20After%20Two%20Days%20of%20Conversions/README_EN.md)  |    |  Medium  |  Weekly Contest 428  |
-|  3388  |  [Count Beautiful Splits in an Array](/solution/3300-3399/3388.Count%20Beautiful%20Splits%20in%20an%20Array/README_EN.md)  |    |  Medium  |  Weekly Contest 428  |
-|  3389  |  [Minimum Operations to Make Character Frequencies Equal](/solution/3300-3399/3389.Minimum%20Operations%20to%20Make%20Character%20Frequencies%20Equal/README_EN.md)  |    |  Hard  |  Weekly Contest 428  |
+|  3385  |  [Minimum Time to Break Locks II](/solution/3300-3399/3385.Minimum%20Time%20to%20Break%20Locks%20II/README_EN.md)  |  `Depth-First Search`,`Graph`,`Array`  |  Hard  |  🔒  |
+|  3386  |  [Button with Longest Push Time](/solution/3300-3399/3386.Button%20with%20Longest%20Push%20Time/README_EN.md)  |  `Array`  |  Easy  |  Weekly Contest 428  |
+|  3387  |  [Maximize Amount After Two Days of Conversions](/solution/3300-3399/3387.Maximize%20Amount%20After%20Two%20Days%20of%20Conversions/README_EN.md)  |  `Depth-First Search`,`Breadth-First Search`,`Graph`,`Array`,`String`  |  Medium  |  Weekly Contest 428  |
+|  3388  |  [Count Beautiful Splits in an Array](/solution/3300-3399/3388.Count%20Beautiful%20Splits%20in%20an%20Array/README_EN.md)  |  `Array`,`Dynamic Programming`  |  Medium  |  Weekly Contest 428  |
+|  3389  |  [Minimum Operations to Make Character Frequencies Equal](/solution/3300-3399/3389.Minimum%20Operations%20to%20Make%20Character%20Frequencies%20Equal/README_EN.md)  |  `Hash Table`,`String`,`Dynamic Programming`,`Counting`,`Enumeration`  |  Hard  |  Weekly Contest 428  |
 |  3390  |  [Longest Team Pass Streak](/solution/3300-3399/3390.Longest%20Team%20Pass%20Streak/README_EN.md)  |  `Database`  |  Hard  |  🔒  |
 |  3391  |  [Design a 3D Binary Matrix with Efficient Layer Tracking](/solution/3300-3399/3391.Design%20a%203D%20Binary%20Matrix%20with%20Efficient%20Layer%20Tracking/README_EN.md)  |    |  Medium  |  🔒  |
 |  3392  |  [Count Subarrays of Length Three With a Condition](/solution/3300-3399/3392.Count%20Subarrays%20of%20Length%20Three%20With%20a%20Condition/README_EN.md)  |    |  Easy  |  Biweekly Contest 146  |
@@ -3408,6 +3408,7 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  3397  |  [Maximum Number of Distinct Elements After Operations](/solution/3300-3399/3397.Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/README_EN.md)  |    |  Medium  |  Weekly Contest 429  |
 |  3398  |  [Smallest Substring With Identical Characters I](/solution/3300-3399/3398.Smallest%20Substring%20With%20Identical%20Characters%20I/README_EN.md)  |    |  Hard  |  Weekly Contest 429  |
 |  3399  |  [Smallest Substring With Identical Characters II](/solution/3300-3399/3399.Smallest%20Substring%20With%20Identical%20Characters%20II/README_EN.md)  |    |  Hard  |  Weekly Contest 429  |
+|  3400  |  [Maximum Number of Matching Indices After Right Shifts](/solution/3400-3499/3400.Maximum%20Number%20of%20Matching%20Indices%20After%20Right%20Shifts/README_EN.md)  |    |  Medium  |  🔒  |
 
 ## Copyright
 
