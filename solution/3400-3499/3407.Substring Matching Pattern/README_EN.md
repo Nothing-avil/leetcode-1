@@ -2,6 +2,11 @@
 comments: true
 difficulty: Easy
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/3400-3499/3407.Substring%20Matching%20Pattern/README_EN.md
+rating: 1472
+source: Biweekly Contest 147 Q1
+tags:
+    - String
+    - String Matching
 ---
 
 <!-- problem:start -->
@@ -18,9 +23,7 @@ edit_url: https://github.com/doocs/leetcode/edit/main/solution/3400-3499/3407.Su
 
 <p>The <code>&#39;*&#39;</code> in <code>p</code> can be replaced with any sequence of zero or more characters.</p>
 
-<p>Return <code>true</code> if <code>p</code> can be made a substring of <code>s</code>, and <code>false</code> otherwise.</p>
-
-<p>A <strong>substring</strong> is a contiguous <b>non-empty</b> sequence of characters within a string.</p>
+<p>Return <code>true</code> if <code>p</code> can be made a <span data-keyword="substring-nonempty">substring</span> of <code>s</code>, and <code>false</code> otherwise.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

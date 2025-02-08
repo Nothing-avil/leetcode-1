@@ -2,6 +2,13 @@
 comments: true
 difficulty: 中等
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/3300-3399/3391.Design%20a%203D%20Binary%20Matrix%20with%20Efficient%20Layer%20Tracking/README.md
+tags:
+    - 设计
+    - 数组
+    - 哈希表
+    - 矩阵
+    - 有序集合
+    - 堆（优先队列）
 ---
 
 <!-- problem:start -->
@@ -97,9 +104,6 @@ matrix3D.largestMatrix(); // 返回 3。0 到 3 的对应值都有相同数量�
 #### Python3
 
 ```python
-from sortedcontainers import SortedList
-
-
 class matrix3D:
 
     def __init__(self, n: int):

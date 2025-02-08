@@ -2,6 +2,13 @@
 comments: true
 difficulty: Medium
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/3300-3399/3391.Design%20a%203D%20Binary%20Matrix%20with%20Efficient%20Layer%20Tracking/README_EN.md
+tags:
+    - Design
+    - Array
+    - Hash Table
+    - Matrix
+    - Ordered Set
+    - Heap (Priority Queue)
 ---
 
 <!-- problem:start -->
@@ -95,9 +102,6 @@ In terms of time complexity, the `setCell` and `unsetCell` methods both have a t
 #### Python3
 
 ```python
-from sortedcontainers import SortedList
-
-
 class matrix3D:
 
     def __init__(self, n: int):

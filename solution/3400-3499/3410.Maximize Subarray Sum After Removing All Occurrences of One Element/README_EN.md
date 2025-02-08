@@ -2,6 +2,12 @@
 comments: true
 difficulty: Hard
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/3400-3499/3410.Maximize%20Subarray%20Sum%20After%20Removing%20All%20Occurrences%20of%20One%20Element/README_EN.md
+rating: 2843
+source: Biweekly Contest 147 Q4
+tags:
+    - Segment Tree
+    - Array
+    - Dynamic Programming
 ---
 
 <!-- problem:start -->
@@ -23,9 +29,7 @@ edit_url: https://github.com/doocs/leetcode/edit/main/solution/3400-3499/3410.Ma
 	<li>Remove&nbsp;<strong>all</strong> occurrences of <code>x</code> from the array.</li>
 </ul>
 
-<p>Return the <strong>maximum</strong> subarray sum across <strong>all</strong> possible resulting arrays.</p>
-
-<p>A <strong>subarray</strong> is a contiguous <b>non-empty</b> sequence of elements within an array.</p>
+<p>Return the <strong>maximum</strong> <span data-keyword="subarray-nonempty">subarray</span> sum across <strong>all</strong> possible resulting arrays.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
