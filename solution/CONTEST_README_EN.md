@@ -29,6 +29,48 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 440
+
+- [3477. Fruits Into Baskets II](/solution/3400-3499/3477.Fruits%20Into%20Baskets%20II/README_EN.md)
+- [3478. Choose K Elements With Maximum Sum](/solution/3400-3499/3478.Choose%20K%20Elements%20With%20Maximum%20Sum/README_EN.md)
+- [3479. Fruits Into Baskets III](/solution/3400-3499/3479.Fruits%20Into%20Baskets%20III/README_EN.md)
+- [3480. Maximize Subarrays After Removing One Conflicting Pair](/solution/3400-3499/3480.Maximize%20Subarrays%20After%20Removing%20One%20Conflicting%20Pair/README_EN.md)
+
+#### Weekly Contest 439
+
+- [3471. Find the Largest Almost Missing Integer](/solution/3400-3499/3471.Find%20the%20Largest%20Almost%20Missing%20Integer/README_EN.md)
+- [3472. Longest Palindromic Subsequence After at Most K Operations](/solution/3400-3499/3472.Longest%20Palindromic%20Subsequence%20After%20at%20Most%20K%20Operations/README_EN.md)
+- [3473. Sum of K Subarrays With Length at Least M](/solution/3400-3499/3473.Sum%20of%20K%20Subarrays%20With%20Length%20at%20Least%20M/README_EN.md)
+- [3474. Lexicographically Smallest Generated String](/solution/3400-3499/3474.Lexicographically%20Smallest%20Generated%20String/README_EN.md)
+
+#### Biweekly Contest 151
+
+- [3467. Transform Array by Parity](/solution/3400-3499/3467.Transform%20Array%20by%20Parity/README_EN.md)
+- [3468. Find the Number of Copy Arrays](/solution/3400-3499/3468.Find%20the%20Number%20of%20Copy%20Arrays/README_EN.md)
+- [3469. Find Minimum Cost to Remove Array Elements](/solution/3400-3499/3469.Find%20Minimum%20Cost%20to%20Remove%20Array%20Elements/README_EN.md)
+- [3470. Permutations IV](/solution/3400-3499/3470.Permutations%20IV/README_EN.md)
+
+#### Weekly Contest 438
+
+- [3461. Check If Digits Are Equal in String After Operations I](/solution/3400-3499/3461.Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I/README_EN.md)
+- [3462. Maximum Sum With at Most K Elements](/solution/3400-3499/3462.Maximum%20Sum%20With%20at%20Most%20K%20Elements/README_EN.md)
+- [3463. Check If Digits Are Equal in String After Operations II](/solution/3400-3499/3463.Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20II/README_EN.md)
+- [3464. Maximize the Distance Between Points on a Square](/solution/3400-3499/3464.Maximize%20the%20Distance%20Between%20Points%20on%20a%20Square/README_EN.md)
+
+#### Weekly Contest 437
+
+- [3456. Find Special Substring of Length K](/solution/3400-3499/3456.Find%20Special%20Substring%20of%20Length%20K/README_EN.md)
+- [3457. Eat Pizzas!](/solution/3400-3499/3457.Eat%20Pizzas%21/README_EN.md)
+- [3458. Select K Disjoint Special Substrings](/solution/3400-3499/3458.Select%20K%20Disjoint%20Special%20Substrings/README_EN.md)
+- [3459. Length of Longest V-Shaped Diagonal Segment](/solution/3400-3499/3459.Length%20of%20Longest%20V-Shaped%20Diagonal%20Segment/README_EN.md)
+
+#### Biweekly Contest 150
+
+- [3452. Sum of Good Numbers](/solution/3400-3499/3452.Sum%20of%20Good%20Numbers/README_EN.md)
+- [3453. Separate Squares I](/solution/3400-3499/3453.Separate%20Squares%20I/README_EN.md)
+- [3454. Separate Squares II](/solution/3400-3499/3454.Separate%20Squares%20II/README_EN.md)
+- [3455. Shortest Matching Substring](/solution/3400-3499/3455.Shortest%20Matching%20Substring/README_EN.md)
+
 #### Weekly Contest 436
 
 - [3446. Sort Matrix by Diagonals](/solution/3400-3499/3446.Sort%20Matrix%20by%20Diagonals/README_EN.md)

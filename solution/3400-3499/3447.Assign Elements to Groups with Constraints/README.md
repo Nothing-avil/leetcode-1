@@ -2,6 +2,9 @@
 comments: true
 difficulty: 中等
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/3400-3499/3447.Assign%20Elements%20to%20Groups%20with%20Constraints/README.md
+tags:
+    - 数组
+    - 哈希表
 ---
 
 <!-- problem:start -->
@@ -19,8 +22,8 @@ edit_url: https://github.com/doocs/leetcode/edit/main/solution/3400-3499/3447.As
 <p>请你根据以下规则为每个组分配&nbsp;<strong>一个&nbsp;</strong>元素：</p>
 
 <ul>
-	<li>如果 <code>groups[i]</code> 能被 <code>elements[j]</code> 整除，则元素 <code>j</code> 可以分配给组 <code>i</code>。</li>
-	<li>如果有多个元素满足条件，则分配下标最小的元素 &nbsp;<code>j</code> 。</li>
+	<li>如果 <code>groups[i]</code> 能被 <code>elements[j]</code> 整除，则下标为&nbsp;<code>j</code>&nbsp;的元素可以分配给组 <code>i</code>。</li>
+	<li>如果有多个元素满足条件，则分配 <strong>最小的下标</strong>&nbsp;<code>j</code>&nbsp;的元素。</li>
 	<li>如果没有元素满足条件，则分配 -1 。</li>
 </ul>
 

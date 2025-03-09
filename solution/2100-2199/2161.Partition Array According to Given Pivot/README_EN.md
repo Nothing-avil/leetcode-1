@@ -27,7 +27,7 @@ tags:
 	<li>Every element equal to <code>pivot</code> appears <strong>in between</strong> the elements less than and greater than <code>pivot</code>.</li>
 	<li>The <strong>relative order</strong> of the elements less than <code>pivot</code> and the elements greater than <code>pivot</code> is maintained.
 	<ul>
-		<li>More formally, consider every <code>p<sub>i</sub></code>, <code>p<sub>j</sub></code> where <code>p<sub>i</sub></code> is the new position of the <code>i<sup>th</sup></code> element and <code>p<sub>j</sub></code> is the new position of the <code>j<sup>th</sup></code> element. For elements less than <code>pivot</code>, if <code>i &lt; j</code> and <code>nums[i] &lt; pivot</code> and <code>nums[j] &lt; pivot</code>, then <code>p<sub>i</sub> &lt; p<sub>j</sub></code>. Similarly for elements greater than <code>pivot</code>, if <code>i &lt; j</code> and <code>nums[i] &gt; pivot</code> and <code>nums[j] &gt; pivot</code>, then <code>p<sub>i</sub> &lt; p<sub>j</sub></code>.</li>
+		<li>More formally, consider every <code>p<sub>i</sub></code>, <code>p<sub>j</sub></code> where <code>p<sub>i</sub></code> is the new position of the <code>i<sup>th</sup></code> element and <code>p<sub>j</sub></code> is the new position of the <code>j<sup>th</sup></code> element. If <code>i &lt; j</code> and <strong>both</strong> elements are smaller (<em>or larger</em>) than <code>pivot</code>, then <code>p<sub>i</sub> &lt; p<sub>j</sub></code>.</li>
 	</ul>
 	</li>
 </ul>
@@ -196,6 +196,48 @@ function pivotArray(nums: number[], pivot: number): number[] {
         }
     }
     return ans;
+}
+```
+
+<!-- tabs:end -->
+
+<!-- solution:end -->
+
+<!-- solution:start -->
+
+### Solution 2: Two pointers
+
+<!-- tabs:start -->
+
+#### TypeScript
+
+```ts
+function pivotArray(nums: number[], pivot: number): number[] {
+    const n = nums.length;
+    const res = Array(n).fill(pivot);
+
+    for (let i = 0, l = 0, j = n - 1, r = n - 1; i < n; i++, j--) {
+        if (nums[i] < pivot) res[l++] = nums[i];
+        if (nums[j] > pivot) res[r--] = nums[j];
+    }
+
+    return res;
+}
+```
+
+#### JavaScript
+
+```js
+function pivotArray(nums, pivot) {
+    const n = nums.length;
+    const res = Array(n).fill(pivot);
+
+    for (let i = 0, l = 0, j = n - 1, r = n - 1; i < n; i++, j--) {
+        if (nums[i] < pivot) res[l++] = nums[i];
+        if (nums[j] > pivot) res[r--] = nums[j];
+    }
+
+    return res;
 }
 ```
 

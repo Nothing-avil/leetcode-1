@@ -2,6 +2,9 @@
 comments: true
 difficulty: Medium
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/3400-3499/3447.Assign%20Elements%20to%20Groups%20with%20Constraints/README_EN.md
+tags:
+    - Array
+    - Hash Table
 ---
 
 <!-- problem:start -->
@@ -19,7 +22,7 @@ edit_url: https://github.com/doocs/leetcode/edit/main/solution/3400-3499/3447.As
 <p>Your task is to assign <strong>one</strong> element to each group based on the following rules:</p>
 
 <ul>
-	<li>An element <code>j</code> can be assigned to a group <code>i</code> if <code>groups[i]</code> is <strong>divisible</strong> by <code>elements[j]</code>.</li>
+	<li>An element at index <code>j</code> can be assigned to a group <code>i</code> if <code>groups[i]</code> is <strong>divisible</strong> by <code>elements[j]</code>.</li>
 	<li>If there are multiple elements that can be assigned, assign the element with the <strong>smallest index</strong> <code>j</code>.</li>
 	<li>If no element satisfies the condition for a group, assign -1 to that group.</li>
 </ul>

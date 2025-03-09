@@ -2,11 +2,14 @@
 comments: true
 difficulty: 简单
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/3400-3499/3450.Maximum%20Students%20on%20a%20Single%20Bench/README.md
+tags:
+    - 数组
+    - 哈希表
 ---
 
 <!-- problem:start -->
 
-# [3450. 一张长椅的上最多学生 🔒](https://leetcode.cn/problems/maximum-students-on-a-single-bench)
+# [3450. 一张长椅上的最多学生 🔒](https://leetcode.cn/problems/maximum-students-on-a-single-bench)
 
 [English Version](/solution/3400-3499/3450.Maximum%20Students%20on%20a%20Single%20Bench/README_EN.md)
 
