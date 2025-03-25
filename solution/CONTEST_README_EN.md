@@ -29,6 +29,27 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 442
+
+- [3492. Maximum Containers on a Ship](/solution/3400-3499/3492.Maximum%20Containers%20on%20a%20Ship/README_EN.md)
+- [3493. Properties Graph](/solution/3400-3499/3493.Properties%20Graph/README_EN.md)
+- [3494. Find the Minimum Amount of Time to Brew Potions](/solution/3400-3499/3494.Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/README_EN.md)
+- [3495. Minimum Operations to Make Array Elements Zero](/solution/3400-3499/3495.Minimum%20Operations%20to%20Make%20Array%20Elements%20Zero/README_EN.md)
+
+#### Weekly Contest 441
+
+- [3487. Maximum Unique Subarray Sum After Deletion](/solution/3400-3499/3487.Maximum%20Unique%20Subarray%20Sum%20After%20Deletion/README_EN.md)
+- [3488. Closest Equal Element Queries](/solution/3400-3499/3488.Closest%20Equal%20Element%20Queries/README_EN.md)
+- [3489. Zero Array Transformation IV](/solution/3400-3499/3489.Zero%20Array%20Transformation%20IV/README_EN.md)
+- [3490. Count Beautiful Numbers](/solution/3400-3499/3490.Count%20Beautiful%20Numbers/README_EN.md)
+
+#### Biweekly Contest 152
+
+- [3483. Unique 3-Digit Even Numbers](/solution/3400-3499/3483.Unique%203-Digit%20Even%20Numbers/README_EN.md)
+- [3484. Design Spreadsheet](/solution/3400-3499/3484.Design%20Spreadsheet/README_EN.md)
+- [3485. Longest Common Prefix of K Strings After Removal](/solution/3400-3499/3485.Longest%20Common%20Prefix%20of%20K%20Strings%20After%20Removal/README_EN.md)
+- [3486. Longest Special Path II](/solution/3400-3499/3486.Longest%20Special%20Path%20II/README_EN.md)
+
 #### Weekly Contest 440
 
 - [3477. Fruits Into Baskets II](/solution/3400-3499/3477.Fruits%20Into%20Baskets%20II/README_EN.md)
