@@ -26,6 +26,20 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 443 场周赛(2025-03-30 10:30, 90 分钟) 参赛人数 2492
+
+- [3502. 到达每个位置的最小费用](/solution/3500-3599/3502.Minimum%20Cost%20to%20Reach%20Every%20Position/README.md)
+- [3503. 子字符串连接后的最长回文串 I](/solution/3500-3599/3503.Longest%20Palindrome%20After%20Substring%20Concatenation%20I/README.md)
+- [3504. 子字符串连接后的最长回文串 II](/solution/3500-3599/3504.Longest%20Palindrome%20After%20Substring%20Concatenation%20II/README.md)
+- [3505. 使 K 个子数组内元素相等的最少操作数](/solution/3500-3599/3505.Minimum%20Operations%20to%20Make%20Elements%20Within%20K%20Subarrays%20Equal/README.md)
+
+#### 第 153 场双周赛(2025-03-29 22:30, 90 分钟) 参赛人数 1901
+
+- [3498. 字符串的反转度](/solution/3400-3499/3498.Reverse%20Degree%20of%20a%20String/README.md)
+- [3499. 操作后最大活跃区段数 I](/solution/3400-3499/3499.Maximize%20Active%20Section%20with%20Trade%20I/README.md)
+- [3500. 将数组分割为子数组的最小代价](/solution/3500-3599/3500.Minimum%20Cost%20to%20Divide%20Array%20Into%20Subarrays/README.md)
+- [3501. 操作后最大活跃区段数 II](/solution/3500-3599/3501.Maximize%20Active%20Section%20with%20Trade%20II/README.md)
+
 #### 第 442 场周赛(2025-03-23 10:30, 90 分钟) 参赛人数 2684
 
 - [3492. 船上可以装载的最大集装箱数量](/solution/3400-3499/3492.Maximum%20Containers%20on%20a%20Ship/README.md)

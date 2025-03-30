@@ -3505,6 +3505,15 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  3494  |  [Find the Minimum Amount of Time to Brew Potions](/solution/3400-3499/3494.Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/README_EN.md)  |  `Array`,`Prefix Sum`,`Simulation`  |  Medium  |  Weekly Contest 442  |
 |  3495  |  [Minimum Operations to Make Array Elements Zero](/solution/3400-3499/3495.Minimum%20Operations%20to%20Make%20Array%20Elements%20Zero/README_EN.md)  |  `Bit Manipulation`,`Array`,`Math`  |  Hard  |  Weekly Contest 442  |
 |  3496  |  [Maximize Score After Pair Deletions](/solution/3400-3499/3496.Maximize%20Score%20After%20Pair%20Deletions/README_EN.md)  |    |  Medium  |  🔒  |
+|  3497  |  [Analyze Subscription Conversion](/solution/3400-3499/3497.Analyze%20Subscription%20Conversion/README_EN.md)  |    |  Medium  |    |
+|  3498  |  [Reverse Degree of a String](/solution/3400-3499/3498.Reverse%20Degree%20of%20a%20String/README_EN.md)  |    |  Easy  |  Biweekly Contest 153  |
+|  3499  |  [Maximize Active Section with Trade I](/solution/3400-3499/3499.Maximize%20Active%20Section%20with%20Trade%20I/README_EN.md)  |    |  Medium  |  Biweekly Contest 153  |
+|  3500  |  [Minimum Cost to Divide Array Into Subarrays](/solution/3500-3599/3500.Minimum%20Cost%20to%20Divide%20Array%20Into%20Subarrays/README_EN.md)  |    |  Hard  |  Biweekly Contest 153  |
+|  3501  |  [Maximize Active Section with Trade II](/solution/3500-3599/3501.Maximize%20Active%20Section%20with%20Trade%20II/README_EN.md)  |    |  Hard  |  Biweekly Contest 153  |
+|  3502  |  [Minimum Cost to Reach Every Position](/solution/3500-3599/3502.Minimum%20Cost%20to%20Reach%20Every%20Position/README_EN.md)  |    |  Easy  |  Weekly Contest 443  |
+|  3503  |  [Longest Palindrome After Substring Concatenation I](/solution/3500-3599/3503.Longest%20Palindrome%20After%20Substring%20Concatenation%20I/README_EN.md)  |    |  Medium  |  Weekly Contest 443  |
+|  3504  |  [Longest Palindrome After Substring Concatenation II](/solution/3500-3599/3504.Longest%20Palindrome%20After%20Substring%20Concatenation%20II/README_EN.md)  |    |  Hard  |  Weekly Contest 443  |
+|  3505  |  [Minimum Operations to Make Elements Within K Subarrays Equal](/solution/3500-3599/3505.Minimum%20Operations%20to%20Make%20Elements%20Within%20K%20Subarrays%20Equal/README_EN.md)  |    |  Hard  |  Weekly Contest 443  |
 
 ## Copyright
 
