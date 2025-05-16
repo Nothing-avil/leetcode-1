@@ -3411,7 +3411,7 @@
 |  3398  |  [字符相同的最短子字符串 I](/solution/3300-3399/3398.Smallest%20Substring%20With%20Identical%20Characters%20I/README.md)  |  `数组`,`二分查找`,`枚举`  |  困难  |  第 429 场周赛  |
 |  3399  |  [字符相同的最短子字符串 II](/solution/3300-3399/3399.Smallest%20Substring%20With%20Identical%20Characters%20II/README.md)  |  `字符串`,`二分查找`  |  困难  |  第 429 场周赛  |
 |  3400  |  [右移后的最大匹配索引数](/solution/3400-3499/3400.Maximum%20Number%20of%20Matching%20Indices%20After%20Right%20Shifts/README.md)  |  `数组`,`双指针`,`模拟`  |  中等  |  🔒  |
-|  3401  |  [Find Circular Gift Exchange Chains](/solution/3400-3499/3401.Find%20Circular%20Gift%20Exchange%20Chains/README.md)  |  `数据库`  |  困难  |  🔒  |
+|  3401  |  [寻找环形礼物交换链](/solution/3400-3499/3401.Find%20Circular%20Gift%20Exchange%20Chains/README.md)  |  `数据库`  |  困难  |  🔒  |
 |  3402  |  [使每一列严格递增的最少操作次数](/solution/3400-3499/3402.Minimum%20Operations%20to%20Make%20Columns%20Strictly%20Increasing/README.md)  |  `贪心`,`数组`,`矩阵`  |  简单  |  第 430 场周赛  |
 |  3403  |  [从盒子中找出字典序最大的字符串 I](/solution/3400-3499/3403.Find%20the%20Lexicographically%20Largest%20String%20From%20the%20Box%20I/README.md)  |  `双指针`,`字符串`,`枚举`  |  中等  |  第 430 场周赛  |
 |  3404  |  [统计特殊子序列的数目](/solution/3400-3499/3404.Count%20Special%20Subsequences/README.md)  |  `数组`,`哈希表`,`数学`,`枚举`  |  中等  |  第 430 场周赛  |
@@ -3542,10 +3542,23 @@
 |  3529  |  [统计水平子串和垂直子串重叠格子的数目](/solution/3500-3599/3529.Count%20Cells%20in%20Overlapping%20Horizontal%20and%20Vertical%20Substrings/README.md)  |  `数组`,`字符串`,`矩阵`,`字符串匹配`,`哈希函数`,`滚动哈希`  |  中等  |  第 155 场双周赛  |
 |  3530  |  [有向无环图中合法拓扑排序的最大利润](/solution/3500-3599/3530.Maximum%20Profit%20from%20Valid%20Topological%20Order%20in%20DAG/README.md)  |  `位运算`,`图`,`拓扑排序`,`数组`,`动态规划`,`状态压缩`  |  困难  |  第 155 场双周赛  |
 |  3531  |  [统计被覆盖的建筑](/solution/3500-3599/3531.Count%20Covered%20Buildings/README.md)  |  `数组`,`哈希表`,`排序`  |  中等  |  第 447 场周赛  |
-|  3532  |  [针对图的路径存在性查询 I](/solution/3500-3599/3532.Path%20Existence%20Queries%20in%20a%20Graph%20I/README.md)  |    |  中等  |  第 447 场周赛  |
-|  3533  |  [判断连接可整除性](/solution/3500-3599/3533.Concatenated%20Divisibility/README.md)  |    |  困难  |  第 447 场周赛  |
-|  3534  |  [针对图的路径存在性查询 II](/solution/3500-3599/3534.Path%20Existence%20Queries%20in%20a%20Graph%20II/README.md)  |    |  困难  |  第 447 场周赛  |
+|  3532  |  [针对图的路径存在性查询 I](/solution/3500-3599/3532.Path%20Existence%20Queries%20in%20a%20Graph%20I/README.md)  |  `并查集`,`图`,`数组`,`二分查找`  |  中等  |  第 447 场周赛  |
+|  3533  |  [判断连接可整除性](/solution/3500-3599/3533.Concatenated%20Divisibility/README.md)  |  `位运算`,`数组`,`动态规划`,`状态压缩`  |  困难  |  第 447 场周赛  |
+|  3534  |  [针对图的路径存在性查询 II](/solution/3500-3599/3534.Path%20Existence%20Queries%20in%20a%20Graph%20II/README.md)  |  `贪心`,`图`,`数组`,`二分查找`,`排序`  |  困难  |  第 447 场周赛  |
 |  3535  |  [单位转换 II](/solution/3500-3599/3535.Unit%20Conversion%20II/README.md)  |    |  中等  |  🔒  |
+|  3536  |  [两个数字的最大乘积](/solution/3500-3599/3536.Maximum%20Product%20of%20Two%20Digits/README.md)  |    |  简单  |  第 448 场周赛  |
+|  3537  |  [填充特殊网格](/solution/3500-3599/3537.Fill%20a%20Special%20Grid/README.md)  |    |  中等  |  第 448 场周赛  |
+|  3538  |  [合并得到最小旅行时间](/solution/3500-3599/3538.Merge%20Operations%20for%20Minimum%20Travel%20Time/README.md)  |    |  困难  |  第 448 场周赛  |
+|  3539  |  [魔法序列的数组乘积之和](/solution/3500-3599/3539.Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/README.md)  |    |  困难  |  第 448 场周赛  |
+|  3540  |  [访问所有房屋的最短时间](/solution/3500-3599/3540.Minimum%20Time%20to%20Visit%20All%20Houses/README.md)  |    |  中等  |  🔒  |
+|  3541  |  [找到频率最高的元音和辅音](/solution/3500-3599/3541.Find%20Most%20Frequent%20Vowel%20and%20Consonant/README.md)  |    |  简单  |  第 156 场双周赛  |
+|  3542  |  [将所有元素变为 0 的最少操作次数](/solution/3500-3599/3542.Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/README.md)  |    |  中等  |  第 156 场双周赛  |
+|  3543  |  [K 条边路径的最大边权和](/solution/3500-3599/3543.Maximum%20Weighted%20K-Edge%20Path/README.md)  |    |  中等  |  第 156 场双周赛  |
+|  3544  |  [子树反转和](/solution/3500-3599/3544.Subtree%20Inversion%20Sum/README.md)  |    |  困难  |  第 156 场双周赛  |
+|  3545  |  [不同字符数量最多为 K 时的最少删除数](/solution/3500-3599/3545.Minimum%20Deletions%20for%20At%20Most%20K%20Distinct%20Characters/README.md)  |    |  简单  |  第 449 场周赛  |
+|  3546  |  [等和矩阵分割 I](/solution/3500-3599/3546.Equal%20Sum%20Grid%20Partition%20I/README.md)  |    |  中等  |  第 449 场周赛  |
+|  3547  |  [图中边值的最大和](/solution/3500-3599/3547.Maximum%20Sum%20of%20Edge%20Values%20in%20a%20Graph/README.md)  |    |  困难  |  第 449 场周赛  |
+|  3548  |  [等和矩阵分割 II](/solution/3500-3599/3548.Equal%20Sum%20Grid%20Partition%20II/README.md)  |    |  困难  |  第 449 场周赛  |
 
 ## 版权
 
