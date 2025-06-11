@@ -26,6 +26,41 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 453 场周赛(2025-06-08 10:30, 90 分钟) 参赛人数 1608
+
+- [3576. 数组元素相等转换](/solution/3500-3599/3576.Transform%20Array%20to%20All%20Equal%20Elements/README.md)
+- [3577. 统计计算机解锁顺序排列数](/solution/3500-3599/3577.Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations/README.md)
+- [3578. 统计极差最大为 K 的分割方式数](/solution/3500-3599/3578.Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K/README.md)
+- [3579. 字符串转换需要的最小操作数](/solution/3500-3599/3579.Minimum%20Steps%20to%20Convert%20String%20with%20Operations/README.md)
+
+#### 第 158 场双周赛(2025-06-07 22:30, 90 分钟) 参赛人数 1175
+
+- [3572. 选择不同 X 值三元组使 Y 值之和最大](/solution/3500-3599/3572.Maximize%20Y%E2%80%91Sum%20by%20Picking%20a%20Triplet%20of%20Distinct%20X%E2%80%91Values/README.md)
+- [3573. 买卖股票的最佳时机 V](/solution/3500-3599/3573.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20V/README.md)
+- [3574. 最大子数组 GCD 分数](/solution/3500-3599/3574.Maximize%20Subarray%20GCD%20Score/README.md)
+- [3575. 最大好子树分数](/solution/3500-3599/3575.Maximum%20Good%20Subtree%20Score/README.md)
+
+#### 第 452 场周赛(2025-06-01 10:30, 90 分钟) 参赛人数 1608
+
+- [3566. 等积子集的划分方案](/solution/3500-3599/3566.Partition%20Array%20into%20Two%20Equal%20Product%20Subsets/README.md)
+- [3567. 子矩阵的最小绝对差](/solution/3500-3599/3567.Minimum%20Absolute%20Difference%20in%20Sliding%20Submatrix/README.md)
+- [3568. 清理教室的最少移动](/solution/3500-3599/3568.Minimum%20Moves%20to%20Clean%20the%20Classroom/README.md)
+- [3569. 分割数组后不同质数的最大数目](/solution/3500-3599/3569.Maximize%20Count%20of%20Distinct%20Primes%20After%20Split/README.md)
+
+#### 第 451 场周赛(2025-05-25 10:30, 90 分钟) 参赛人数 1840
+
+- [3560. 木材运输的最小成本](/solution/3500-3599/3560.Find%20Minimum%20Log%20Transportation%20Cost/README.md)
+- [3561. 移除相邻字符](/solution/3500-3599/3561.Resulting%20String%20After%20Adjacent%20Removals/README.md)
+- [3562. 折扣价交易股票的最大利润](/solution/3500-3599/3562.Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts/README.md)
+- [3563. 移除相邻字符后字典序最小的字符串](/solution/3500-3599/3563.Lexicographically%20Smallest%20String%20After%20Adjacent%20Removals/README.md)
+
+#### 第 157 场双周赛(2025-05-24 22:30, 90 分钟) 参赛人数 1356
+
+- [3556. 最大质数子字符串之和](/solution/3500-3599/3556.Sum%20of%20Largest%20Prime%20Substrings/README.md)
+- [3557. 不相交子字符串的最大数量](/solution/3500-3599/3557.Find%20Maximum%20Number%20of%20Non%20Intersecting%20Substrings/README.md)
+- [3558. 给边赋权值的方案数 I](/solution/3500-3599/3558.Number%20of%20Ways%20to%20Assign%20Edge%20Weights%20I/README.md)
+- [3559. 给边赋权值的方案数 II](/solution/3500-3599/3559.Number%20of%20Ways%20to%20Assign%20Edge%20Weights%20II/README.md)
+
 #### 第 450 场周赛(2025-05-18 10:30, 90 分钟) 参赛人数 2522
 
 - [3550. 数位和等于下标的最小下标](/solution/3500-3599/3550.Smallest%20Index%20With%20Digit%20Sum%20Equal%20to%20Index/README.md)
