@@ -26,6 +26,27 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 461 场周赛(2025-08-03 10:30, 90 分钟) 参赛人数 1663
+
+- [3637. 三段式数组 I](/solution/3600-3699/3637.Trionic%20Array%20I/README.md)
+- [3638. 平衡装运的最大数量](/solution/3600-3699/3638.Maximum%20Balanced%20Shipments/README.md)
+- [3639. 变为活跃状态的最小时间](/solution/3600-3699/3639.Minimum%20Time%20to%20Activate%20String/README.md)
+- [3640. 三段式数组 II](/solution/3600-3699/3640.Trionic%20Array%20II/README.md)
+
+#### 第 162 场双周赛(2025-08-02 22:30, 90 分钟) 参赛人数 1211
+
+- [3633. 最早完成陆地和水上游乐设施的时间 I](/solution/3600-3699/3633.Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I/README.md)
+- [3634. 使数组平衡的最少移除数目](/solution/3600-3699/3634.Minimum%20Removals%20to%20Balance%20Array/README.md)
+- [3635. 最早完成陆地和水上游乐设施的时间 II](/solution/3600-3699/3635.Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II/README.md)
+- [3636. 查询超过阈值频率最高元素](/solution/3600-3699/3636.Threshold%20Majority%20Queries/README.md)
+
+#### 第 460 场周赛(2025-07-27 10:30, 90 分钟) 参赛人数 1753
+
+- [3627. 中位数之和的最大值](/solution/3600-3699/3627.Maximum%20Median%20Sum%20of%20Subsequences%20of%20Size%203/README.md)
+- [3628. 插入一个字母的最大子序列数](/solution/3600-3699/3628.Maximum%20Number%20of%20Subsequences%20After%20One%20Inserting/README.md)
+- [3629. 通过质数传送到达终点的最少跳跃次数](/solution/3600-3699/3629.Minimum%20Jumps%20to%20Reach%20End%20via%20Prime%20Teleportation/README.md)
+- [3630. 划分数组得到最大异或运算和与运算之和](/solution/3600-3699/3630.Partition%20Array%20for%20Maximum%20XOR%20and%20AND/README.md)
+
 #### 第 459 场周赛(2025-07-20 10:30, 90 分钟) 参赛人数 1639
 
 - [3622. 判断整除性](/solution/3600-3699/3622.Check%20Divisibility%20by%20Digit%20Sum%20and%20Product/README.md)
@@ -233,7 +254,7 @@ comments: true
 
 - [3477. 水果成篮 II](/solution/3400-3499/3477.Fruits%20Into%20Baskets%20II/README.md)
 - [3478. 选出和最大的 K 个元素](/solution/3400-3499/3478.Choose%20K%20Elements%20With%20Maximum%20Sum/README.md)
-- [3479. 将水果装入篮子 III](/solution/3400-3499/3479.Fruits%20Into%20Baskets%20III/README.md)
+- [3479. 水果成篮 III](/solution/3400-3499/3479.Fruits%20Into%20Baskets%20III/README.md)
 - [3480. 删除一个冲突对后最大子数组数目](/solution/3400-3499/3480.Maximize%20Subarrays%20After%20Removing%20One%20Conflicting%20Pair/README.md)
 
 #### 第 439 场周赛(2025-03-02 10:30, 90 分钟) 参赛人数 2757
