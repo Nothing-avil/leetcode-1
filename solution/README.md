@@ -3682,6 +3682,21 @@
 |  3669  |  [K 因数分解](/solution/3600-3699/3669.Balanced%20K-Factor%20Decomposition/README.md)  |    |  中等  |  第 465 场周赛  |
 |  3670  |  [没有公共位的整数最大乘积](/solution/3600-3699/3670.Maximum%20Product%20of%20Two%20Integers%20With%20No%20Common%20Bits/README.md)  |    |  中等  |  第 465 场周赛  |
 |  3671  |  [子序列美丽值求和](/solution/3600-3699/3671.Sum%20of%20Beautiful%20Subsequences/README.md)  |    |  困难  |  第 465 场周赛  |
+|  3672  |  [Sum of Weighted Modes in Subarrays](/solution/3600-3699/3672.Sum%20of%20Weighted%20Modes%20in%20Subarrays/README.md)  |    |  中等  |  🔒  |
+|  3673  |  [Find Zombie Sessions](/solution/3600-3699/3673.Find%20Zombie%20Sessions/README.md)  |    |  困难  |    |
+|  3674  |  [数组元素相等的最小操作次数](/solution/3600-3699/3674.Minimum%20Operations%20to%20Equalize%20Array/README.md)  |    |  简单  |  第 466 场周赛  |
+|  3675  |  [转换字符串的最小操作次数](/solution/3600-3699/3675.Minimum%20Operations%20to%20Transform%20String/README.md)  |    |  中等  |  第 466 场周赛  |
+|  3676  |  [碗子数组的数目](/solution/3600-3699/3676.Count%20Bowl%20Subarrays/README.md)  |    |  中等  |  第 466 场周赛  |
+|  3677  |  [统计二进制回文数字的数目](/solution/3600-3699/3677.Count%20Binary%20Palindromic%20Numbers/README.md)  |    |  困难  |  第 466 场周赛  |
+|  3678  |  [大于平均值的最小未出现正整数](/solution/3600-3699/3678.Smallest%20Absent%20Positive%20Greater%20Than%20Average/README.md)  |    |  简单  |  第 165 场双周赛  |
+|  3679  |  [使库存平衡的最少丢弃次数](/solution/3600-3699/3679.Minimum%20Discards%20to%20Balance%20Inventory/README.md)  |    |  中等  |  第 165 场双周赛  |
+|  3680  |  [生成赛程](/solution/3600-3699/3680.Generate%20Schedule/README.md)  |    |  中等  |  第 165 场双周赛  |
+|  3681  |  [子序列最大 XOR 值](/solution/3600-3699/3681.Maximum%20XOR%20of%20Subsequences/README.md)  |    |  困难  |  第 165 场双周赛  |
+|  3682  |  [Minimum Index Sum of Common Elements](/solution/3600-3699/3682.Minimum%20Index%20Sum%20of%20Common%20Elements/README.md)  |    |  中等  |  🔒  |
+|  3683  |  [完成一个任务的最早时间](/solution/3600-3699/3683.Earliest%20Time%20to%20Finish%20One%20Task/README.md)  |    |  简单  |  第 467 场周赛  |
+|  3684  |  [至多 K 个不同元素的最大和](/solution/3600-3699/3684.Maximize%20Sum%20of%20At%20Most%20K%20Distinct%20Elements/README.md)  |    |  简单  |  第 467 场周赛  |
+|  3685  |  [含上限元素的子序列和](/solution/3600-3699/3685.Subsequence%20Sum%20After%20Capping%20Elements/README.md)  |    |  中等  |  第 467 场周赛  |
+|  3686  |  [稳定子序列的数量](/solution/3600-3699/3686.Number%20of%20Stable%20Subsequences/README.md)  |    |  困难  |  第 467 场周赛  |
 
 ## 版权
 
