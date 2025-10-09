@@ -20,11 +20,13 @@ tags:
 
 <p>Given two integers representing the <code>numerator</code> and <code>denominator</code> of a fraction, return <em>the fraction in string format</em>.</p>
 
-<p>If the fractional part is repeating, enclose the repeating part in parentheses.</p>
+<p>If the fractional part is repeating, enclose the repeating part in parentheses</p>
 
 <p>If multiple answers are possible, return <strong>any of them</strong>.</p>
 
 <p>It is <strong>guaranteed</strong> that the length of the answer string is less than <code>10<sup>4</sup></code> for all the given inputs.</p>
+
+<p><strong>Note</strong> that if the fraction can be represented as a <em>finite length string</em>, you <strong>must</strong> return it.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -257,6 +259,53 @@ function fractionToDecimal(numerator: number, denominator: number): string {
         }
     }
     return sb.join('');
+}
+```
+
+#### Rust
+
+```rust
+use std::collections::HashMap;
+
+impl Solution {
+    pub fn fraction_to_decimal(numerator: i32, denominator: i32) -> String {
+        if numerator == 0 {
+            return "0".to_string();
+        }
+        let mut ans = String::new();
+
+        let neg = (numerator > 0) ^ (denominator > 0);
+        if neg {
+            ans.push('-');
+        }
+
+        let mut a = (numerator as i64).abs();
+        let b = (denominator as i64).abs();
+
+        ans.push_str(&(a / b).to_string());
+        a %= b;
+
+        if a == 0 {
+            return ans;
+        }
+
+        ans.push('.');
+
+        let mut d: HashMap<i64, usize> = HashMap::new();
+        while a != 0 {
+            if let Some(&pos) = d.get(&a) {
+                ans.insert(pos, '(');
+                ans.push(')');
+                break;
+            }
+            d.insert(a, ans.len());
+            a *= 10;
+            ans.push_str(&(a / b).to_string());
+            a %= b;
+        }
+
+        ans
+    }
 }
 ```
 
