@@ -3702,11 +3702,11 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  3691  |  [Maximum Total Subarray Value II](/solution/3600-3699/3691.Maximum%20Total%20Subarray%20Value%20II/README_EN.md)  |  `Greedy`,`Segment Tree`,`Array`,`Heap (Priority Queue)`  |  Hard  |  Weekly Contest 468  |
 |  3692  |  [Majority Frequency Characters](/solution/3600-3699/3692.Majority%20Frequency%20Characters/README_EN.md)  |    |  Easy  |  Biweekly Contest 166  |
 |  3693  |  [Climbing Stairs II](/solution/3600-3699/3693.Climbing%20Stairs%20II/README_EN.md)  |    |  Medium  |  Biweekly Contest 166  |
-|  3694  |  [Distinct Points Reachable After Substring Removal](/solution/3600-3699/3694.Distinct%20Points%20Reachable%20After%20Substring%20Removal/README_EN.md)  |    |  Medium  |  Biweekly Contest 166  |
-|  3695  |  [Maximize Alternating Sum Using Swaps](/solution/3600-3699/3695.Maximize%20Alternating%20Sum%20Using%20Swaps/README_EN.md)  |    |  Hard  |  Biweekly Contest 166  |
-|  3696  |  [Maximum Distance Between Unequal Words in Array I](/solution/3600-3699/3696.Maximum%20Distance%20Between%20Unequal%20Words%20in%20Array%20I/README_EN.md)  |    |  Easy  |  🔒  |
-|  3697  |  [Compute Decimal Representation](/solution/3600-3699/3697.Compute%20Decimal%20Representation/README_EN.md)  |    |  Easy  |  Weekly Contest 469  |
-|  3698  |  [Split Array With Minimum Difference](/solution/3600-3699/3698.Split%20Array%20With%20Minimum%20Difference/README_EN.md)  |    |  Medium  |  Weekly Contest 469  |
+|  3694  |  [Distinct Points Reachable After Substring Removal](/solution/3600-3699/3694.Distinct%20Points%20Reachable%20After%20Substring%20Removal/README_EN.md)  |  `Hash Table`,`String`,`Prefix Sum`,`Sliding Window`  |  Medium  |  Biweekly Contest 166  |
+|  3695  |  [Maximize Alternating Sum Using Swaps](/solution/3600-3699/3695.Maximize%20Alternating%20Sum%20Using%20Swaps/README_EN.md)  |  `Greedy`,`Union Find`,`Array`,`Sorting`  |  Hard  |  Biweekly Contest 166  |
+|  3696  |  [Maximum Distance Between Unequal Words in Array I](/solution/3600-3699/3696.Maximum%20Distance%20Between%20Unequal%20Words%20in%20Array%20I/README_EN.md)  |  `Array`,`String`  |  Easy  |  🔒  |
+|  3697  |  [Compute Decimal Representation](/solution/3600-3699/3697.Compute%20Decimal%20Representation/README_EN.md)  |  `Array`,`Math`  |  Easy  |  Weekly Contest 469  |
+|  3698  |  [Split Array With Minimum Difference](/solution/3600-3699/3698.Split%20Array%20With%20Minimum%20Difference/README_EN.md)  |  `Array`,`Prefix Sum`  |  Medium  |  Weekly Contest 469  |
 |  3699  |  [Number of ZigZag Arrays I](/solution/3600-3699/3699.Number%20of%20ZigZag%20Arrays%20I/README_EN.md)  |    |  Hard  |  Weekly Contest 469  |
 |  3700  |  [Number of ZigZag Arrays II](/solution/3700-3799/3700.Number%20of%20ZigZag%20Arrays%20II/README_EN.md)  |    |  Hard  |  Weekly Contest 469  |
 |  3701  |  [Compute Alternating Sum](/solution/3700-3799/3701.Compute%20Alternating%20Sum/README_EN.md)  |    |  Easy  |  Weekly Contest 470  |
@@ -3715,6 +3715,15 @@ Press <kbd>Control</kbd> + <kbd>F</kbd>(or <kbd>Command</kbd> + <kbd>F</kbd> on 
 |  3704  |  [Count No-Zero Pairs That Sum to N](/solution/3700-3799/3704.Count%20No-Zero%20Pairs%20That%20Sum%20to%20N/README_EN.md)  |    |  Hard  |  Weekly Contest 470  |
 |  3705  |  [Find Golden Hour Customers](/solution/3700-3799/3705.Find%20Golden%20Hour%20Customers/README_EN.md)  |    |  Medium  |    |
 |  3706  |  [Maximum Distance Between Unequal Words in Array II](/solution/3700-3799/3706.Maximum%20Distance%20Between%20Unequal%20Words%20in%20Array%20II/README_EN.md)  |    |  Medium  |  🔒  |
+|  3707  |  [Equal Score Substrings](/solution/3700-3799/3707.Equal%20Score%20Substrings/README_EN.md)  |    |  Easy  |  Biweekly Contest 167  |
+|  3708  |  [Longest Fibonacci Subarray](/solution/3700-3799/3708.Longest%20Fibonacci%20Subarray/README_EN.md)  |    |  Medium  |  Biweekly Contest 167  |
+|  3709  |  [Design Exam Scores Tracker](/solution/3700-3799/3709.Design%20Exam%20Scores%20Tracker/README_EN.md)  |    |  Medium  |  Biweekly Contest 167  |
+|  3710  |  [Maximum Partition Factor](/solution/3700-3799/3710.Maximum%20Partition%20Factor/README_EN.md)  |    |  Hard  |  Biweekly Contest 167  |
+|  3711  |  [Maximum Transactions Without Negative Balance](/solution/3700-3799/3711.Maximum%20Transactions%20Without%20Negative%20Balance/README_EN.md)  |    |  Medium  |  🔒  |
+|  3712  |  [Sum of Elements With Frequency Divisible by K](/solution/3700-3799/3712.Sum%20of%20Elements%20With%20Frequency%20Divisible%20by%20K/README_EN.md)  |    |  Easy  |  Weekly Contest 471  |
+|  3713  |  [Longest Balanced Substring I](/solution/3700-3799/3713.Longest%20Balanced%20Substring%20I/README_EN.md)  |    |  Medium  |  Weekly Contest 471  |
+|  3714  |  [Longest Balanced Substring II](/solution/3700-3799/3714.Longest%20Balanced%20Substring%20II/README_EN.md)  |    |  Medium  |  Weekly Contest 471  |
+|  3715  |  [Sum of Perfect Square Ancestors](/solution/3700-3799/3715.Sum%20of%20Perfect%20Square%20Ancestors/README_EN.md)  |    |  Hard  |  Weekly Contest 471  |
 
 ## Copyright
 
