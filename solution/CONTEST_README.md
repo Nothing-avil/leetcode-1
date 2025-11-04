@@ -26,6 +26,34 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 474 场周赛(2025-11-02 10:30, 90 分钟) 参赛人数 1713
+
+- [3731. 找出缺失的元素](/solution/3700-3799/3731.Find%20Missing%20Elements/README.md)
+- [3732. 一次替换后的三元素最大乘积](/solution/3700-3799/3732.Maximum%20Product%20of%20Three%20Elements%20After%20One%20Replacement/README.md)
+- [3733. 完成所有送货任务的最少时间](/solution/3700-3799/3733.Minimum%20Time%20to%20Complete%20All%20Deliveries/README.md)
+- [3734. 大于目标字符串的最小字典序回文排列](/solution/3700-3799/3734.Lexicographically%20Smallest%20Palindromic%20Permutation%20Greater%20Than%20Target/README.md)
+
+#### 第 473 场周赛(2025-10-26 10:30, 90 分钟) 参赛人数 1606
+
+- [3726. 移除十进制表示中的所有零](/solution/3700-3799/3726.Remove%20Zeros%20in%20Decimal%20Representation/README.md)
+- [3727. 最大交替平方和](/solution/3700-3799/3727.Maximum%20Alternating%20Sum%20of%20Squares/README.md)
+- [3728. 边界与内部和相等的稳定子数组](/solution/3700-3799/3728.Stable%20Subarrays%20With%20Equal%20Boundary%20and%20Interior%20Sum/README.md)
+- [3729. 统计有序数组中可被 K 整除的子数组数量](/solution/3700-3799/3729.Count%20Distinct%20Subarrays%20Divisible%20by%20K%20in%20Sorted%20Array/README.md)
+
+#### 第 168 场双周赛(2025-10-25 22:30, 90 分钟) 参赛人数 1294
+
+- [3722. 反转后字典序最小的字符串](/solution/3700-3799/3722.Lexicographically%20Smallest%20String%20After%20Reverse/README.md)
+- [3723. 数位平方和的最大值](/solution/3700-3799/3723.Maximize%20Sum%20of%20Squares%20of%20Digits/README.md)
+- [3724. 转换数组的最少操作次数](/solution/3700-3799/3724.Minimum%20Operations%20to%20Transform%20Array/README.md)
+- [3725. 统计每一行选择互质整数的方案数](/solution/3700-3799/3725.Count%20Ways%20to%20Choose%20Coprime%20Integers%20from%20Rows/README.md)
+
+#### 第 472 场周赛(2025-10-19 10:30, 90 分钟) 参赛人数 1738
+
+- [3718. 缺失的最小倍数](/solution/3700-3799/3718.Smallest%20Missing%20Multiple%20of%20K/README.md)
+- [3719. 最长平衡子数组 I](/solution/3700-3799/3719.Longest%20Balanced%20Subarray%20I/README.md)
+- [3720. 大于目标字符串的最小字典序排列](/solution/3700-3799/3720.Lexicographically%20Smallest%20Permutation%20Greater%20Than%20Target/README.md)
+- [3721. 最长平衡子数组 II](/solution/3700-3799/3721.Longest%20Balanced%20Subarray%20II/README.md)
+
 #### 第 471 场周赛(2025-10-12 10:30, 90 分钟) 参赛人数 1754
 
 - [3712. 出现次数能被 K 整除的元素总和](/solution/3700-3799/3712.Sum%20of%20Elements%20With%20Frequency%20Divisible%20by%20K/README.md)

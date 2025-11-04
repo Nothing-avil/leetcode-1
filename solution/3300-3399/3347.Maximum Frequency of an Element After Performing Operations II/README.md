@@ -87,7 +87,30 @@ tags:
 
 <!-- solution:start -->
 
-### 方法一
+### 方法一：差分
+
+根据题目描述，对于数组 $\textit{nums}$ 中的每个元素 $x$，我们可以将其变为 $[x-k, x+k]$ 范围内的任意整数。我们希望通过对 $\textit{nums}$ 中的若干元素进行操作，使得某个整数在数组中出现的次数最多。
+
+题目可以转化为，将每个元素 $x$ 对应的区间 $[x-k, x+k]$ 的所有元素进行合并，找出合并后区间中包含最多原始元素的整数。这可以通过差分数组来实现。
+
+我们使用一个字典 $d$ 来记录差分数组。对于每个元素 $x$，我们在差分数组中执行以下操作：
+
+-   在位置 $x-k$ 处加 $1$，表示从这个位置开始，有一个新的区间开始。
+-   在位置 $x+k+1$ 处减 $1$，表示从这个位置开始，有一个区间结束。
+-   在位置 $x$ 处加 $0$，确保位置 $x$ 存在于差分数组中，方便后续计算。
+
+同时，我们还需要记录每个元素在原始数组中出现的次数，使用字典 $cnt$ 来实现。
+
+接下来，我们对差分数组进行前缀和计算，得到每个位置上有多少个区间覆盖。对于每个位置 $x$，我们计算其覆盖的区间数 $s$。接下来分类讨论：
+
+-   如果 $x$ 在原始数组中出现过，对于 $x$ 自身的操作，没有意义，因此会有 $s - cnt[x]$ 个其他的元素可以通过操作变为 $x$，但最多只能操作 $\textit{numOperations}$ 次，所以该位置的最大频率为 $\textit{cnt}[x] + \min(s - \textit{cnt}[x], \textit{numOperations})$。
+-   如果 $x$ 在原始数组中没有出现过，那么最多只能通过操作 $\textit{numOperations}$ 次将其他元素变为 $x$，因此该位置的最大频率为 $\min(s, \textit{numOperations})$。
+
+综合以上两种情况，我们可以统一表示为 $\min(s, \textit{cnt}[x] + \textit{numOperations})$。
+
+最后，我们遍历所有位置，计算出每个位置的最大频率，并取其中的最大值作为答案。
+
+时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 $\textit{nums}$ 的长度。
 
 <!-- tabs:start -->
 
@@ -211,6 +234,77 @@ function maxFrequency(nums: number[], k: number, numOperations: number): number 
     }
 
     return ans;
+}
+```
+
+#### Rust
+
+```rust
+use std::collections::{HashMap, BTreeMap};
+
+impl Solution {
+    pub fn max_frequency(nums: Vec<i32>, k: i32, num_operations: i32) -> i32 {
+        let mut cnt = HashMap::new();
+        let mut d = BTreeMap::new();
+
+        for &x in &nums {
+            *cnt.entry(x).or_insert(0) += 1;
+            d.entry(x).or_insert(0);
+            *d.entry(x - k).or_insert(0) += 1;
+            *d.entry(x + k + 1).or_insert(0) -= 1;
+        }
+
+        let mut ans = 0;
+        let mut s = 0;
+        for (&x, &t) in d.iter() {
+            s += t;
+            let cur = s.min(cnt.get(&x).copied().unwrap_or(0) + num_operations);
+            ans = ans.max(cur);
+        }
+
+        ans
+    }
+}
+```
+
+#### C#
+
+```cs
+public class Solution {
+    public int MaxFrequency(int[] nums, int k, int numOperations) {
+        var cnt = new Dictionary<int, int>();
+        var d = new SortedDictionary<int, int>();
+
+        foreach (var x in nums) {
+            if (!cnt.ContainsKey(x)) {
+                cnt[x] = 0;
+            }
+            cnt[x]++;
+
+            if (!d.ContainsKey(x)) {
+                d[x] = 0;
+            }
+            if (!d.ContainsKey(x - k)) {
+                d[x - k] = 0;
+            }
+            if (!d.ContainsKey(x + k + 1)) {
+                d[x + k + 1] = 0;
+            }
+
+            d[x - k] += 1;
+            d[x + k + 1] -= 1;
+        }
+
+        int ans = 0, s = 0;
+        foreach (var kvp in d) {
+            int x = kvp.Key, t = kvp.Value;
+            s += t;
+            int cur = Math.Min(s, (cnt.ContainsKey(x) ? cnt[x] : 0) + numOperations);
+            ans = Math.Max(ans, cur);
+        }
+
+        return ans;
+    }
 }
 ```
 

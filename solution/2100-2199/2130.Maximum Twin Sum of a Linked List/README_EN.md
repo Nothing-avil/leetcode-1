@@ -77,7 +77,11 @@ There is only one node with a twin in the linked list having twin sum of 1 + 100
 
 <!-- solution:start -->
 
-### Solution 1
+### Solution 1: Simulation
+
+We can store the values of the nodes in the linked list into an array, then use two pointers pointing to the beginning and end of the array to calculate the twin sum for each pair of twin nodes. The maximum twin sum is the answer.
+
+The time complexity is $O(n)$ and the space complexity is $O(n)$, where $n$ is the number of nodes in the linked list.
 
 <!-- tabs:start -->
 

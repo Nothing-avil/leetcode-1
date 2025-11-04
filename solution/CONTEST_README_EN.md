@@ -29,6 +29,34 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 474
+
+- [3731. Find Missing Elements](/solution/3700-3799/3731.Find%20Missing%20Elements/README_EN.md)
+- [3732. Maximum Product of Three Elements After One Replacement](/solution/3700-3799/3732.Maximum%20Product%20of%20Three%20Elements%20After%20One%20Replacement/README_EN.md)
+- [3733. Minimum Time to Complete All Deliveries](/solution/3700-3799/3733.Minimum%20Time%20to%20Complete%20All%20Deliveries/README_EN.md)
+- [3734. Lexicographically Smallest Palindromic Permutation Greater Than Target](/solution/3700-3799/3734.Lexicographically%20Smallest%20Palindromic%20Permutation%20Greater%20Than%20Target/README_EN.md)
+
+#### Weekly Contest 473
+
+- [3726. Remove Zeros in Decimal Representation](/solution/3700-3799/3726.Remove%20Zeros%20in%20Decimal%20Representation/README_EN.md)
+- [3727. Maximum Alternating Sum of Squares](/solution/3700-3799/3727.Maximum%20Alternating%20Sum%20of%20Squares/README_EN.md)
+- [3728. Stable Subarrays With Equal Boundary and Interior Sum](/solution/3700-3799/3728.Stable%20Subarrays%20With%20Equal%20Boundary%20and%20Interior%20Sum/README_EN.md)
+- [3729. Count Distinct Subarrays Divisible by K in Sorted Array](/solution/3700-3799/3729.Count%20Distinct%20Subarrays%20Divisible%20by%20K%20in%20Sorted%20Array/README_EN.md)
+
+#### Biweekly Contest 168
+
+- [3722. Lexicographically Smallest String After Reverse](/solution/3700-3799/3722.Lexicographically%20Smallest%20String%20After%20Reverse/README_EN.md)
+- [3723. Maximize Sum of Squares of Digits](/solution/3700-3799/3723.Maximize%20Sum%20of%20Squares%20of%20Digits/README_EN.md)
+- [3724. Minimum Operations to Transform Array](/solution/3700-3799/3724.Minimum%20Operations%20to%20Transform%20Array/README_EN.md)
+- [3725. Count Ways to Choose Coprime Integers from Rows](/solution/3700-3799/3725.Count%20Ways%20to%20Choose%20Coprime%20Integers%20from%20Rows/README_EN.md)
+
+#### Weekly Contest 472
+
+- [3718. Smallest Missing Multiple of K](/solution/3700-3799/3718.Smallest%20Missing%20Multiple%20of%20K/README_EN.md)
+- [3719. Longest Balanced Subarray I](/solution/3700-3799/3719.Longest%20Balanced%20Subarray%20I/README_EN.md)
+- [3720. Lexicographically Smallest Permutation Greater Than Target](/solution/3700-3799/3720.Lexicographically%20Smallest%20Permutation%20Greater%20Than%20Target/README_EN.md)
+- [3721. Longest Balanced Subarray II](/solution/3700-3799/3721.Longest%20Balanced%20Subarray%20II/README_EN.md)
+
 #### Weekly Contest 471
 
 - [3712. Sum of Elements With Frequency Divisible by K](/solution/3700-3799/3712.Sum%20of%20Elements%20With%20Frequency%20Divisible%20by%20K/README_EN.md)
