@@ -3746,6 +3746,14 @@
 |  3733  |  [完成所有送货任务的最少时间](/solution/3700-3799/3733.Minimum%20Time%20to%20Complete%20All%20Deliveries/README.md)  |    |  中等  |  第 474 场周赛  |
 |  3734  |  [大于目标字符串的最小字典序回文排列](/solution/3700-3799/3734.Lexicographically%20Smallest%20Palindromic%20Permutation%20Greater%20Than%20Target/README.md)  |    |  困难  |  第 474 场周赛  |
 |  3735  |  [反转后字典序最小的字符串 II](/solution/3700-3799/3735.Lexicographically%20Smallest%20String%20After%20Reverse%20II/README.md)  |    |  困难  |  🔒  |
+|  3736  |  [最小操作次数使数组元素相等 III](/solution/3700-3799/3736.Minimum%20Moves%20to%20Equal%20Array%20Elements%20III/README.md)  |    |  简单  |  第 169 场双周赛  |
+|  3737  |  [统计主要元素子数组数目 I](/solution/3700-3799/3737.Count%20Subarrays%20With%20Majority%20Element%20I/README.md)  |    |  中等  |  第 169 场双周赛  |
+|  3738  |  [替换至多一个元素后最长非递减子数组](/solution/3700-3799/3738.Longest%20Non-Decreasing%20Subarray%20After%20Replacing%20at%20Most%20One%20Element/README.md)  |    |  中等  |  第 169 场双周赛  |
+|  3739  |  [统计主要元素子数组数目 II](/solution/3700-3799/3739.Count%20Subarrays%20With%20Majority%20Element%20II/README.md)  |    |  困难  |  第 169 场双周赛  |
+|  3740  |  [三个相等元素之间的最小距离 I](/solution/3700-3799/3740.Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I/README.md)  |    |  简单  |  第 475 场周赛  |
+|  3741  |  [三个相等元素之间的最小距离 II](/solution/3700-3799/3741.Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II/README.md)  |    |  中等  |  第 475 场周赛  |
+|  3742  |  [网格中得分最大的路径](/solution/3700-3799/3742.Maximum%20Path%20Score%20in%20a%20Grid/README.md)  |    |  中等  |  第 475 场周赛  |
+|  3743  |  [循环划分的最大得分](/solution/3700-3799/3743.Maximize%20Cyclic%20Partition%20Score/README.md)  |    |  困难  |  第 475 场周赛  |
 
 ## 版权
 

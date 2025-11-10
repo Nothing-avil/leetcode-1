@@ -96,32 +96,147 @@ tags:
 
 <!-- solution:start -->
 
-### 方法一
+### 方法一：单调栈
+
+根据题意，我们应该把数字中最小的数先变成 $0$，再把次小的数变成 $0$，依此类推。在这里过程中，如果两个数之间有更小的数隔开，那么它们需要额外的一次操作才能变成 $0$。
+
+我们可以维护一个从栈底到栈顶单调递增的栈 $\textit{stk}$，遍历数组 $\textit{nums}$ 中的每个数 $\textit{x}$：
+
+-   当栈顶元素大于 $\textit{x}$ 时，说明 $\textit{x}$ 将栈顶元素隔开了，我们需要把栈顶元素弹出，并将答案加 $1$，直到栈顶元素不大于 $\textit{x}$ 为止。
+-   如果 $\textit{x}$ 不为 $0$，且栈为空或者栈顶元素不等于 $\textit{x}$，则将 $\textit{x}$ 入栈。
+
+遍历结束后，栈中剩余的元素都需要额外的一次操作才能变成 $0$，因此我们将答案加上栈的大小即可。
+
+时间复杂度 $O(n)$，空间复杂度 $O(n)$，其中 $n$ 是数组 $\textit{nums}$ 的长度。
 
 <!-- tabs:start -->
 
 #### Python3
 
 ```python
-
+class Solution:
+    def minOperations(self, nums: List[int]) -> int:
+        stk = []
+        ans = 0
+        for x in nums:
+            while stk and stk[-1] > x:
+                ans += 1
+                stk.pop()
+            if x and (not stk or stk[-1] != x):
+                stk.append(x)
+        ans += len(stk)
+        return ans
 ```
 
 #### Java
 
 ```java
-
+class Solution {
+    public int minOperations(int[] nums) {
+        Deque<Integer> stk = new ArrayDeque<>();
+        int ans = 0;
+        for (int x : nums) {
+            while (!stk.isEmpty() && stk.peek() > x) {
+                ans++;
+                stk.pop();
+            }
+            if (x != 0 && (stk.isEmpty() || stk.peek() != x)) {
+                stk.push(x);
+            }
+        }
+        ans += stk.size();
+        return ans;
+    }
+}
 ```
 
 #### C++
 
 ```cpp
-
+class Solution {
+public:
+    int minOperations(vector<int>& nums) {
+        vector<int> stk;
+        int ans = 0;
+        for (int x : nums) {
+            while (!stk.empty() && stk.back() > x) {
+                ++ans;
+                stk.pop_back();
+            }
+            if (x != 0 && (stk.empty() || stk.back() != x)) {
+                stk.push_back(x);
+            }
+        }
+        ans += stk.size();
+        return ans;
+    }
+};
 ```
 
 #### Go
 
 ```go
+func minOperations(nums []int) int {
+	stk := []int{}
+	ans := 0
+	for _, x := range nums {
+		for len(stk) > 0 && stk[len(stk)-1] > x {
+			ans++
+			stk = stk[:len(stk)-1]
+		}
+		if x != 0 && (len(stk) == 0 || stk[len(stk)-1] != x) {
+			stk = append(stk, x)
+		}
+	}
+	ans += len(stk)
+	return ans
+}
+```
 
+#### TypeScript
+
+```ts
+function minOperations(nums: number[]): number {
+    const stk: number[] = [];
+    let ans = 0;
+    for (const x of nums) {
+        while (stk.length > 0 && stk[stk.length - 1] > x) {
+            ans++;
+            stk.pop();
+        }
+        if (x !== 0 && (stk.length === 0 || stk[stk.length - 1] !== x)) {
+            stk.push(x);
+        }
+    }
+    ans += stk.length;
+    return ans;
+}
+```
+
+#### Rust
+
+```rust
+impl Solution {
+    pub fn min_operations(nums: Vec<i32>) -> i32 {
+        let mut stk = Vec::new();
+        let mut ans = 0;
+        for &x in nums.iter() {
+            while let Some(&last) = stk.last() {
+                if last > x {
+                    ans += 1;
+                    stk.pop();
+                } else {
+                    break;
+                }
+            }
+            if x != 0 && (stk.is_empty() || *stk.last().unwrap() != x) {
+                stk.push(x);
+            }
+        }
+        ans += stk.len() as i32;
+        ans
+    }
+}
 ```
 
 <!-- tabs:end -->
