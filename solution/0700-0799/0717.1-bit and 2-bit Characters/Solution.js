@@ -8,5 +8,5 @@ var isOneBitCharacter = function (bits) {
     while (i < n - 1) {
         i += bits[i] + 1;
     }
-    return i == n - 1;
+    return i === n - 1;
 };

@@ -29,6 +29,27 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 477
+
+- [3754. Concatenate Non-Zero Digits and Multiply by Sum I](/solution/3700-3799/3754.Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20I/README_EN.md)
+- [3755. Find Maximum Balanced XOR Subarray Length](/solution/3700-3799/3755.Find%20Maximum%20Balanced%20XOR%20Subarray%20Length/README_EN.md)
+- [3756. Concatenate Non-Zero Digits and Multiply by Sum II](/solution/3700-3799/3756.Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20II/README_EN.md)
+- [3757. Number of Effective Subsequences](/solution/3700-3799/3757.Number%20of%20Effective%20Subsequences/README_EN.md)
+
+#### Biweekly Contest 170
+
+- [3750. Minimum Number of Flips to Reverse Binary String](/solution/3700-3799/3750.Minimum%20Number%20of%20Flips%20to%20Reverse%20Binary%20String/README_EN.md)
+- [3751. Total Waviness of Numbers in Range I](/solution/3700-3799/3751.Total%20Waviness%20of%20Numbers%20in%20Range%20I/README_EN.md)
+- [3752. Lexicographically Smallest Negated Permutation that Sums to Target](/solution/3700-3799/3752.Lexicographically%20Smallest%20Negated%20Permutation%20that%20Sums%20to%20Target/README_EN.md)
+- [3753. Total Waviness of Numbers in Range II](/solution/3700-3799/3753.Total%20Waviness%20of%20Numbers%20in%20Range%20II/README_EN.md)
+
+#### Weekly Contest 476
+
+- [3745. Maximize Expression of Three Elements](/solution/3700-3799/3745.Maximize%20Expression%20of%20Three%20Elements/README_EN.md)
+- [3746. Minimum String Length After Balanced Removals](/solution/3700-3799/3746.Minimum%20String%20Length%20After%20Balanced%20Removals/README_EN.md)
+- [3747. Count Distinct Integers After Removing Zeros](/solution/3700-3799/3747.Count%20Distinct%20Integers%20After%20Removing%20Zeros/README_EN.md)
+- [3748. Count Stable Subarrays](/solution/3700-3799/3748.Count%20Stable%20Subarrays/README_EN.md)
+
 #### Weekly Contest 475
 
 - [3740. Minimum Distance Between Three Equal Elements I](/solution/3700-3799/3740.Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I/README_EN.md)

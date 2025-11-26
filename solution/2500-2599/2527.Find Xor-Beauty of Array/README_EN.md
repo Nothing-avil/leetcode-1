@@ -75,7 +75,15 @@ Xor-beauty of array will be bitwise XOR of all beauties = 1 ^ 0 ^ 1 ^ 4 ^ 1 ^ 4 
 
 <!-- solution:start -->
 
-### Solution 1
+### Solution 1: Bit Manipulation
+
+We first consider the case where $i$ and $j$ are not equal. In this case, `((nums[i] | nums[j]) & nums[k])` and `((nums[j] | nums[i]) & nums[k])` produce the same result, and their XOR result is $0$.
+
+Therefore, we only need to consider the case where $i$ and $j$ are equal. In this case, `((nums[i] | nums[j]) & nums[k]) = (nums[i] & nums[k])`. If $i \neq k$, then this is the same as the result of `nums[k] & nums[i]`, and the XOR result of these values is $0$.
+
+Therefore, we ultimately only need to consider the case where $i = j = k$, and the answer is the XOR result of all $nums[i]$.
+
+The time complexity is $O(n)$ and the space complexity is $O(1)$, where $n$ is the length of the array.
 
 <!-- tabs:start -->
 

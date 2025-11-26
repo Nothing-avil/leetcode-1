@@ -26,6 +26,27 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 477 场周赛(2025-11-23 10:30, 90 分钟) 参赛人数 1751
+
+- [3754. 连接非零数字并乘以其数字和 I](/solution/3700-3799/3754.Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20I/README.md)
+- [3755. 最大平衡异或子数组的长度](/solution/3700-3799/3755.Find%20Maximum%20Balanced%20XOR%20Subarray%20Length/README.md)
+- [3756. 连接非零数字并乘以其数字和 II](/solution/3700-3799/3756.Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20II/README.md)
+- [3757. 有效子序列的数量](/solution/3700-3799/3757.Number%20of%20Effective%20Subsequences/README.md)
+
+#### 第 170 场双周赛(2025-11-22 22:30, 90 分钟) 参赛人数 1399
+
+- [3750. 最少反转次数得到翻转二进制字符串](/solution/3700-3799/3750.Minimum%20Number%20of%20Flips%20to%20Reverse%20Binary%20String/README.md)
+- [3751. 范围内总波动值 I](/solution/3700-3799/3751.Total%20Waviness%20of%20Numbers%20in%20Range%20I/README.md)
+- [3752. 字典序最小和为目标值且绝对值是排列的数组](/solution/3700-3799/3752.Lexicographically%20Smallest%20Negated%20Permutation%20that%20Sums%20to%20Target/README.md)
+- [3753. 范围内总波动值 II](/solution/3700-3799/3753.Total%20Waviness%20of%20Numbers%20in%20Range%20II/README.md)
+
+#### 第 476 场周赛(2025-11-16 10:30, 90 分钟) 参赛人数 1751
+
+- [3745. 三元素表达式的最大值](/solution/3700-3799/3745.Maximize%20Expression%20of%20Three%20Elements/README.md)
+- [3746. 等量移除后的字符串最小长度](/solution/3700-3799/3746.Minimum%20String%20Length%20After%20Balanced%20Removals/README.md)
+- [3747. 统计移除零后不同整数的数目](/solution/3700-3799/3747.Count%20Distinct%20Integers%20After%20Removing%20Zeros/README.md)
+- [3748. 统计稳定子数组的数目](/solution/3700-3799/3748.Count%20Stable%20Subarrays/README.md)
+
 #### 第 475 场周赛(2025-11-09 10:30, 90 分钟) 参赛人数 1687
 
 - [3740. 三个相等元素之间的最小距离 I](/solution/3700-3799/3740.Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I/README.md)
