@@ -140,32 +140,293 @@ tags:
 
 <!-- solution:start -->
 
-### Solution 1
+### Solution 1: Tree Dynamic Programming
+
+For each node $u$, we maintain a 2D array $f_u[j][pre]$, representing the maximum profit that can be obtained in the subtree rooted at $u$ with a budget not exceeding $j$ and whether $u$'s manager purchased stocks (where $pre=1$ means purchased, and $pre=0$ means not purchased). The answer is $f_1[\text{budget}][0]$.
+
+For node $u$, the function $\text{dfs}(u)$ returns a $(\text{budget}+1) \times 2$ 2D array $f$, representing the maximum profit that can be obtained in the subtree rooted at $u$ with a budget not exceeding $j$ and whether $u$'s manager purchased stocks.
+
+For $u$, we need to consider two things:
+
+1. Whether node $u$ itself buys stocks (which will consume part of the budget $\text{cost}$, where $\text{cost} = \lfloor \text{present}[u] / (pre + 1) \rfloor$), and increase the profit by $\text{future}[u] - \text{cost}$.
+2. How to allocate the budget among node $u$'s child nodes $v$ to maximize profit. We treat each child node's $\text{dfs}(v)$ as an "item" and use a knapsack approach to merge the subtree profits into the current $u$'s $\text{nxt}$ array.
+
+In the specific implementation, we first initialize a $(\text{budget}+1) \times 2$ 2D array $\text{nxt}$, representing the profits that have been merged from child nodes. Then for each child node $v$, we recursively call $\text{dfs}(v)$ to get the profit array $\text{fv}$ of the child node, and use a knapsack approach to merge $\text{fv}$ into $\text{nxt}$.
+
+The merge formula is:
+
+$$
+\text{nxt}[j][pre] = \max(\text{nxt}[j][pre], \text{nxt}[j - j_v][pre] + \text{fv}[j_v][pre])
+$$
+
+where $j_v$ represents the budget allocated to child node $v$.
+
+After merging all child nodes, $\text{nxt}[j][pre]$ represents the maximum profit that can be obtained by allocating the entire budget $j$ to child nodes when $u$ itself has not yet decided whether to buy stocks, and $u$'s manager's purchase state is $pre$.
+
+Finally, we decide whether $u$ purchases stocks.
+
+- If $j \lt \text{cost}$, then $u$ cannot purchase stocks, in which case $f[j][pre] = \text{nxt}[j][0]$.
+- If $j \geq \text{cost}$, then $u$ can choose to purchase or not purchase stocks, in which case $f[j][pre] = \max(\text{nxt}[j][0], \text{nxt}[j - \text{cost}][1] + (\text{future}[u] - \text{cost}))$.
+
+Finally, return $f$.
+
+The answer is $\text{dfs}(1)[\text{budget}][0]$.
+
+The time complexity is $O(n \times \text{budget}^2)$, and the space complexity is $O(n \times \text{budget})$.
 
 <!-- tabs:start -->
 
 #### Python3
 
 ```python
+class Solution:
+    def maxProfit(
+        self,
+        n: int,
+        present: List[int],
+        future: List[int],
+        hierarchy: List[List[int]],
+        budget: int,
+    ) -> int:
+        max = lambda a, b: a if a > b else b
+        g = [[] for _ in range(n + 1)]
+        for u, v in hierarchy:
+            g[u].append(v)
 
+        def dfs(u: int):
+            nxt = [[0, 0] for _ in range(budget + 1)]
+            for v in g[u]:
+                fv = dfs(v)
+                for j in range(budget, -1, -1):
+                    for jv in range(j + 1):
+                        for pre in (0, 1):
+                            val = nxt[j - jv][pre] + fv[jv][pre]
+                            if val > nxt[j][pre]:
+                                nxt[j][pre] = val
+
+            f = [[0, 0] for _ in range(budget + 1)]
+            price = future[u - 1]
+
+            for j in range(budget + 1):
+                for pre in (0, 1):
+                    cost = present[u - 1] // (pre + 1)
+                    if j >= cost:
+                        f[j][pre] = max(nxt[j][0], nxt[j - cost][1] + (price - cost))
+                    else:
+                        f[j][pre] = nxt[j][0]
+
+            return f
+
+        return dfs(1)[budget][0]
 ```
 
 #### Java
 
 ```java
+class Solution {
+    private List<Integer>[] g;
+    private int[] present;
+    private int[] future;
+    private int budget;
 
+    public int maxProfit(int n, int[] present, int[] future, int[][] hierarchy, int budget) {
+        this.present = present;
+        this.future = future;
+        this.budget = budget;
+
+        g = new ArrayList[n + 1];
+        Arrays.setAll(g, k -> new ArrayList<>());
+
+        for (int[] e : hierarchy) {
+            g[e[0]].add(e[1]);
+        }
+
+        return dfs(1)[budget][0];
+    }
+
+    private int[][] dfs(int u) {
+        int[][] nxt = new int[budget + 1][2];
+
+        for (int v : g[u]) {
+            int[][] fv = dfs(v);
+            for (int j = budget; j >= 0; j--) {
+                for (int jv = 0; jv <= j; jv++) {
+                    for (int pre = 0; pre < 2; pre++) {
+                        int val = nxt[j - jv][pre] + fv[jv][pre];
+                        if (val > nxt[j][pre]) {
+                            nxt[j][pre] = val;
+                        }
+                    }
+                }
+            }
+        }
+
+        int[][] f = new int[budget + 1][2];
+        int price = future[u - 1];
+
+        for (int j = 0; j <= budget; j++) {
+            for (int pre = 0; pre < 2; pre++) {
+                int cost = present[u - 1] / (pre + 1);
+                if (j >= cost) {
+                    f[j][pre] = Math.max(nxt[j][0], nxt[j - cost][1] + (price - cost));
+                } else {
+                    f[j][pre] = nxt[j][0];
+                }
+            }
+        }
+
+        return f;
+    }
+}
 ```
 
 #### C++
 
 ```cpp
+class Solution {
+public:
+    int maxProfit(int n, vector<int>& present, vector<int>& future, vector<vector<int>>& hierarchy, int budget) {
+        vector<vector<int>> g(n + 1);
+        for (auto& e : hierarchy) {
+            g[e[0]].push_back(e[1]);
+        }
 
+        auto dfs = [&](const auto& dfs, int u) -> vector<array<int, 2>> {
+            vector<array<int, 2>> nxt(budget + 1);
+            for (int j = 0; j <= budget; j++) nxt[j] = {0, 0};
+
+            for (int v : g[u]) {
+                auto fv = dfs(dfs, v);
+                for (int j = budget; j >= 0; j--) {
+                    for (int jv = 0; jv <= j; jv++) {
+                        for (int pre = 0; pre < 2; pre++) {
+                            int val = nxt[j - jv][pre] + fv[jv][pre];
+                            if (val > nxt[j][pre]) {
+                                nxt[j][pre] = val;
+                            }
+                        }
+                    }
+                }
+            }
+
+            vector<array<int, 2>> f(budget + 1);
+            int price = future[u - 1];
+
+            for (int j = 0; j <= budget; j++) {
+                for (int pre = 0; pre < 2; pre++) {
+                    int cost = present[u - 1] / (pre + 1);
+                    if (j >= cost) {
+                        f[j][pre] = max(nxt[j][0], nxt[j - cost][1] + (price - cost));
+                    } else {
+                        f[j][pre] = nxt[j][0];
+                    }
+                }
+            }
+
+            return f;
+        };
+
+        return dfs(dfs, 1)[budget][0];
+    }
+};
 ```
 
 #### Go
 
 ```go
+func maxProfit(n int, present []int, future []int, hierarchy [][]int, budget int) int {
+	g := make([][]int, n+1)
+	for _, e := range hierarchy {
+		u, v := e[0], e[1]
+		g[u] = append(g[u], v)
+	}
 
+	var dfs func(u int) [][2]int
+	dfs = func(u int) [][2]int {
+		nxt := make([][2]int, budget+1)
+
+		for _, v := range g[u] {
+			fv := dfs(v)
+			for j := budget; j >= 0; j-- {
+				for jv := 0; jv <= j; jv++ {
+					for pre := 0; pre < 2; pre++ {
+						nxt[j][pre] = max(nxt[j][pre], nxt[j-jv][pre]+fv[jv][pre])
+					}
+				}
+			}
+		}
+
+		f := make([][2]int, budget+1)
+		price := future[u-1]
+
+		for j := 0; j <= budget; j++ {
+			for pre := 0; pre < 2; pre++ {
+				cost := present[u-1] / (pre + 1)
+				if j >= cost {
+					buyProfit := nxt[j-cost][1] + (price - cost)
+					f[j][pre] = max(nxt[j][0], buyProfit)
+				} else {
+					f[j][pre] = nxt[j][0]
+				}
+			}
+		}
+		return f
+	}
+
+	return dfs(1)[budget][0]
+}
+```
+
+#### TypeScript
+
+```ts
+function maxProfit(
+    n: number,
+    present: number[],
+    future: number[],
+    hierarchy: number[][],
+    budget: number,
+): number {
+    const g: number[][] = Array.from({ length: n + 1 }, () => []);
+
+    for (const [u, v] of hierarchy) {
+        g[u].push(v);
+    }
+
+    const dfs = (u: number): number[][] => {
+        const nxt: number[][] = Array.from({ length: budget + 1 }, () => [0, 0]);
+
+        for (const v of g[u]) {
+            const fv = dfs(v);
+            for (let j = budget; j >= 0; j--) {
+                for (let jv = 0; jv <= j; jv++) {
+                    for (let pre = 0; pre < 2; pre++) {
+                        nxt[j][pre] = Math.max(nxt[j][pre], nxt[j - jv][pre] + fv[jv][pre]);
+                    }
+                }
+            }
+        }
+
+        const f: number[][] = Array.from({ length: budget + 1 }, () => [0, 0]);
+        const price = future[u - 1];
+
+        for (let j = 0; j <= budget; j++) {
+            for (let pre = 0; pre < 2; pre++) {
+                const cost = Math.floor(present[u - 1] / (pre + 1));
+                if (j >= cost) {
+                    const profitIfBuy = nxt[j - cost][1] + (price - cost);
+                    f[j][pre] = Math.max(nxt[j][0], profitIfBuy);
+                } else {
+                    f[j][pre] = nxt[j][0];
+                }
+            }
+        }
+
+        return f;
+    };
+
+    return dfs(1)[budget][0];
+}
 ```
 
 <!-- tabs:end -->

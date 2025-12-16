@@ -136,10 +136,10 @@ tags:
 
 遍历事件列表，根据事件类型进行处理：
 
--   如果是 ONLINE 事件，我们更新 `online_t` 数组；
--   如果是 ALL 事件，我们将 `lazy` 加一；
--   如果是 HERE 事件，我们遍历 `online_t` 数组，如果用户下一次上线的时间小于等于当前时间，我们将该用户的提及次数加一；
--   如果是 MESSAGE 事件，我们将提及的用户的提及次数加一。
+- 如果是 ONLINE 事件，我们更新 `online_t` 数组；
+- 如果是 ALL 事件，我们将 `lazy` 加一；
+- 如果是 HERE 事件，我们遍历 `online_t` 数组，如果用户下一次上线的时间小于等于当前时间，我们将该用户的提及次数加一；
+- 如果是 MESSAGE 事件，我们将提及的用户的提及次数加一。
 
 最后，如果 `lazy` 大于 0，我们将所有用户的提及次数加上 `lazy`。
 
@@ -373,6 +373,67 @@ function countMentions(numberOfUsers: number, events: string[][]): number[] {
     }
 
     return ans;
+}
+```
+
+#### Rust
+
+```rust
+impl Solution {
+    pub fn count_mentions(number_of_users: i32, mut events: Vec<Vec<String>>) -> Vec<i32> {
+        let n = number_of_users as usize;
+
+        events.sort_by(|a, b| {
+            let x: i32 = a[1].parse().unwrap();
+            let y: i32 = b[1].parse().unwrap();
+            if x == y {
+                a[0].as_bytes()[2].cmp(&b[0].as_bytes()[2])
+            } else {
+                x.cmp(&y)
+            }
+        });
+
+        let mut ans = vec![0_i32; n];
+        let mut online_t = vec![0_i32; n];
+        let mut lazy = 0_i32;
+
+        for e in events {
+            let etype = &e[0];
+            let cur: i32 = e[1].parse().unwrap();
+            let s = &e[2];
+
+            let c0 = etype.as_bytes()[0] as char;
+
+            if c0 == 'O' {
+                let uid: usize = s.parse().unwrap();
+                online_t[uid] = cur + 60;
+
+            } else if s.as_bytes()[0] as char == 'A' {
+                lazy += 1;
+
+            } else if s.as_bytes()[0] as char == 'H' {
+                for i in 0..n {
+                    if online_t[i] <= cur {
+                        ans[i] += 1;
+                    }
+                }
+
+            } else {
+                for a in s.split(' ') {
+                    let uid: usize = a[2..].parse().unwrap();
+                    ans[uid] += 1;
+                }
+            }
+        }
+
+        if lazy > 0 {
+            for i in 0..n {
+                ans[i] += lazy;
+            }
+        }
+
+        ans
+    }
 }
 ```
 

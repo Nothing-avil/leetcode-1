@@ -26,6 +26,27 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 480 场周赛(2025-12-14 10:30, 90 分钟) 参赛人数 1772
+
+- [3774. 最大和最小 K 个元素的绝对差](/solution/3700-3799/3774.Absolute%20Difference%20Between%20Maximum%20and%20Minimum%20K%20Elements/README.md)
+- [3775. 反转元音数相同的单词](/solution/3700-3799/3775.Reverse%20Words%20With%20Same%20Vowel%20Count/README.md)
+- [3776. 使循环数组余额非负的最少移动次数](/solution/3700-3799/3776.Minimum%20Moves%20to%20Balance%20Circular%20Array/README.md)
+- [3777. 使子字符串变交替的最少删除次数](/solution/3700-3799/3777.Minimum%20Deletions%20to%20Make%20Alternating%20Substring/README.md)
+
+#### 第 479 场周赛(2025-12-07 10:30, 90 分钟) 参赛人数 1787
+
+- [3769. 二进制反射排序](/solution/3700-3799/3769.Sort%20Integers%20by%20Binary%20Reflection/README.md)
+- [3770. 可表示为连续质数和的最大质数](/solution/3700-3799/3770.Largest%20Prime%20from%20Consecutive%20Prime%20Sum/README.md)
+- [3771. 探索地牢的得分](/solution/3700-3799/3771.Total%20Score%20of%20Dungeon%20Runs/README.md)
+- [3772. 树中子图的最大得分](/solution/3700-3799/3772.Maximum%20Subgraph%20Score%20in%20a%20Tree/README.md)
+
+#### 第 171 场双周赛(2025-12-06 22:30, 90 分钟) 参赛人数 1403
+
+- [3765. 完全质数](/solution/3700-3799/3765.Complete%20Prime%20Number/README.md)
+- [3766. 将数字变成二进制回文数的最少操作](/solution/3700-3799/3766.Minimum%20Operations%20to%20Make%20Binary%20Palindrome/README.md)
+- [3767. 选择 K 个任务的最大总分数](/solution/3700-3799/3767.Maximize%20Points%20After%20Choosing%20K%20Tasks/README.md)
+- [3768. 固定长度子数组中的最小逆序对数目](/solution/3700-3799/3768.Minimum%20Inversion%20Count%20in%20Subarrays%20of%20Fixed%20Length/README.md)
+
 #### 第 478 场周赛(2025-11-30 10:30, 90 分钟) 参赛人数 1796
 
 - [3759. 统计合格元素的数目](/solution/3700-3799/3759.Count%20Elements%20With%20at%20Least%20K%20Greater%20Values/README.md)

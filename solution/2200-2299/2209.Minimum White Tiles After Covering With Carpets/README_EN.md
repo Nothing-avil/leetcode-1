@@ -73,10 +73,10 @@ We design a function $\textit{dfs}(i, j)$ to represent the minimum number of whi
 
 For index $i$, we discuss the following cases:
 
--   If $i \ge n$, it means all tiles have been covered, return $0$;
--   If $\textit{floor}[i] = 0$, then we do not need to use a carpet, just skip it, i.e., $\textit{dfs}(i, j) = \textit{dfs}(i + 1, j)$;
--   If $j = 0$, then we can directly use the prefix sum array $s$ to calculate the number of remaining uncovered white tiles, i.e., $\textit{dfs}(i, j) = s[n] - s[i]$;
--   If $\textit{floor}[i] = 1$, then we can choose to use a carpet or not, and take the minimum of the two, i.e., $\textit{dfs}(i, j) = \min(\textit{dfs}(i + 1, j), \textit{dfs}(i + \textit{carpetLen}, j - 1))$.
+- If $i \ge n$, it means all tiles have been covered, return $0$;
+- If $\textit{floor}[i] = 0$, then we do not need to use a carpet, just skip it, i.e., $\textit{dfs}(i, j) = \textit{dfs}(i + 1, j)$;
+- If $j = 0$, then we can directly use the prefix sum array $s$ to calculate the number of remaining uncovered white tiles, i.e., $\textit{dfs}(i, j) = s[n] - s[i]$;
+- If $\textit{floor}[i] = 1$, then we can choose to use a carpet or not, and take the minimum of the two, i.e., $\textit{dfs}(i, j) = \min(\textit{dfs}(i + 1, j), \textit{dfs}(i + \textit{carpetLen}, j - 1))$.
 
 We use memoization search to solve this problem.
 
@@ -248,6 +248,62 @@ function minimumWhiteTiles(floor: string, numCarpets: number, carpetLen: number)
         return ans;
     };
     return dfs(0, numCarpets);
+}
+```
+
+#### Rust
+
+```rust
+impl Solution {
+    pub fn minimum_white_tiles(floor: String, num_carpets: i32, carpet_len: i32) -> i32 {
+        let n = floor.len();
+        let a: Vec<u8> = floor.bytes().collect();
+        let m = num_carpets as usize;
+        let k = carpet_len as usize;
+
+        let mut s = vec![0i32; n + 1];
+        for i in 0..n {
+            s[i + 1] = s[i] + if a[i] == b'1' { 1 } else { 0 };
+        }
+
+        let mut f = vec![vec![-1; m + 1]; n];
+
+        fn dfs(
+            i: usize,
+            j: usize,
+            n: usize,
+            k: usize,
+            s: &Vec<i32>,
+            f: &mut Vec<Vec<i32>>,
+            a: &Vec<u8>,
+        ) -> i32 {
+            if i >= n {
+                return 0;
+            }
+            if j == 0 {
+                return s[n] - s[i];
+            }
+            if f[i][j] != -1 {
+                return f[i][j];
+            }
+
+            if s[i + 1] == s[i] {
+                let v = dfs(i + 1, j, n, k, s, f, a);
+                f[i][j] = v;
+                return v;
+            }
+
+            let t1 = 1 + dfs(i + 1, j, n, k, s, f, a);
+            let ni = i + k;
+            let t2 = dfs(ni, j - 1, n, k, s, f, a);
+
+            let t = t1.min(t2);
+            f[i][j] = t;
+            t
+        }
+
+        dfs(0, m, n, k, &s, &mut f, &a)
+    }
 }
 ```
 

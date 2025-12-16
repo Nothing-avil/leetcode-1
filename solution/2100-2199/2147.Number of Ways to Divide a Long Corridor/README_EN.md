@@ -81,9 +81,9 @@ If $i \geq \textit{len}(\textit{corridor})$, it means the corridor has been full
 
 Otherwise, we need to consider the situation at the current position $i$:
 
--   If $\textit{corridor}[i] = \text{'S'}$, it means the current position is a seat, and we increment $k$ by $1$.
--   If $k > 2$, it means the number of screens placed at the current position exceeds $2$, so return $0$.
--   Otherwise, we can choose not to place a screen, i.e., $\textit{dfs}(i + 1, k)$. If $k = 2$, we can also choose to place a screen, i.e., $\textit{dfs}(i + 1, 0)$. We add the results of these two cases and take the result modulo $10^9 + 7$, i.e., $\textit{ans} = (\textit{ans} + \textit{dfs}(i + 1, k)) \bmod \text{mod}$.
+- If $\textit{corridor}[i] = \text{'S'}$, it means the current position is a seat, and we increment $k$ by $1$.
+- If $k > 2$, it means the number of screens placed at the current position exceeds $2$, so return $0$.
+- Otherwise, we can choose not to place a screen, i.e., $\textit{dfs}(i + 1, k)$. If $k = 2$, we can also choose to place a screen, i.e., $\textit{dfs}(i + 1, 0)$. We add the results of these two cases and take the result modulo $10^9 + 7$, i.e., $\textit{ans} = (\textit{ans} + \textit{dfs}(i + 1, k)) \bmod \text{mod}$.
 
 Finally, we return $\textit{dfs}(0, 0)$.
 
@@ -249,6 +249,54 @@ function numberOfWays(corridor: string): number {
 }
 ```
 
+#### Rust
+
+```rust
+impl Solution {
+    pub fn number_of_ways(corridor: String) -> i32 {
+        let n: usize = corridor.len();
+        let bytes = corridor.as_bytes();
+        let modv: i32 = 1_000_000_007;
+
+        let mut f = vec![vec![-1; 3]; n];
+
+        fn dfs(
+            i: usize,
+            k: usize,
+            n: usize,
+            bytes: &[u8],
+            f: &mut Vec<Vec<i32>>,
+            modv: i32,
+        ) -> i32 {
+            if i >= n {
+                return if k == 2 { 1 } else { 0 };
+            }
+            if f[i][k] != -1 {
+                return f[i][k];
+            }
+
+            let mut nk = k;
+            if bytes[i] == b'S' {
+                nk += 1;
+            }
+            if nk > 2 {
+                return 0;
+            }
+
+            let mut res = dfs(i + 1, nk, n, bytes, f, modv);
+            if nk == 2 {
+                res = (res + dfs(i + 1, 0, n, bytes, f, modv)) % modv;
+            }
+
+            f[i][k] = res;
+            res
+        }
+
+        dfs(0, 0, n, bytes, &mut f, modv)
+    }
+}
+```
+
 <!-- tabs:end -->
 
 <!-- solution:end -->
@@ -365,6 +413,35 @@ function numberOfWays(corridor: string): number {
         }
     }
     return cnt > 0 && cnt % 2 === 0 ? ans : 0;
+}
+```
+
+#### Rust
+
+```rust
+impl Solution {
+    pub fn number_of_ways(corridor: String) -> i32 {
+        let modv: i64 = 1_000_000_007;
+        let mut ans: i64 = 1;
+        let mut cnt: i64 = 0;
+        let mut last: i64 = 0;
+
+        for (i, ch) in corridor.chars().enumerate() {
+            if ch == 'S' {
+                cnt += 1;
+                if cnt > 2 && cnt % 2 == 1 {
+                    ans = ans * (i as i64 - last) % modv;
+                }
+                last = i as i64;
+            }
+        }
+
+        if cnt > 0 && cnt % 2 == 0 {
+            ans as i32
+        } else {
+            0
+        }
+    }
 }
 ```
 

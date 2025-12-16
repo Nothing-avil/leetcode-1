@@ -77,10 +77,10 @@ tags:
 
 对于下标 $i$，我们分情况讨论：
 
--   如果 $i \ge n$，说明已经覆盖完所有砖块，返回 $0$；
--   如果 $\textit{floor}[i] = 0$，则不需要使用地毯，直接跳过即可，即 $\textit{dfs}(i, j) = \textit{dfs}(i + 1, j)$；
--   如果 $j = 0$，那么我们可以直接利用前缀和数组 $s$ 计算出剩余未被覆盖的白色砖块的数目，即 $\textit{dfs}(i, j) = s[n] - s[i]$；
--   如果 $\textit{floor}[i] = 1$，那么我们可以选择使用地毯覆盖，也可以选择不使用地毯覆盖，取两者的最小值即可，即 $\textit{dfs}(i, j) = \min(\textit{dfs}(i + 1,
+- 如果 $i \ge n$，说明已经覆盖完所有砖块，返回 $0$；
+- 如果 $\textit{floor}[i] = 0$，则不需要使用地毯，直接跳过即可，即 $\textit{dfs}(i, j) = \textit{dfs}(i + 1, j)$；
+- 如果 $j = 0$，那么我们可以直接利用前缀和数组 $s$ 计算出剩余未被覆盖的白色砖块的数目，即 $\textit{dfs}(i, j) = s[n] - s[i]$；
+- 如果 $\textit{floor}[i] = 1$，那么我们可以选择使用地毯覆盖，也可以选择不使用地毯覆盖，取两者的最小值即可，即 $\textit{dfs}(i, j) = \min(\textit{dfs}(i + 1,
     j), \textit{dfs}(i + \textit{carpetLen}, j - 1))$。
 
 记忆化搜索即可。
@@ -253,6 +253,62 @@ function minimumWhiteTiles(floor: string, numCarpets: number, carpetLen: number)
         return ans;
     };
     return dfs(0, numCarpets);
+}
+```
+
+#### Rust
+
+```rust
+impl Solution {
+    pub fn minimum_white_tiles(floor: String, num_carpets: i32, carpet_len: i32) -> i32 {
+        let n = floor.len();
+        let a: Vec<u8> = floor.bytes().collect();
+        let m = num_carpets as usize;
+        let k = carpet_len as usize;
+
+        let mut s = vec![0i32; n + 1];
+        for i in 0..n {
+            s[i + 1] = s[i] + if a[i] == b'1' { 1 } else { 0 };
+        }
+
+        let mut f = vec![vec![-1; m + 1]; n];
+
+        fn dfs(
+            i: usize,
+            j: usize,
+            n: usize,
+            k: usize,
+            s: &Vec<i32>,
+            f: &mut Vec<Vec<i32>>,
+            a: &Vec<u8>,
+        ) -> i32 {
+            if i >= n {
+                return 0;
+            }
+            if j == 0 {
+                return s[n] - s[i];
+            }
+            if f[i][j] != -1 {
+                return f[i][j];
+            }
+
+            if s[i + 1] == s[i] {
+                let v = dfs(i + 1, j, n, k, s, f, a);
+                f[i][j] = v;
+                return v;
+            }
+
+            let t1 = 1 + dfs(i + 1, j, n, k, s, f, a);
+            let ni = i + k;
+            let t2 = dfs(ni, j - 1, n, k, s, f, a);
+
+            let t = t1.min(t2);
+            f[i][j] = t;
+            t
+        }
+
+        dfs(0, m, n, k, &s, &mut f, &a)
+    }
 }
 ```
 

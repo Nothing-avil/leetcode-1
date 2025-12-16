@@ -29,6 +29,27 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 480
+
+- [3774. Absolute Difference Between Maximum and Minimum K Elements](/solution/3700-3799/3774.Absolute%20Difference%20Between%20Maximum%20and%20Minimum%20K%20Elements/README_EN.md)
+- [3775. Reverse Words With Same Vowel Count](/solution/3700-3799/3775.Reverse%20Words%20With%20Same%20Vowel%20Count/README_EN.md)
+- [3776. Minimum Moves to Balance Circular Array](/solution/3700-3799/3776.Minimum%20Moves%20to%20Balance%20Circular%20Array/README_EN.md)
+- [3777. Minimum Deletions to Make Alternating Substring](/solution/3700-3799/3777.Minimum%20Deletions%20to%20Make%20Alternating%20Substring/README_EN.md)
+
+#### Weekly Contest 479
+
+- [3769. Sort Integers by Binary Reflection](/solution/3700-3799/3769.Sort%20Integers%20by%20Binary%20Reflection/README_EN.md)
+- [3770. Largest Prime from Consecutive Prime Sum](/solution/3700-3799/3770.Largest%20Prime%20from%20Consecutive%20Prime%20Sum/README_EN.md)
+- [3771. Total Score of Dungeon Runs](/solution/3700-3799/3771.Total%20Score%20of%20Dungeon%20Runs/README_EN.md)
+- [3772. Maximum Subgraph Score in a Tree](/solution/3700-3799/3772.Maximum%20Subgraph%20Score%20in%20a%20Tree/README_EN.md)
+
+#### Biweekly Contest 171
+
+- [3765. Complete Prime Number](/solution/3700-3799/3765.Complete%20Prime%20Number/README_EN.md)
+- [3766. Minimum Operations to Make Binary Palindrome](/solution/3700-3799/3766.Minimum%20Operations%20to%20Make%20Binary%20Palindrome/README_EN.md)
+- [3767. Maximize Points After Choosing K Tasks](/solution/3700-3799/3767.Maximize%20Points%20After%20Choosing%20K%20Tasks/README_EN.md)
+- [3768. Minimum Inversion Count in Subarrays of Fixed Length](/solution/3700-3799/3768.Minimum%20Inversion%20Count%20in%20Subarrays%20of%20Fixed%20Length/README_EN.md)
+
 #### Weekly Contest 478
 
 - [3759. Count Elements With at Least K Greater Values](/solution/3700-3799/3759.Count%20Elements%20With%20at%20Least%20K%20Greater%20Values/README_EN.md)
