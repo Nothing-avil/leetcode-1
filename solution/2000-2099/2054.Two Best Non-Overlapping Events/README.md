@@ -32,27 +32,30 @@ tags:
 
 <p><strong>示例 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/picture5.png" style="width: 400px; height: 75px;"></p>
+<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/untitled-diagramdrawio.png" style="width: 400px; height: 86px;" /></p>
 
-<pre><b>输入：</b>events = [[1,3,2],[4,5,2],[2,4,3]]
+<pre>
+<b>输入：</b>events = [[1,3,2],[4,5,2],[2,4,3]]
 <b>输出：</b>4
 <strong>解释：</strong>选择绿色的活动 0 和 1 ，价值之和为 2 + 2 = 4 。
 </pre>
 
 <p><strong>示例 2：</strong></p>
 
-<p><img alt="Example 1 Diagram" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/picture1.png" style="width: 400px; height: 77px;"></p>
+<p><img alt="Example 1 Diagram" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/2054b.png" style="width: 400px; height: 86px;" /></p>
 
-<pre><b>输入：</b>events = [[1,3,2],[4,5,2],[1,5,5]]
+<pre>
+<b>输入：</b>events = [[1,3,2],[4,5,2],[1,5,5]]
 <b>输出：</b>5
 <strong>解释：</strong>选择活动 2 ，价值和为 5 。
 </pre>
 
 <p><strong>示例 3：</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/picture3.png" style="width: 400px; height: 66px;"></p>
+<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/2054c.png" style="width: 400px; height: 74px;" /></p>
 
-<pre><b>输入：</b>events = [[1,5,3],[1,5,1],[6,6,5]]
+<pre>
+<b>输入：</b>events = [[1,5,3],[1,5,1],[6,6,5]]
 <b>输出：</b>8
 <strong>解释：</strong>选择活动 0 和 2 ，价值之和为 3 + 5 = 8 。</pre>
 
@@ -227,6 +230,48 @@ function maxTwoEvents(events: number[][]): number {
         ans = Math.max(ans, t + v);
     }
     return ans;
+}
+```
+
+#### Rust
+
+```rust
+impl Solution {
+    pub fn max_two_events(mut events: Vec<Vec<i32>>) -> i32 {
+        events.sort_by(|a, b| a[0].cmp(&b[0]));
+
+        let n: usize = events.len();
+        let mut f: Vec<i32> = vec![0; n + 1];
+
+        for i in (0..n).rev() {
+            f[i] = f[i + 1].max(events[i][2]);
+        }
+
+        let mut ans: i32 = 0;
+
+        for e in &events {
+            let mut v: i32 = e[2];
+
+            let mut left: usize = 0;
+            let mut right: usize = n;
+            while left < right {
+                let mid = (left + right) >> 1;
+                if events[mid][0] > e[1] {
+                    right = mid;
+                } else {
+                    left = mid + 1;
+                }
+            }
+
+            if left < n {
+                v += f[left];
+            }
+
+            ans = ans.max(v);
+        }
+
+        ans
+    }
 }
 ```
 

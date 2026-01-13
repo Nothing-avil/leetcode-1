@@ -30,7 +30,7 @@ tags:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/picture5.png" style="width: 400px; height: 75px;" />
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/untitled-diagramdrawio.png" style="width: 400px; height: 86px;" />
 <pre>
 <strong>Input:</strong> events = [[1,3,2],[4,5,2],[2,4,3]]
 <strong>Output:</strong> 4
@@ -38,7 +38,7 @@ tags:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="Example 1 Diagram" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/picture1.png" style="width: 400px; height: 77px;" />
+<img alt="Example 1 Diagram" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/2054b.png" style="width: 400px; height: 86px;" />
 <pre>
 <strong>Input:</strong> events = [[1,3,2],[4,5,2],[1,5,5]]
 <strong>Output:</strong> 5
@@ -46,7 +46,7 @@ tags:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/picture3.png" style="width: 400px; height: 66px;" />
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2054.Two%20Best%20Non-Overlapping%20Events/images/2054c.png" style="width: 400px; height: 74px;" />
 <pre>
 <strong>Input:</strong> events = [[1,5,3],[1,5,1],[6,6,5]]
 <strong>Output:</strong> 8
@@ -222,6 +222,48 @@ function maxTwoEvents(events: number[][]): number {
         ans = Math.max(ans, t + v);
     }
     return ans;
+}
+```
+
+#### Rust
+
+```rust
+impl Solution {
+    pub fn max_two_events(mut events: Vec<Vec<i32>>) -> i32 {
+        events.sort_by(|a, b| a[0].cmp(&b[0]));
+
+        let n: usize = events.len();
+        let mut f: Vec<i32> = vec![0; n + 1];
+
+        for i in (0..n).rev() {
+            f[i] = f[i + 1].max(events[i][2]);
+        }
+
+        let mut ans: i32 = 0;
+
+        for e in &events {
+            let mut v: i32 = e[2];
+
+            let mut left: usize = 0;
+            let mut right: usize = n;
+            while left < right {
+                let mid = (left + right) >> 1;
+                if events[mid][0] > e[1] {
+                    right = mid;
+                } else {
+                    left = mid + 1;
+                }
+            }
+
+            if left < n {
+                v += f[left];
+            }
+
+            ans = ans.max(v);
+        }
+
+        ans
+    }
 }
 ```
 

@@ -26,6 +26,48 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 484 场周赛(2026-01-11 10:30, 90 分钟) 参赛人数 1550
+
+- [3803. 统计残差前缀](/solution/3800-3899/3803.Count%20Residue%20Prefixes/README.md)
+- [3804. 中心子数组的数量](/solution/3800-3899/3804.Number%20of%20Centered%20Subarrays/README.md)
+- [3805. 统计凯撒加密对数目](/solution/3800-3899/3805.Count%20Caesar%20Cipher%20Pairs/README.md)
+- [3806. 增加操作后最大按位与的结果](/solution/3800-3899/3806.Maximum%20Bitwise%20AND%20After%20Increment%20Operations/README.md)
+
+#### 第 483 场周赛(2026-01-04 10:30, 90 分钟) 参赛人数 1373
+
+- [3798. 最大的偶数](/solution/3700-3799/3798.Largest%20Even%20Number/README.md)
+- [3799. 单词方块 II](/solution/3700-3799/3799.Word%20Squares%20II/README.md)
+- [3800. 使二进制字符串相等的最小成本](/solution/3800-3899/3800.Minimum%20Cost%20to%20Make%20Two%20Binary%20Strings%20Equal/README.md)
+- [3801. 合并有序列表的最小成本](/solution/3800-3899/3801.Minimum%20Cost%20to%20Merge%20Sorted%20Lists/README.md)
+
+#### 第 173 场双周赛(2026-01-03 22:30, 90 分钟) 参赛人数 1126
+
+- [3794. 反转字符串前缀](/solution/3700-3799/3794.Reverse%20String%20Prefix/README.md)
+- [3795. 不同元素和至少为 K 的最短子数组长度](/solution/3700-3799/3795.Minimum%20Subarray%20Length%20With%20Distinct%20Sum%20At%20Least%20K/README.md)
+- [3796. 找到带限制序列的最大值](/solution/3700-3799/3796.Find%20Maximum%20Value%20in%20a%20Constrained%20Sequence/README.md)
+- [3797. 统计在矩形格子里移动的路径数目](/solution/3700-3799/3797.Count%20Routes%20to%20Climb%20a%20Rectangular%20Grid/README.md)
+
+#### 第 482 场周赛(2025-12-28 10:30, 90 分钟) 参赛人数 1709
+
+- [3788. 分割的最大得分](/solution/3700-3799/3788.Maximum%20Score%20of%20a%20Split/README.md)
+- [3789. 采购的最小花费](/solution/3700-3799/3789.Minimum%20Cost%20to%20Acquire%20Required%20Items/README.md)
+- [3790. 最小全 1 倍数](/solution/3700-3799/3790.Smallest%20All-Ones%20Multiple/README.md)
+- [3791. 给定范围内平衡整数的数目](/solution/3700-3799/3791.Number%20of%20Balanced%20Integers%20in%20a%20Range/README.md)
+
+#### 第 481 场周赛(2025-12-21 10:30, 90 分钟) 参赛人数 1748
+
+- [3783. 整数的镜像距离](/solution/3700-3799/3783.Mirror%20Distance%20of%20an%20Integer/README.md)
+- [3784. 使所有字符相等的最小删除代价](/solution/3700-3799/3784.Minimum%20Deletion%20Cost%20to%20Make%20All%20Characters%20Equal/README.md)
+- [3785. 避免禁用值的最小交换次数](/solution/3700-3799/3785.Minimum%20Swaps%20to%20Avoid%20Forbidden%20Values/README.md)
+- [3786. 树组的交互代价总和](/solution/3700-3799/3786.Total%20Sum%20of%20Interaction%20Cost%20in%20Tree%20Groups/README.md)
+
+#### 第 172 场双周赛(2025-12-20 22:30, 90 分钟) 参赛人数 1560
+
+- [3779. 得到互不相同元素的最少操作次数](/solution/3700-3799/3779.Minimum%20Number%20of%20Operations%20to%20Have%20Distinct%20Elements/README.md)
+- [3780. 能被 3 整除的三元组最大和](/solution/3700-3799/3780.Maximum%20Sum%20of%20Three%20Numbers%20Divisible%20by%20Three/README.md)
+- [3781. 二进制交换后的最大分数](/solution/3700-3799/3781.Maximum%20Score%20After%20Binary%20Swaps/README.md)
+- [3782. 交替删除操作后最后剩下的整数](/solution/3700-3799/3782.Last%20Remaining%20Integer%20After%20Alternating%20Deletion%20Operations/README.md)
+
 #### 第 480 场周赛(2025-12-14 10:30, 90 分钟) 参赛人数 1772
 
 - [3774. 最大和最小 K 个元素的绝对差](/solution/3700-3799/3774.Absolute%20Difference%20Between%20Maximum%20and%20Minimum%20K%20Elements/README.md)
@@ -2845,7 +2887,7 @@ comments: true
 - [1629. 按键持续时间最长的键](/solution/1600-1699/1629.Slowest%20Key/README.md)
 - [1630. 等差子数组](/solution/1600-1699/1630.Arithmetic%20Subarrays/README.md)
 - [1631. 最小体力消耗路径](/solution/1600-1699/1631.Path%20With%20Minimum%20Effort/README.md)
-- [1632. 矩阵转换后的秩](/solution/1600-1699/1632.Rank%20Transform%20of%20a%20Matrix/README.md)
+- [1632. 矩阵转换后的排名](/solution/1600-1699/1632.Rank%20Transform%20of%20a%20Matrix/README.md)
 
 #### 第 211 场周赛(2020-10-18 10:30, 90 分钟) 参赛人数 4034
 

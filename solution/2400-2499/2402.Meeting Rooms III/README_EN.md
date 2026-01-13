@@ -87,17 +87,17 @@ Room 0 held 1 meeting while rooms 1 and 2 each held 2 meetings, so we return 1.
 
 <!-- solution:start -->
 
-### Solution 1: Priority Queue (Min Heap)
+### Solution 1: Priority Queue (Min-Heap)
 
-We define two priority queues, representing idle meeting rooms and busy meeting rooms, respectively. Among them: the idle meeting rooms `idle` are sorted according to **index**; while the busy meeting rooms `busy` are sorted according to **end time, index**.
+We define two priority queues to represent idle meeting rooms and busy meeting rooms respectively. The idle meeting rooms $\textit{idle}$ are sorted by **index**; the busy meeting rooms $\textit{busy}$ are sorted by **end time and index**.
 
-First, sort the meetings by start time, then traverse the meetings. For each meeting:
+First, sort the meetings by start time, then iterate through the meetings. For each meeting:
 
-- If there is a busy meeting room that is less than or equal to the start time of the current meeting, add it to the idle meeting room queue `idle`.
-- If there are currently idle meeting rooms, take out the meeting room with the smallest weight from the idle queue `idle` and add it to the busy queue `busy`.
-- If there are currently no idle meeting rooms, find the meeting room with the earliest end time and smallest index in the busy queue `busy`, and re-add it to the busy queue `busy`.
+- If there are busy meeting rooms with end time less than or equal to the current meeting's start time, add them to the idle meeting rooms queue $\textit{idle}$;
+- If there are idle meeting rooms available, take the room with the smallest index from the idle queue $\textit{idle}$ and add it to the busy queue $\textit{busy}$;
+- If there are no idle meeting rooms, find the room with the earliest end time and smallest index from the busy queue $\textit{busy}$, and add it back to the busy queue $\textit{busy}$.
 
-The time complexity is $O(m \times \log m)$, where $m$ is the number of meetings.
+The time complexity is $O(m (\log m + \log n))$, and the space complexity is $O(n + m)$, where $n$ and $m$ are the number of meeting rooms and meetings respectively.
 
 Similar problems:
 
@@ -110,7 +110,7 @@ Similar problems:
 ```python
 class Solution:
     def mostBooked(self, n: int, meetings: List[List[int]]) -> int:
-        meetings.sort()
+        meetings.sort(key=lambda x: x[0])
         busy = []
         idle = list(range(n))
         heapify(idle)
@@ -118,17 +118,17 @@ class Solution:
         for s, e in meetings:
             while busy and busy[0][0] <= s:
                 heappush(idle, heappop(busy)[1])
+            i = 0
             if idle:
                 i = heappop(idle)
-                cnt[i] += 1
                 heappush(busy, (e, i))
             else:
-                a, i = heappop(busy)
-                cnt[i] += 1
-                heappush(busy, (a + e - s, i))
+                time_end, i = heappop(busy)
+                heappush(busy, (time_end + e - s, i))
+            cnt[i] += 1
         ans = 0
-        for i, v in enumerate(cnt):
-            if cnt[ans] < v:
+        for i in range(n):
+            if cnt[ans] < cnt[i]:
                 ans = i
         return ans
 ```
@@ -176,17 +176,17 @@ class Solution {
 #### C++
 
 ```cpp
-using ll = long long;
-using pii = pair<ll, int>;
-
 class Solution {
 public:
     int mostBooked(int n, vector<vector<int>>& meetings) {
-        priority_queue<int, vector<int>, greater<int>> idle;
-        priority_queue<pii, vector<pii>, greater<pii>> busy;
-        for (int i = 0; i < n; ++i) idle.push(i);
-        vector<int> cnt(n);
         sort(meetings.begin(), meetings.end());
+        using pli = pair<long long, int>;
+        priority_queue<pli, vector<pli>, greater<pli>> busy;
+        priority_queue<int, vector<int>, greater<int>> idle;
+        for (int i = 0; i < n; ++i) {
+            idle.push(i);
+        }
+        vector<int> cnt(n);
         for (auto& v : meetings) {
             int s = v[0], e = v[1];
             while (!busy.empty() && busy.top().first <= s) {
@@ -274,6 +274,51 @@ func (h hp2) Less(i, j int) bool {
 func (h hp2) Swap(i, j int) { h[i], h[j] = h[j], h[i] }
 func (h *hp2) Push(v any)   { *h = append(*h, v.(pair)) }
 func (h *hp2) Pop() any     { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
+```
+
+#### TypeScript
+
+```ts
+function mostBooked(n: number, meetings: number[][]): number {
+    meetings.sort((a, b) => a[0] - b[0]);
+
+    const idle = new MinPriorityQueue<number>();
+    for (let i = 0; i < n; ++i) {
+        idle.enqueue(i);
+    }
+    const busy = new PriorityQueue<[number, number]>((a, b) => {
+        if (a[0] === b[0]) {
+            return a[1] - b[1];
+        }
+        return a[0] - b[0];
+    });
+    const cnt: number[] = new Array(n).fill(0);
+    for (const v of meetings) {
+        const s = v[0],
+            e = v[1];
+        while (!busy.isEmpty() && busy.front()[0] <= s) {
+            const i = busy.dequeue()[1];
+            idle.enqueue(i);
+        }
+        let i = 0;
+        if (!idle.isEmpty()) {
+            i = idle.dequeue();
+            busy.enqueue([e, i]);
+        } else {
+            const x = busy.dequeue();
+            i = x[1];
+            busy.enqueue([x[0] + e - s, i]);
+        }
+        ++cnt[i];
+    }
+    let ans = 0;
+    for (let i = 0; i < n; ++i) {
+        if (cnt[ans] < cnt[i]) {
+            ans = i;
+        }
+    }
+    return ans;
+}
 ```
 
 <!-- tabs:end -->
