@@ -3843,11 +3843,25 @@
 |  3830  |  [移除至多一个元素后的最长交替子数组](/solution/3800-3899/3830.Longest%20Alternating%20Subarray%20After%20Removing%20At%20Most%20One%20Element/README.md)  |  `数组`,`动态规划`,`枚举`  |  困难  |  第 487 场周赛  |
 |  3831  |  [二叉搜索树某一层的中位数](/solution/3800-3899/3831.Median%20of%20a%20Binary%20Search%20Tree%20Level/README.md)  |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉搜索树`,`二叉树`  |  中等  |  🔒  |
 |  3832  |  [查找具有持续行为模式的用户](/solution/3800-3899/3832.Find%20Users%20with%20Persistent%20Behavior%20Patterns/README.md)  |    |  困难  |    |
-|  3833  |  [统计主导元素下标数](/solution/3800-3899/3833.Count%20Dominant%20Indices/README.md)  |    |  简单  |  第 488 场周赛  |
-|  3834  |  [合并相邻且相等的元素](/solution/3800-3899/3834.Merge%20Adjacent%20Equal%20Elements/README.md)  |    |  中等  |  第 488 场周赛  |
-|  3835  |  [开销小于等于 K 的子数组数目](/solution/3800-3899/3835.Count%20Subarrays%20With%20Cost%20Less%20Than%20or%20Equal%20to%20K/README.md)  |    |  中等  |  第 488 场周赛  |
-|  3836  |  [恰好 K 个下标对的最大得分](/solution/3800-3899/3836.Maximum%20Score%20Using%20Exactly%20K%20Pairs/README.md)  |    |  困难  |  第 488 场周赛  |
-|  3837  |  [Delayed Count of Equal Elements](/solution/3800-3899/3837.Delayed%20Count%20of%20Equal%20Elements/README.md)  |    |  中等  |  🔒  |
+|  3833  |  [统计主导元素下标数](/solution/3800-3899/3833.Count%20Dominant%20Indices/README.md)  |  `数组`,`枚举`  |  简单  |  第 488 场周赛  |
+|  3834  |  [合并相邻且相等的元素](/solution/3800-3899/3834.Merge%20Adjacent%20Equal%20Elements/README.md)  |  `栈`,`数组`,`模拟`  |  中等  |  第 488 场周赛  |
+|  3835  |  [开销小于等于 K 的子数组数目](/solution/3800-3899/3835.Count%20Subarrays%20With%20Cost%20Less%20Than%20or%20Equal%20to%20K/README.md)  |  `队列`,`数组`,`单调队列`  |  中等  |  第 488 场周赛  |
+|  3836  |  [恰好 K 个下标对的最大得分](/solution/3800-3899/3836.Maximum%20Score%20Using%20Exactly%20K%20Pairs/README.md)  |  `数组`,`动态规划`  |  困难  |  第 488 场周赛  |
+|  3837  |  [相等元素的延迟计数](/solution/3800-3899/3837.Delayed%20Count%20of%20Equal%20Elements/README.md)  |  `数组`,`哈希表`,`计数`  |  中等  |  🔒  |
+|  3838  |  [带权单词映射](/solution/3800-3899/3838.Weighted%20Word%20Mapping/README.md)  |  `数组`,`字符串`,`模拟`  |  简单  |  第 176 场双周赛  |
+|  3839  |  [前缀连接组的数目](/solution/3800-3899/3839.Number%20of%20Prefix%20Connected%20Groups/README.md)  |  `数组`,`哈希表`,`字符串`,`计数`  |  中等  |  第 176 场双周赛  |
+|  3840  |  [打家劫舍 V](/solution/3800-3899/3840.House%20Robber%20V/README.md)  |  `数组`,`动态规划`  |  中等  |  第 176 场双周赛  |
+|  3841  |  [查询树上回文路径](/solution/3800-3899/3841.Palindromic%20Path%20Queries%20in%20a%20Tree/README.md)  |  `树`,`线段树`,`数组`,`字符串`,`分治`  |  困难  |  第 176 场双周赛  |
+|  3842  |  [切换打开灯泡](/solution/3800-3899/3842.Toggle%20Light%20Bulbs/README.md)  |  `数组`,`哈希表`,`排序`,`模拟`  |  简单  |  第 489 场周赛  |
+|  3843  |  [频率唯一的第一个元素](/solution/3800-3899/3843.First%20Element%20with%20Unique%20Frequency/README.md)  |  `数组`,`哈希表`,`计数`  |  中等  |  第 489 场周赛  |
+|  3844  |  [最长的准回文子字符串](/solution/3800-3899/3844.Longest%20Almost-Palindromic%20Substring/README.md)  |  `双指针`,`字符串`,`动态规划`  |  中等  |  第 489 场周赛  |
+|  3845  |  [最大子数组异或值](/solution/3800-3899/3845.Maximum%20Subarray%20XOR%20with%20Bounded%20Range/README.md)  |  `位运算`,`字典树`,`队列`,`数组`,`前缀和`,`滑动窗口`,`单调队列`  |  困难  |  第 489 场周赛  |
+|  3846  |  [使用单指输入字符串的总距离](/solution/3800-3899/3846.Total%20Distance%20to%20Type%20a%20String%20Using%20One%20Finger/README.md)  |  `哈希表`,`字符串`  |  中等  |  🔒  |
+|  3847  |  [计算比赛分数差](/solution/3800-3899/3847.Find%20the%20Score%20Difference%20in%20a%20Game/README.md)  |  `数组`,`模拟`  |  中等  |  第 490 场周赛  |
+|  3848  |  [阶数数字排列](/solution/3800-3899/3848.Check%20Digitorial%20Permutation/README.md)  |  `数学`,`计数`  |  中等  |  第 490 场周赛  |
+|  3849  |  [重新排列后的最大按位异或值](/solution/3800-3899/3849.Maximum%20Bitwise%20XOR%20After%20Rearrangement/README.md)  |  `贪心`,`位运算`,`字符串`  |  中等  |  第 490 场周赛  |
+|  3850  |  [统计结果等于 K 的序列数目](/solution/3800-3899/3850.Count%20Sequences%20to%20K/README.md)  |  `记忆化`,`数组`,`数学`,`动态规划`,`数论`  |  困难  |  第 490 场周赛  |
+|  3851  |  [不违反限制的最大请求数](/solution/3800-3899/3851.Maximum%20Requests%20Without%20Violating%20the%20Limit/README.md)  |  `贪心`,`数组`,`哈希表`,`排序`,`滑动窗口`  |  中等  |  🔒  |
 
 ## 版权
 

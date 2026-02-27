@@ -2,11 +2,15 @@
 comments: true
 difficulty: 中等
 edit_url: https://github.com/doocs/leetcode/edit/main/solution/3800-3899/3837.Delayed%20Count%20of%20Equal%20Elements/README.md
+tags:
+    - 数组
+    - 哈希表
+    - 计数
 ---
 
 <!-- problem:start -->
 
-# [3837. Delayed Count of Equal Elements 🔒](https://leetcode.cn/problems/delayed-count-of-equal-elements)
+# [3837. 相等元素的延迟计数 🔒](https://leetcode.cn/problems/delayed-count-of-equal-elements)
 
 [English Version](/solution/3800-3899/3837.Delayed%20Count%20of%20Equal%20Elements/README_EN.md)
 
@@ -14,35 +18,36 @@ edit_url: https://github.com/doocs/leetcode/edit/main/solution/3800-3899/3837.De
 
 <!-- description:start -->
 
-<p>You are given an integer array <code>nums</code> of length <code>n</code> and an integer <code>k</code>.</p>
+<p>给定一个长度为&nbsp;<code>n</code>&nbsp;的整数数组&nbsp;<code>nums</code>&nbsp;和一个整数&nbsp;<code>k</code>。</p>
 
-<p>For each index <code>i</code>, define the <strong>delayed count</strong> as the number of indices <code>j</code> such that:</p>
+<p>对于每个下标&nbsp;<code>i</code>，将 <strong>延迟计数</strong> 定义为满足以下条件的索引 <code>j</code> 的数量：</p>
 
 <ul>
-	<li><code>i + k &lt; j &lt;= n - 1</code>, and</li>
+	<li><code>i + k &lt; j &lt;= n - 1</code>，且</li>
 	<li><code>nums[j] == nums[i]</code></li>
 </ul>
 
-<p>Return an array <code>ans</code> where <code>ans[i]</code> is the <strong>delayed count</strong> of index <code>i</code>.</p>
+<p>返回一个数组&nbsp;<code>ans</code>，其中&nbsp;<code>ans[i]</code>&nbsp;是下标&nbsp;<code>i</code>&nbsp;的 <strong>延迟计数</strong>。</p>
 
 <p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+
+<p><strong class="example">示例 1：</strong></p>
 
 <div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,1,1], k = 1</span></p>
+<p><span class="example-io"><b>输入：</b>nums = [1,2,1,1], k = 1</span></p>
 
-<p><strong>Output:</strong> <span class="example-io">[2,0,0,0]</span></p>
+<p><span class="example-io"><b>输出：</b>[2,0,0,0]</span></p>
 
-<p><strong>Explanation:</strong></p>
+<p><strong>解释：</strong></p>
 
 <table style="border: 1px solid black;">
 	<thead>
 		<tr>
 			<th style="border: 1px solid black;"><code>i</code></th>
 			<th style="border: 1px solid black;"><code>nums[i]</code></th>
-			<th style="border: 1px solid black;">possible <code>j</code></th>
+			<th style="border: 1px solid black;">可能的&nbsp;<code>j</code></th>
 			<th style="border: 1px solid black;"><code>nums[j]</code></th>
-			<th style="border: 1px solid black;">satisfying<br />
+			<th style="border: 1px solid black;">满足<br />
 			<code>nums[j] == nums[i]</code></th>
 			<th style="border: 1px solid black;"><code>ans[i]</code></th>
 		</tr>
@@ -83,26 +88,26 @@ edit_url: https://github.com/doocs/leetcode/edit/main/solution/3800-3899/3837.De
 	</tbody>
 </table>
 
-<p>Thus, <code>ans = [2, 0, 0, 0]</code>​​​​​​​.</p>
+<p>因此，<code>ans = [2, 0, 0, 0]</code>。</p>
 </div>
 
-<p><strong class="example">Example 2:</strong></p>
+<p><strong class="example">示例 2：</strong></p>
 
 <div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [3,1,3,1], k = 0</span></p>
+<p><span class="example-io"><b>输入：</b>nums = [3,1,3,1], k = 0</span></p>
 
-<p><strong>Output:</strong> <span class="example-io">[1,1,0,0]</span></p>
+<p><span class="example-io"><b>输出：</b>[1,1,0,0]</span></p>
 
-<p><strong>Explanation:</strong></p>
+<p><strong>解释：</strong></p>
 
 <table style="border: 1px solid black;">
 	<thead>
 		<tr>
 			<th style="border: 1px solid black;"><code>i</code></th>
 			<th style="border: 1px solid black;"><code>nums[i]</code></th>
-			<th style="border: 1px solid black;">possible <code>j</code></th>
+			<th style="border: 1px solid black;">可能的&nbsp;<code>j</code></th>
 			<th style="border: 1px solid black;"><code>nums[j]</code></th>
-			<th style="border: 1px solid black;">satisfying<br />
+			<th style="border: 1px solid black;">满足<br />
 			<code>nums[j] == nums[i]</code></th>
 			<th style="border: 1px solid black;"><code>ans[i]</code></th>
 		</tr>
@@ -143,11 +148,12 @@ edit_url: https://github.com/doocs/leetcode/edit/main/solution/3800-3899/3837.De
 	</tbody>
 </table>
 
-<p>Thus, <code>ans = [1, 1, 0, 0]</code>​​​​​​​.</p>
+<p>因此，<code>ans = [1, 1, 0, 0]</code>​​​​​​​.</p>
 </div>
 
 <p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+
+<p><strong>提示：</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n == nums.length &lt;= 10<sup>5</sup></code></li>

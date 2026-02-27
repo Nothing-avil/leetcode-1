@@ -26,6 +26,27 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 490 场周赛(2026-02-22 10:30, 90 分钟) 参赛人数 1025
+
+- [3847. 计算比赛分数差](/solution/3800-3899/3847.Find%20the%20Score%20Difference%20in%20a%20Game/README.md)
+- [3848. 阶数数字排列](/solution/3800-3899/3848.Check%20Digitorial%20Permutation/README.md)
+- [3849. 重新排列后的最大按位异或值](/solution/3800-3899/3849.Maximum%20Bitwise%20XOR%20After%20Rearrangement/README.md)
+- [3850. 统计结果等于 K 的序列数目](/solution/3800-3899/3850.Count%20Sequences%20to%20K/README.md)
+
+#### 第 489 场周赛(2026-02-15 10:30, 90 分钟) 参赛人数 1112
+
+- [3842. 切换打开灯泡](/solution/3800-3899/3842.Toggle%20Light%20Bulbs/README.md)
+- [3843. 频率唯一的第一个元素](/solution/3800-3899/3843.First%20Element%20with%20Unique%20Frequency/README.md)
+- [3844. 最长的准回文子字符串](/solution/3800-3899/3844.Longest%20Almost-Palindromic%20Substring/README.md)
+- [3845. 最大子数组异或值](/solution/3800-3899/3845.Maximum%20Subarray%20XOR%20with%20Bounded%20Range/README.md)
+
+#### 第 176 场双周赛(2026-02-14 22:30, 90 分钟) 参赛人数 950
+
+- [3838. 带权单词映射](/solution/3800-3899/3838.Weighted%20Word%20Mapping/README.md)
+- [3839. 前缀连接组的数目](/solution/3800-3899/3839.Number%20of%20Prefix%20Connected%20Groups/README.md)
+- [3840. 打家劫舍 V](/solution/3800-3899/3840.House%20Robber%20V/README.md)
+- [3841. 查询树上回文路径](/solution/3800-3899/3841.Palindromic%20Path%20Queries%20in%20a%20Tree/README.md)
+
 #### 第 488 场周赛(2026-02-08 10:30, 90 分钟) 参赛人数 1478
 
 - [3833. 统计主导元素下标数](/solution/3800-3899/3833.Count%20Dominant%20Indices/README.md)
