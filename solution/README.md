@@ -3862,10 +3862,10 @@
 |  3849  |  [重新排列后的最大按位异或值](/solution/3800-3899/3849.Maximum%20Bitwise%20XOR%20After%20Rearrangement/README.md)  |  `贪心`,`位运算`,`字符串`  |  中等  |  第 490 场周赛  |
 |  3850  |  [统计结果等于 K 的序列数目](/solution/3800-3899/3850.Count%20Sequences%20to%20K/README.md)  |  `记忆化`,`数组`,`数学`,`动态规划`,`数论`  |  困难  |  第 490 场周赛  |
 |  3851  |  [不违反限制的最大请求数](/solution/3800-3899/3851.Maximum%20Requests%20Without%20Violating%20the%20Limit/README.md)  |  `贪心`,`数组`,`哈希表`,`排序`,`滑动窗口`  |  中等  |  🔒  |
-|  3852  |  [不同频率的最小数对](/solution/3800-3899/3852.Smallest%20Pair%20With%20Different%20Frequencies/README.md)  |    |  简单  |  第 177 场双周赛  |
-|  3853  |  [合并靠近字符](/solution/3800-3899/3853.Merge%20Close%20Characters/README.md)  |    |  中等  |  第 177 场双周赛  |
-|  3854  |  [使数组奇偶交替的最少操作](/solution/3800-3899/3854.Minimum%20Operations%20to%20Make%20Array%20Parity%20Alternating/README.md)  |    |  中等  |  第 177 场双周赛  |
-|  3855  |  [给定范围内 K 位数字之和](/solution/3800-3899/3855.Sum%20of%20K-Digit%20Numbers%20in%20a%20Range/README.md)  |    |  困难  |  第 177 场双周赛  |
+|  3852  |  [不同频率的最小数对](/solution/3800-3899/3852.Smallest%20Pair%20With%20Different%20Frequencies/README.md)  |  `数组`,`哈希表`,`计数`  |  简单  |  第 177 场双周赛  |
+|  3853  |  [合并靠近字符](/solution/3800-3899/3853.Merge%20Close%20Characters/README.md)  |  `哈希表`,`字符串`  |  中等  |  第 177 场双周赛  |
+|  3854  |  [使数组奇偶交替的最少操作](/solution/3800-3899/3854.Minimum%20Operations%20to%20Make%20Array%20Parity%20Alternating/README.md)  |  `贪心`,`数组`  |  中等  |  第 177 场双周赛  |
+|  3855  |  [给定范围内 K 位数字之和](/solution/3800-3899/3855.Sum%20of%20K-Digit%20Numbers%20in%20a%20Range/README.md)  |  `数学`,`分治`,`组合数学`,`数论`  |  困难  |  第 177 场双周赛  |
 |  3856  |  [移除尾部元音字母](/solution/3800-3899/3856.Trim%20Trailing%20Vowels/README.md)  |  `字符串`  |  简单  |  第 491 场周赛  |
 |  3857  |  [拆分到 1 的最小总代价](/solution/3800-3899/3857.Minimum%20Cost%20to%20Split%20into%20Ones/README.md)  |  `数学`,`动态规划`  |  中等  |  第 491 场周赛  |
 |  3858  |  [按位或的最小值](/solution/3800-3899/3858.Minimum%20Bitwise%20OR%20From%20Grid/README.md)  |    |  中等  |  第 491 场周赛  |
@@ -3875,7 +3875,21 @@
 |  3862  |  [找出最小平衡下标](/solution/3800-3899/3862.Find%20the%20Smallest%20Balanced%20Index/README.md)  |  `数组`,`前缀和`  |  中等  |  第 492 场周赛  |
 |  3863  |  [将一个字符串排序的最小操作次数](/solution/3800-3899/3863.Minimum%20Operations%20to%20Sort%20a%20String/README.md)  |  `字符串`  |  中等  |  第 492 场周赛  |
 |  3864  |  [划分二进制字符串的最小费用](/solution/3800-3899/3864.Minimum%20Cost%20to%20Partition%20a%20Binary%20String/README.md)  |  `字符串`,`分治`,`前缀和`  |  困难  |  第 492 场周赛  |
-|  3865  |  [反转 K 个子数组](/solution/3800-3899/3865.Reverse%20K%20Subarrays/README.md)  |    |  中等  |  🔒  |
+|  3865  |  [反转 K 个子数组](/solution/3800-3899/3865.Reverse%20K%20Subarrays/README.md)  |  `数组`,`双指针`  |  中等  |  🔒  |
+|  3866  |  [找到第一个唯一偶数](/solution/3800-3899/3866.First%20Unique%20Even%20Element/README.md)  |  `数组`,`哈希表`,`计数`  |  简单  |  第 178 场双周赛  |
+|  3867  |  [数对的最大公约数之和](/solution/3800-3899/3867.Sum%20of%20GCD%20of%20Formed%20Pairs/README.md)  |  `数组`,`数学`,`双指针`,`数论`,`模拟`  |  中等  |  第 178 场双周赛  |
+|  3868  |  [通过交换使数组相等的最小花费](/solution/3800-3899/3868.Minimum%20Cost%20to%20Equalize%20Arrays%20Using%20Swaps/README.md)  |  `贪心`,`数组`,`哈希表`,`计数`  |  中等  |  第 178 场双周赛  |
+|  3869  |  [统计区间内奇妙数的数目](/solution/3800-3899/3869.Count%20Fancy%20Numbers%20in%20a%20Range/README.md)  |  `数学`,`动态规划`  |  困难  |  第 178 场双周赛  |
+|  3870  |  [统计范围内的逗号](/solution/3800-3899/3870.Count%20Commas%20in%20Range/README.md)  |  `数学`  |  简单  |  第 493 场周赛  |
+|  3871  |  [统计范围内的逗号 II](/solution/3800-3899/3871.Count%20Commas%20in%20Range%20II/README.md)  |  `数学`  |  中等  |  第 493 场周赛  |
+|  3872  |  [替换最多一个元素后的最长等差子数组](/solution/3800-3899/3872.Longest%20Arithmetic%20Sequence%20After%20Changing%20At%20Most%20One%20Element/README.md)  |  `数组`,`枚举`  |  中等  |  第 493 场周赛  |
+|  3873  |  [添加一个点后可激活的最大点数](/solution/3800-3899/3873.Maximum%20Points%20Activated%20with%20One%20Addition/README.md)  |  `并查集`,`数组`,`哈希表`  |  困难  |  第 493 场周赛  |
+|  3874  |  [具有恰好一个峰值的有效子数组](/solution/3800-3899/3874.Valid%20Subarrays%20With%20Exactly%20One%20Peak/README.md)  |  `数组`,`数学`  |  中等  |  🔒  |
+|  3875  |  [构造奇偶一致的数组 I](/solution/3800-3899/3875.Construct%20Uniform%20Parity%20Array%20I/README.md)  |  `数组`,`数学`  |  简单  |  第 494 场周赛  |
+|  3876  |  [构造奇偶一致的数组 II](/solution/3800-3899/3876.Construct%20Uniform%20Parity%20Array%20II/README.md)  |  `数组`,`数学`  |  中等  |  第 494 场周赛  |
+|  3877  |  [达到目标异或值的最少删除次数](/solution/3800-3899/3877.Minimum%20Removals%20to%20Achieve%20Target%20XOR/README.md)  |  `位运算`,`数组`,`动态规划`  |  中等  |  第 494 场周赛  |
+|  3878  |  [统计好子数组](/solution/3800-3899/3878.Count%20Good%20Subarrays/README.md)  |  `栈`,`位运算`,`数组`,`单调栈`  |  困难  |  第 494 场周赛  |
+|  3879  |  [二叉树中的最大不同路径和](/solution/3800-3899/3879.Maximum%20Distinct%20Path%20Sum%20in%20a%20Binary%20Tree/README.md)  |  `树`,`深度优先搜索`,`哈希表`,`二叉树`  |  中等  |  🔒  |
 
 ## 版权
 
