@@ -29,6 +29,20 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 495
+
+- [3884. First Matching Character From Both Ends](/solution/3800-3899/3884.First%20Matching%20Character%20From%20Both%20Ends/README_EN.md)
+- [3885. Design Event Manager](/solution/3800-3899/3885.Design%20Event%20Manager/README_EN.md)
+- [3886. Sum of Sortable Integers](/solution/3800-3899/3886.Sum%20of%20Sortable%20Integers/README_EN.md)
+- [3887. Incremental Even-Weighted Cycle Queries](/solution/3800-3899/3887.Incremental%20Even-Weighted%20Cycle%20Queries/README_EN.md)
+
+#### Biweekly Contest 179
+
+- [3880. Minimum Absolute Difference Between Two Values](/solution/3800-3899/3880.Minimum%20Absolute%20Difference%20Between%20Two%20Values/README_EN.md)
+- [3881. Direction Assignments with Exactly K Visible People](/solution/3800-3899/3881.Direction%20Assignments%20with%20Exactly%20K%20Visible%20People/README_EN.md)
+- [3882. Minimum XOR Path in a Grid](/solution/3800-3899/3882.Minimum%20XOR%20Path%20in%20a%20Grid/README_EN.md)
+- [3883. Count Non Decreasing Arrays With Given Digit Sums](/solution/3800-3899/3883.Count%20Non%20Decreasing%20Arrays%20With%20Given%20Digit%20Sums/README_EN.md)
+
 #### Weekly Contest 494
 
 - [3875. Construct Uniform Parity Array I](/solution/3800-3899/3875.Construct%20Uniform%20Parity%20Array%20I/README_EN.md)

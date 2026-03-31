@@ -26,6 +26,20 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 495 场周赛(2026-03-29 10:30, 90 分钟) 参赛人数 1856
+
+- [3884. 双端字符匹配](/solution/3800-3899/3884.First%20Matching%20Character%20From%20Both%20Ends/README.md)
+- [3885. 设计事件管理器](/solution/3800-3899/3885.Design%20Event%20Manager/README.md)
+- [3886. 可排序整数求和](/solution/3800-3899/3886.Sum%20of%20Sortable%20Integers/README.md)
+- [3887. 增量偶权环查询](/solution/3800-3899/3887.Incremental%20Even-Weighted%20Cycle%20Queries/README.md)
+
+#### 第 179 场双周赛(2026-03-28 22:30, 90 分钟) 参赛人数 1258
+
+- [3880. 两个值之间的最小绝对差值](/solution/3800-3899/3880.Minimum%20Absolute%20Difference%20Between%20Two%20Values/README.md)
+- [3881. 恰好看到 K 个人的方向选择](/solution/3800-3899/3881.Direction%20Assignments%20with%20Exactly%20K%20Visible%20People/README.md)
+- [3882. 网格图中最小异或路径](/solution/3800-3899/3882.Minimum%20XOR%20Path%20in%20a%20Grid/README.md)
+- [3883. 统计满足数位和数组的非递减数组数目](/solution/3800-3899/3883.Count%20Non%20Decreasing%20Arrays%20With%20Given%20Digit%20Sums/README.md)
+
 #### 第 494 场周赛(2026-03-22 10:30, 90 分钟) 参赛人数 2464
 
 - [3875. 构造奇偶一致的数组 I](/solution/3800-3899/3875.Construct%20Uniform%20Parity%20Array%20I/README.md)
