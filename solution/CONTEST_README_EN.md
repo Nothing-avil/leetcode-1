@@ -29,6 +29,27 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 498
+
+- [3903. Smallest Stable Index I](/solution/3900-3999/3903.Smallest%20Stable%20Index%20I/README_EN.md)
+- [3904. Smallest Stable Index II](/solution/3900-3999/3904.Smallest%20Stable%20Index%20II/README_EN.md)
+- [3905. Multi Source Flood Fill](/solution/3900-3999/3905.Multi%20Source%20Flood%20Fill/README_EN.md)
+- [3906. Count Good Integers on a Grid Path](/solution/3900-3999/3906.Count%20Good%20Integers%20on%20a%20Grid%20Path/README_EN.md)
+
+#### Weekly Contest 497
+
+- [3898. Find the Degree of Each Vertex](/solution/3800-3899/3898.Find%20the%20Degree%20of%20Each%20Vertex/README_EN.md)
+- [3899. Angles of a Triangle](/solution/3800-3899/3899.Angles%20of%20a%20Triangle/README_EN.md)
+- [3900. Longest Balanced Substring After One Swap](/solution/3900-3999/3900.Longest%20Balanced%20Substring%20After%20One%20Swap/README_EN.md)
+- [3901. Good Subsequence Queries](/solution/3900-3999/3901.Good%20Subsequence%20Queries/README_EN.md)
+
+#### Biweekly Contest 180
+
+- [3894. Traffic Signal Color](/solution/3800-3899/3894.Traffic%20Signal%20Color/README_EN.md)
+- [3895. Count Digit Appearances](/solution/3800-3899/3895.Count%20Digit%20Appearances/README_EN.md)
+- [3896. Minimum Operations to Transform Array into Alternating Prime](/solution/3800-3899/3896.Minimum%20Operations%20to%20Transform%20Array%20into%20Alternating%20Prime/README_EN.md)
+- [3897. Maximum Value of Concatenated Binary Segments](/solution/3800-3899/3897.Maximum%20Value%20of%20Concatenated%20Binary%20Segments/README_EN.md)
+
 #### Weekly Contest 496
 
 - [3889. Mirror Frequency Distance](/solution/3800-3899/3889.Mirror%20Frequency%20Distance/README_EN.md)
