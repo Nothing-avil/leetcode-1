@@ -29,6 +29,20 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 499
+
+- [3912. Valid Elements in an Array](/solution/3900-3999/3912.Valid%20Elements%20in%20an%20Array/README_EN.md)
+- [3913. Sort Vowels by Frequency](/solution/3900-3999/3913.Sort%20Vowels%20by%20Frequency/README_EN.md)
+- [3914. Minimum Operations to Make Array Non Decreasing](/solution/3900-3999/3914.Minimum%20Operations%20to%20Make%20Array%20Non%20Decreasing/README_EN.md)
+- [3915. Maximum Sum of Alternating Subsequence With Distance at Least K](/solution/3900-3999/3915.Maximum%20Sum%20of%20Alternating%20Subsequence%20With%20Distance%20at%20Least%20K/README_EN.md)
+
+#### Biweekly Contest 181
+
+- [3908. Valid Digit Number](/solution/3900-3999/3908.Valid%20Digit%20Number/README_EN.md)
+- [3909. Compare Sums of Bitonic Parts](/solution/3900-3999/3909.Compare%20Sums%20of%20Bitonic%20Parts/README_EN.md)
+- [3910. Count Connected Subgraphs with Even Node Sum](/solution/3900-3999/3910.Count%20Connected%20Subgraphs%20with%20Even%20Node%20Sum/README_EN.md)
+- [3911. K-th Smallest Remaining Even Integer in Subarray Queries](/solution/3900-3999/3911.K-th%20Smallest%20Remaining%20Even%20Integer%20in%20Subarray%20Queries/README_EN.md)
+
 #### Weekly Contest 498
 
 - [3903. Smallest Stable Index I](/solution/3900-3999/3903.Smallest%20Stable%20Index%20I/README_EN.md)
