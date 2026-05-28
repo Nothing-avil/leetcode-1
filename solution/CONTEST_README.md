@@ -26,6 +26,48 @@ comments: true
 
 ## 往期竞赛
 
+#### 第 503 场周赛(2026-05-24 10:30, 90 分钟) 参赛人数 1276
+
+- [3940. 限制有序数组中的元素出现次数](/solution/3900-3999/3940.Limit%20Occurrences%20in%20Sorted%20Array/README.md)
+- [3941. 密码强度](/solution/3900-3999/3941.Password%20Strength/README.md)
+- [3942. 排序排列的最少操作数](/solution/3900-3999/3942.Minimum%20Operations%20to%20Sort%20a%20Permutation/README.md)
+- [3943. 递增后的数对数量](/solution/3900-3999/3943.Number%20of%20Pairs%20After%20Increment/README.md)
+
+#### 第 183 场双周赛(2026-05-23 22:30, 90 分钟) 参赛人数 943
+
+- [3936. 将 0 移到末尾的最少交换次数](/solution/3900-3999/3936.Minimum%20Swaps%20to%20Move%20Zeros%20to%20End/README.md)
+- [3937. 使数组变为模交替数组的最少操作次数 I](/solution/3900-3999/3937.Minimum%20Operations%20to%20Make%20Array%20Modulo%20Alternating%20I/README.md)
+- [3938. 矩阵中最大共享路径和](/solution/3900-3999/3938.Maximum%20Path%20Intersection%20Sum%20in%20a%20Grid/README.md)
+- [3939. 统计有根树中不相邻子集的数目](/solution/3900-3999/3939.Count%20Non%20Adjacent%20Subsets%20in%20a%20Rooted%20Tree/README.md)
+
+#### 第 502 场周赛(2026-05-17 10:30, 90 分钟) 参赛人数 1388
+
+- [3931. 检查相邻数字差](/solution/3900-3999/3931.Check%20Adjacent%20Digit%20Differences/README.md)
+- [3932. 统计区间内的完全 K 次幂数量](/solution/3900-3999/3932.Count%20K-th%20Roots%20in%20a%20Range/README.md)
+- [3933. 矩阵中的局部最大值 II](/solution/3900-3999/3933.Largest%20Local%20Values%20in%20a%20Matrix%20II/README.md)
+- [3934. 最短唯一子数组](/solution/3900-3999/3934.Smallest%20Unique%20Subarray/README.md)
+
+#### 第 501 场周赛(2026-05-10 10:30, 90 分钟) 参赛人数 1295
+
+- [3925. 连接逆序数组](/solution/3900-3999/3925.Concatenate%20Array%20With%20Reverse/README.md)
+- [3926. 有效单词计数](/solution/3900-3999/3926.Count%20Valid%20Word%20Occurrences/README.md)
+- [3927. 可整除替换后的数组最小元素和](/solution/3900-3999/3927.Minimize%20Array%20Sum%20Using%20Divisible%20Replacements/README.md)
+- [3928. 购买苹果的最低成本 II](/solution/3900-3999/3928.Minimum%20Cost%20to%20Buy%20Apples%20II/README.md)
+
+#### 第 182 场双周赛(2026-05-09 22:30, 90 分钟) 参赛人数 950
+
+- [3921. 分数验证器](/solution/3900-3999/3921.Score%20Validator/README.md)
+- [3922. 使二进制字符串连贯的最少翻转次数](/solution/3900-3999/3922.Minimum%20Flips%20to%20Make%20Binary%20String%20Coherent/README.md)
+- [3923. 得到目标点的最少代数](/solution/3900-3999/3923.Minimum%20Generations%20to%20Target%20Point/README.md)
+- [3924. 有限重边的最小阈值路径](/solution/3900-3999/3924.Minimum%20Threshold%20Path%20With%20Limited%20Heavy%20Edges/README.md)
+
+#### 第 500 场周赛(2026-05-03 10:30, 90 分钟) 参赛人数 1177
+
+- [3917. 统计下标的相反奇偶性得分](/solution/3900-3999/3917.Count%20Indices%20With%20Opposite%20Parity/README.md)
+- [3918. 数与其逆序数之间的质数和](/solution/3900-3999/3918.Sum%20of%20Primes%20Between%20Number%20and%20Its%20Reverse/README.md)
+- [3919. 在下标间移动的最小代价](/solution/3900-3999/3919.Minimum%20Cost%20to%20Move%20Between%20Indices/README.md)
+- [3920. 删除元素后最大固定点数目](/solution/3900-3999/3920.Maximize%20Fixed%20Points%20After%20Deletions/README.md)
+
 #### 第 499 场周赛(2026-04-26 10:30, 90 分钟) 参赛人数 1597
 
 - [3912. 数组中的有效元素](/solution/3900-3999/3912.Valid%20Elements%20in%20an%20Array/README.md)
@@ -35,7 +77,7 @@ comments: true
 
 #### 第 181 场双周赛(2026-04-25 22:30, 90 分钟) 参赛人数 1079
 
-- [3908. 有效数字](/solution/3900-3999/3908.Valid%20Digit%20Number/README.md)
+- [3908. 有效数字整数](/solution/3900-3999/3908.Valid%20Digit%20Number/README.md)
 - [3909. 比较双调部分的和](/solution/3900-3999/3909.Compare%20Sums%20of%20Bitonic%20Parts/README.md)
 - [3910. 统计节点和为偶数的连通子图](/solution/3900-3999/3910.Count%20Connected%20Subgraphs%20with%20Even%20Node%20Sum/README.md)
 - [3911. 移除子数组元素后第 K 小偶数](/solution/3900-3999/3911.K-th%20Smallest%20Remaining%20Even%20Integer%20in%20Subarray%20Queries/README.md)

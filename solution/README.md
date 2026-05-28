@@ -3913,12 +3913,12 @@
 |  3900  |  [一次交换后的最长平衡子串](/solution/3900-3999/3900.Longest%20Balanced%20Substring%20After%20One%20Swap/README.md)  |    |  中等  |  第 497 场周赛  |
 |  3901  |  [好子序列查询](/solution/3900-3999/3901.Good%20Subsequence%20Queries/README.md)  |    |  困难  |  第 497 场周赛  |
 |  3902  |  [二叉树的 Z 字形层级和](/solution/3900-3999/3902.Zigzag%20Level%20Sum%20of%20Binary%20Tree/README.md)  |  `树`,`广度优先搜索`,`二叉树`  |  中等  |  🔒  |
-|  3903  |  [最小稳定下标 I](/solution/3900-3999/3903.Smallest%20Stable%20Index%20I/README.md)  |  `数组`  |  简单  |  第 498 场周赛  |
-|  3904  |  [最小稳定下标 II](/solution/3900-3999/3904.Smallest%20Stable%20Index%20II/README.md)  |  `数组`  |  中等  |  第 498 场周赛  |
+|  3903  |  [最小稳定下标 I](/solution/3900-3999/3903.Smallest%20Stable%20Index%20I/README.md)  |  `数组`,`前缀和`  |  简单  |  第 498 场周赛  |
+|  3904  |  [最小稳定下标 II](/solution/3900-3999/3904.Smallest%20Stable%20Index%20II/README.md)  |  `数组`,`前缀和`  |  中等  |  第 498 场周赛  |
 |  3905  |  [多源图像渲染](/solution/3900-3999/3905.Multi%20Source%20Flood%20Fill/README.md)  |  `广度优先搜索`,`数组`,`矩阵`  |  中等  |  第 498 场周赛  |
 |  3906  |  [统计网格路径中好整数的数目](/solution/3900-3999/3906.Count%20Good%20Integers%20on%20a%20Grid%20Path/README.md)  |  `动态规划`  |  困难  |  第 498 场周赛  |
 |  3907  |  [统计具有相反奇偶性的较小元素](/solution/3900-3999/3907.Count%20Smaller%20Elements%20With%20Opposite%20Parity/README.md)  |    |  中等  |  🔒  |
-|  3908  |  [有效数字](/solution/3900-3999/3908.Valid%20Digit%20Number/README.md)  |    |  简单  |  第 181 场双周赛  |
+|  3908  |  [有效数字整数](/solution/3900-3999/3908.Valid%20Digit%20Number/README.md)  |    |  简单  |  第 181 场双周赛  |
 |  3909  |  [比较双调部分的和](/solution/3900-3999/3909.Compare%20Sums%20of%20Bitonic%20Parts/README.md)  |    |  中等  |  第 181 场双周赛  |
 |  3910  |  [统计节点和为偶数的连通子图](/solution/3900-3999/3910.Count%20Connected%20Subgraphs%20with%20Even%20Node%20Sum/README.md)  |    |  困难  |  第 181 场双周赛  |
 |  3911  |  [移除子数组元素后第 K 小偶数](/solution/3900-3999/3911.K-th%20Smallest%20Remaining%20Even%20Integer%20in%20Subarray%20Queries/README.md)  |    |  困难  |  第 181 场双周赛  |
@@ -3926,11 +3926,34 @@
 |  3913  |  [按频率对元音排序](/solution/3900-3999/3913.Sort%20Vowels%20by%20Frequency/README.md)  |    |  中等  |  第 499 场周赛  |
 |  3914  |  [使数组非递减需要的最小累计值](/solution/3900-3999/3914.Minimum%20Operations%20to%20Make%20Array%20Non%20Decreasing/README.md)  |    |  中等  |  第 499 场周赛  |
 |  3915  |  [距离至少为 K 的交替子序列的最大和](/solution/3900-3999/3915.Maximum%20Sum%20of%20Alternating%20Subsequence%20With%20Distance%20at%20Least%20K/README.md)  |    |  困难  |  第 499 场周赛  |
-|  3916  |  [Number of ZigZag Arrays III](/solution/3900-3999/3916.Number%20of%20ZigZag%20Arrays%20III/README.md)  |    |  困难  |  🔒  |
-|  3917  |  [统计下标的相反奇偶性得分](/solution/3900-3999/3917.Count%20Indices%20With%20Opposite%20Parity/README.md)  |    |  简单  |    |
-|  3918  |  [区间内的质数和](/solution/3900-3999/3918.Sum%20of%20Primes%20Between%20Number%20and%20Its%20Reverse/README.md)  |    |  中等  |    |
-|  3919  |  [在下标间移动的最小代价](/solution/3900-3999/3919.Minimum%20Cost%20to%20Move%20Between%20Indices/README.md)  |    |  中等  |    |
-|  3920  |  [删除元素后最大固定点数目](/solution/3900-3999/3920.Maximize%20Fixed%20Points%20After%20Deletions/README.md)  |    |  困难  |    |
+|  3916  |  [锯齿形数组的总数 III](/solution/3900-3999/3916.Number%20of%20ZigZag%20Arrays%20III/README.md)  |    |  困难  |  🔒  |
+|  3917  |  [统计下标的相反奇偶性得分](/solution/3900-3999/3917.Count%20Indices%20With%20Opposite%20Parity/README.md)  |    |  简单  |  第 500 场周赛  |
+|  3918  |  [数与其逆序数之间的质数和](/solution/3900-3999/3918.Sum%20of%20Primes%20Between%20Number%20and%20Its%20Reverse/README.md)  |    |  中等  |  第 500 场周赛  |
+|  3919  |  [在下标间移动的最小代价](/solution/3900-3999/3919.Minimum%20Cost%20to%20Move%20Between%20Indices/README.md)  |    |  中等  |  第 500 场周赛  |
+|  3920  |  [删除元素后最大固定点数目](/solution/3900-3999/3920.Maximize%20Fixed%20Points%20After%20Deletions/README.md)  |    |  困难  |  第 500 场周赛  |
+|  3921  |  [分数验证器](/solution/3900-3999/3921.Score%20Validator/README.md)  |    |  简单  |  第 182 场双周赛  |
+|  3922  |  [使二进制字符串连贯的最少翻转次数](/solution/3900-3999/3922.Minimum%20Flips%20to%20Make%20Binary%20String%20Coherent/README.md)  |    |  中等  |  第 182 场双周赛  |
+|  3923  |  [得到目标点的最少代数](/solution/3900-3999/3923.Minimum%20Generations%20to%20Target%20Point/README.md)  |    |  中等  |  第 182 场双周赛  |
+|  3924  |  [有限重边的最小阈值路径](/solution/3900-3999/3924.Minimum%20Threshold%20Path%20With%20Limited%20Heavy%20Edges/README.md)  |    |  困难  |  第 182 场双周赛  |
+|  3925  |  [连接逆序数组](/solution/3900-3999/3925.Concatenate%20Array%20With%20Reverse/README.md)  |    |  简单  |  第 501 场周赛  |
+|  3926  |  [有效单词计数](/solution/3900-3999/3926.Count%20Valid%20Word%20Occurrences/README.md)  |    |  中等  |  第 501 场周赛  |
+|  3927  |  [可整除替换后的数组最小元素和](/solution/3900-3999/3927.Minimize%20Array%20Sum%20Using%20Divisible%20Replacements/README.md)  |    |  中等  |  第 501 场周赛  |
+|  3928  |  [购买苹果的最低成本 II](/solution/3900-3999/3928.Minimum%20Cost%20to%20Buy%20Apples%20II/README.md)  |    |  困难  |  第 501 场周赛  |
+|  3929  |  [最小分割分数 II](/solution/3900-3999/3929.Minimum%20Partition%20Score%20II/README.md)  |    |  困难  |  🔒  |
+|  3930  |  [插入后第 K 大更新的幂 II](/solution/3900-3999/3930.Power%20Update%20After%20K-th%20Largest%20Insertion%20II/README.md)  |    |  困难  |  🔒  |
+|  3931  |  [检查相邻数字差](/solution/3900-3999/3931.Check%20Adjacent%20Digit%20Differences/README.md)  |    |  简单  |  第 502 场周赛  |
+|  3932  |  [统计区间内的完全 K 次幂数量](/solution/3900-3999/3932.Count%20K-th%20Roots%20in%20a%20Range/README.md)  |    |  中等  |  第 502 场周赛  |
+|  3933  |  [矩阵中的局部最大值 II](/solution/3900-3999/3933.Largest%20Local%20Values%20in%20a%20Matrix%20II/README.md)  |    |  中等  |  第 502 场周赛  |
+|  3934  |  [最短唯一子数组](/solution/3900-3999/3934.Smallest%20Unique%20Subarray/README.md)  |    |  困难  |  第 502 场周赛  |
+|  3935  |  [插入后第 K 大更新的幂 I](/solution/3900-3999/3935.Power%20Update%20After%20K-th%20Largest%20Insertion%20I/README.md)  |    |  中等  |  🔒  |
+|  3936  |  [将 0 移到末尾的最少交换次数](/solution/3900-3999/3936.Minimum%20Swaps%20to%20Move%20Zeros%20to%20End/README.md)  |    |  简单  |  第 183 场双周赛  |
+|  3937  |  [使数组变为模交替数组的最少操作次数 I](/solution/3900-3999/3937.Minimum%20Operations%20to%20Make%20Array%20Modulo%20Alternating%20I/README.md)  |    |  中等  |  第 183 场双周赛  |
+|  3938  |  [矩阵中最大共享路径和](/solution/3900-3999/3938.Maximum%20Path%20Intersection%20Sum%20in%20a%20Grid/README.md)  |    |  中等  |  第 183 场双周赛  |
+|  3939  |  [统计有根树中不相邻子集的数目](/solution/3900-3999/3939.Count%20Non%20Adjacent%20Subsets%20in%20a%20Rooted%20Tree/README.md)  |    |  困难  |  第 183 场双周赛  |
+|  3940  |  [限制有序数组中的元素出现次数](/solution/3900-3999/3940.Limit%20Occurrences%20in%20Sorted%20Array/README.md)  |    |  简单  |  第 503 场周赛  |
+|  3941  |  [密码强度](/solution/3900-3999/3941.Password%20Strength/README.md)  |    |  中等  |  第 503 场周赛  |
+|  3942  |  [排序排列的最少操作数](/solution/3900-3999/3942.Minimum%20Operations%20to%20Sort%20a%20Permutation/README.md)  |    |  中等  |  第 503 场周赛  |
+|  3943  |  [递增后的数对数量](/solution/3900-3999/3943.Number%20of%20Pairs%20After%20Increment/README.md)  |    |  困难  |  第 503 场周赛  |
 
 ## 版权
 
