@@ -29,6 +29,20 @@ If you want to estimate your score changes after the contest ends, you can visit
 
 ## Past Contests
 
+#### Weekly Contest 505
+
+- [3954. Sum of Compatible Numbers in Range I](/solution/3900-3999/3954.Sum%20of%20Compatible%20Numbers%20in%20Range%20I/README_EN.md)
+- [3955. Valid Binary Strings With Cost Limit](/solution/3900-3999/3955.Valid%20Binary%20Strings%20With%20Cost%20Limit/README_EN.md)
+- [3956. Maximum Sum of M Non-Overlapping Subarrays I](/solution/3900-3999/3956.Maximum%20Sum%20of%20M%20Non-Overlapping%20Subarrays%20I/README_EN.md)
+- [3957. Maximum Sum of M Non-Overlapping Subarrays II](/solution/3900-3999/3957.Maximum%20Sum%20of%20M%20Non-Overlapping%20Subarrays%20II/README_EN.md)
+
+#### Biweekly Contest 184
+
+- [3950. Exactly One Consecutive Set Bits Pair](/solution/3900-3999/3950.Exactly%20One%20Consecutive%20Set%20Bits%20Pair/README_EN.md)
+- [3951. Minimum Energy to Maintain Brightness](/solution/3900-3999/3951.Minimum%20Energy%20to%20Maintain%20Brightness/README_EN.md)
+- [3952. Maximum Total Value of Covered Indices](/solution/3900-3999/3952.Maximum%20Total%20Value%20of%20Covered%20Indices/README_EN.md)
+- [3953. Maximum Score with Co-Prime Element](/solution/3900-3999/3953.Maximum%20Score%20with%20Co-Prime%20Element/README_EN.md)
+
 #### Weekly Contest 504
 
 - [3945. Digit Frequency Score](/solution/3900-3999/3945.Digit%20Frequency%20Score/README_EN.md)
